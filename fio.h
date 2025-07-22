@@ -246,6 +246,7 @@ struct thread_data {
 	size_t orig_buffer_size;
 	volatile int runstate;
 	volatile bool terminate;
+	volatile bool jw_gcstart;
 	bool last_was_sync;
 	enum fio_ddir last_ddir;
 
@@ -387,6 +388,7 @@ struct thread_data {
 	long time_offset;
 	struct timespec ts_cache;
 	struct timespec terminate_time;
+	struct timespec jw_gcstart_time;
 	unsigned int ts_cache_nr;
 	unsigned int ts_cache_mask;
 	bool ramp_time_over;
@@ -717,6 +719,7 @@ enum {
 
 extern void fio_terminate_threads(unsigned int, unsigned int);
 extern void fio_mark_td_terminate(struct thread_data *);
+extern void jw_fio_mark_td_gcstart(struct thread_data *);
 
 /*
  * Memory helpers

@@ -2356,11 +2356,33 @@ void init_thread_stat_min_vals(struct thread_stat *ts)
 	ts->sync_stat.min_val = ULONG_MAX;
 }
 
+void jw_init_thread_gc_stat_min_vals(struct jw_thread_gc_stat *ts)
+{
+	int i;
+
+	for (i = 0; i < DDIR_RWDIR_CNT; i++) {
+		ts->clat_stat[i].min_val = ULONG_MAX;
+		ts->slat_stat[i].min_val = ULONG_MAX;
+		ts->lat_stat[i].min_val = ULONG_MAX;
+		ts->bw_stat[i].min_val = ULONG_MAX;
+		ts->iops_stat[i].min_val = ULONG_MAX;
+	}
+	ts->sync_stat.min_val = ULONG_MAX;
+}
+
 void init_thread_stat(struct thread_stat *ts)
 {
 	memset(ts, 0, sizeof(*ts));
 
 	init_thread_stat_min_vals(ts);
+	ts->groupid = -1;
+}
+
+void jw_init_thread_gc_stat(struct jw_thread_gc_stat *ts)
+{
+	memset(ts, 0, sizeof(*ts));
+
+	jw_init_thread_gc_stat_min_vals(ts);
 	ts->groupid = -1;
 }
 

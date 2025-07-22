@@ -185,7 +185,7 @@ struct thread_stat {
 	struct io_stat lat_stat[DDIR_RWDIR_CNT]; /* total latency */
 	struct io_stat bw_stat[DDIR_RWDIR_CNT]; /* bandwidth stats */
 	struct io_stat iops_stat[DDIR_RWDIR_CNT]; /* IOPS stats */
-
+	
 	/*
 	 * fio system usage accounting
 	 */
@@ -296,6 +296,140 @@ struct thread_stat {
 	uint64_t cachehit;
 	uint64_t cachemiss;
 } __attribute__((packed));
+
+struct jw_thread_gc_stat {
+	char name[FIO_JOBNAME_SIZE];
+	char verror[FIO_VERROR_SIZE];
+	uint32_t error;
+	uint32_t thread_number;
+	uint32_t groupid;
+	uint32_t pid;
+	char description[FIO_JOBDESC_SIZE];
+	uint32_t members;
+	uint32_t unified_rw_rep;
+	uint32_t disable_prio_stat;
+
+	/*
+	 * bandwidth and latency stats
+	 */
+	struct io_stat sync_stat __attribute__((aligned(8)));/* fsync etc stats */
+	struct io_stat clat_stat[DDIR_RWDIR_CNT]; /* completion latency */
+	struct io_stat slat_stat[DDIR_RWDIR_CNT]; /* submission latency */
+	struct io_stat lat_stat[DDIR_RWDIR_CNT]; /* total latency */
+	struct io_stat bw_stat[DDIR_RWDIR_CNT]; /* bandwidth stats */
+	struct io_stat iops_stat[DDIR_RWDIR_CNT]; /* IOPS stats */
+	
+	/*
+	 * fio system usage accounting
+	 */
+	uint64_t usr_time;
+	uint64_t sys_time;
+	uint64_t ctx;
+	uint64_t minf, majf;
+
+	/*
+	 * IO depth and latency stats
+	 */
+	uint32_t clat_percentiles;
+	uint32_t lat_percentiles;
+	uint32_t slat_percentiles;
+	uint32_t pad;
+	uint64_t percentile_precision;
+	fio_fp64_t percentile_list[FIO_IO_U_LIST_MAX_LEN];
+
+	uint64_t io_u_map[FIO_IO_U_MAP_NR];
+	uint64_t io_u_submit[FIO_IO_U_MAP_NR];
+	uint64_t io_u_complete[FIO_IO_U_MAP_NR];
+	uint64_t io_u_lat_n[FIO_IO_U_LAT_N_NR];
+	uint64_t io_u_lat_u[FIO_IO_U_LAT_U_NR];
+	uint64_t io_u_lat_m[FIO_IO_U_LAT_M_NR];
+	uint64_t io_u_plat[FIO_LAT_CNT][DDIR_RWDIR_CNT][FIO_IO_U_PLAT_NR];
+	uint64_t io_u_sync_plat[FIO_IO_U_PLAT_NR];
+
+	uint64_t total_io_u[DDIR_RWDIR_SYNC_CNT];
+	uint64_t short_io_u[DDIR_RWDIR_CNT];
+	uint64_t drop_io_u[DDIR_RWDIR_CNT];
+	uint64_t total_submit;
+	uint64_t total_complete;
+
+	uint64_t io_bytes[DDIR_RWDIR_CNT];
+	uint64_t runtime[DDIR_RWDIR_CNT];
+	uint64_t total_run_time;
+
+	/*
+	 * IO Error related stats
+	 */
+	union {
+		uint16_t continue_on_error;
+		uint32_t pad2;
+	};
+	uint32_t first_error;
+	uint64_t total_err_count;
+
+	/* ZBD stats */
+	uint64_t nr_zone_resets;
+
+	uint64_t nr_block_infos;
+	uint32_t block_infos[MAX_NR_BLOCK_INFOS];
+
+	uint32_t kb_base;
+	uint32_t unit_base;
+
+	uint32_t latency_depth;
+	uint32_t pad3;
+	uint64_t latency_target;
+	fio_fp64_t latency_percentile;
+	uint64_t latency_window;
+
+	uint32_t sig_figs;
+
+	uint64_t ss_dur;
+	uint32_t ss_state;
+	uint32_t ss_head;
+
+	fio_fp64_t ss_limit;
+	fio_fp64_t ss_slope;
+	fio_fp64_t ss_deviation;
+	fio_fp64_t ss_criterion;
+
+	/* A mirror of td->ioprio. */
+	uint32_t ioprio;
+
+	union {
+		uint64_t *ss_iops_data;
+		/*
+		 * For FIO_NET_CMD_TS, the pointed to data will temporarily
+		 * be stored at this offset from the start of the payload.
+		 */
+		uint64_t ss_iops_data_offset;
+		uint64_t pad4;
+	};
+
+	union {
+		uint64_t *ss_bw_data;
+		/*
+		 * For FIO_NET_CMD_TS, the pointed to data will temporarily
+		 * be stored at this offset from the start of the payload.
+		 */
+		uint64_t ss_bw_data_offset;
+		uint64_t pad5;
+	};
+
+	union {
+		struct clat_prio_stat *clat_prio[DDIR_RWDIR_CNT];
+		/*
+		 * For FIO_NET_CMD_TS, the pointed to data will temporarily
+		 * be stored at this offset from the start of the payload.
+		 */
+		uint64_t clat_prio_offset[DDIR_RWDIR_CNT];
+		uint64_t pad6;
+	};
+	uint32_t nr_clat_prio[DDIR_RWDIR_CNT];
+
+	uint64_t cachehit;
+	uint64_t cachemiss;
+} __attribute__((packed));
+
 
 #define JOBS_ETA {							\
 	uint32_t nr_running;						\

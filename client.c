@@ -55,6 +55,7 @@ static FLIST_HEAD(eta_list);
 static FLIST_HEAD(arg_list);
 
 struct thread_stat client_ts;
+struct jw_thread_gc_stat jw_client_gc_ts;
 struct group_run_stats client_gs;
 int sum_stat_clients;
 
@@ -2095,6 +2096,8 @@ int fio_handle_clients(struct client_ops *ops)
 
 	init_thread_stat(&client_ts);
 	init_group_run_stat(&client_gs);
+	
+	//jw_init_thread_stat(&jw_client_gc_ts);
 
 	while (!exit_backend && nr_clients) {
 		struct flist_head *entry, *tmp;

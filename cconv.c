@@ -226,6 +226,8 @@ void convert_thread_options_to_cpu(struct thread_options *o,
 	o->start_delay = le64_to_cpu(top->start_delay);
 	o->start_delay_high = le64_to_cpu(top->start_delay_high);
 	o->timeout = le64_to_cpu(top->timeout);
+	printf("%s: timeout: %llu\n", __func__, o->timeout);
+	o->jw_gc_start_time = 100000000;
 	o->ramp_time = le64_to_cpu(top->ramp_time);
 	o->ss_dur = le64_to_cpu(top->ss_dur);
 	o->ss_ramp_time = le64_to_cpu(top->ss_ramp_time);
@@ -581,6 +583,7 @@ void convert_thread_options_to_net(struct thread_options_pack *top,
 	top->start_delay = __cpu_to_le64(o->start_delay);
 	top->start_delay_high = __cpu_to_le64(o->start_delay_high);
 	top->timeout = __cpu_to_le64(o->timeout);
+	printf("%s: timeout: %lu\n", __func__, top->timeout);
 	top->ramp_time = __cpu_to_le64(o->ramp_time);
 	top->ss_dur = __cpu_to_le64(top->ss_dur);
 	top->ss_ramp_time = __cpu_to_le64(top->ss_ramp_time);

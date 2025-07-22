@@ -1958,6 +1958,67 @@ static void account_io_completion(struct thread_data *td, struct io_u *io_u,
 		trim_block_info(td, io_u);
 }
 
+static void jw_account_io_completion(struct thread_data *td, struct io_u *io_u,
+				  struct io_completion_data *icd,
+				  const enum fio_ddir idx, unsigned int bytes)
+{
+	const int no_reduce = !gtod_reduce(td);
+	unsigned long long llnsec = 0;
+
+	if (td->parent)
+		td = td->parent;
+
+	if (!td->o.stats || td_ioengine_flagged(td, FIO_NOSTATS))
+		return;
+
+	if (no_reduce)
+		llnsec = ntime_since(&io_u->issue_time, &icd->time);
+
+	if (td->jw_gcstart) { /* Added Line */
+		if (!td->o.disable_lat) {
+			unsigned long long tnsec;
+	
+			tnsec = ntime_since(&io_u->start_time, &icd->time);
+			add_lat_sample(td, idx, tnsec, bytes, io_u->offset,
+				       io_u->ioprio, io_u->clat_prio_index);
+	
+			if (td->flags & TD_F_PROFILE_OPS) {
+				struct prof_io_ops *ops = &td->prof_io_ops;
+	
+				if (ops->io_u_lat)
+					icd->error = ops->io_u_lat(td, tnsec);
+			}
+	
+			if (ddir_rw(idx)) {
+				if (td->o.max_latency[idx] && tnsec > td->o.max_latency[idx])
+					lat_fatal(td, io_u, icd, tnsec, td->o.max_latency[idx]);
+				if (td->o.latency_target && tnsec > td->o.latency_target) {
+					if (lat_target_failed(td))
+						lat_fatal(td, io_u, icd, tnsec, td->o.latency_target);
+				}
+			}
+		}
+	
+		if (ddir_rw(idx)) {
+			if (!td->o.disable_clat) {
+				add_clat_sample(td, idx, llnsec, bytes, io_u->offset,
+						io_u->ioprio, io_u->clat_prio_index);
+				io_u_mark_latency(td, llnsec);
+			}
+	
+			if (!td->o.disable_bw && per_unit_log(td->bw_log))
+				add_bw_sample(td, io_u, bytes, llnsec);
+	
+			if (no_reduce && per_unit_log(td->iops_log))
+				add_iops_sample(td, io_u, bytes);
+		} else if (ddir_sync(idx) && !td->o.disable_clat)
+			add_sync_clat_sample(&td->ts, llnsec);
+	}
+
+	if (td->ts.nr_block_infos && io_u->ddir == DDIR_TRIM)
+		trim_block_info(td, io_u);
+}
+
 static void file_log_write_comp(const struct thread_data *td, struct fio_file *f,
 				uint64_t offset, unsigned int bytes)
 {
@@ -2019,8 +2080,10 @@ static void io_completed(struct thread_data *td, struct io_u **io_u_ptr,
 			f->first_write = -1ULL;
 			f->last_write = -1ULL;
 		}
-		if (should_account(td))
-			account_io_completion(td, io_u, icd, ddir, io_u->buflen);
+		if (should_account(td)){
+			jw_account_io_completion(td, io_u, icd, ddir, io_u->buflen);
+			//account_io_completion(td, io_u, icd, ddir, io_u->buflen);
+		}
 		return;
 	}
 
@@ -2057,8 +2120,10 @@ static void io_completed(struct thread_data *td, struct io_u **io_u_ptr,
 		if (ddir == DDIR_WRITE)
 			file_log_write_comp(td, f, io_u->offset, bytes);
 
-		if (should_account(td))
-			account_io_completion(td, io_u, icd, ddir, bytes);
+		if (should_account(td)) {
+			jw_account_io_completion(td, io_u, icd, ddir, bytes);
+			//account_io_completion(td, io_u, icd, ddir, bytes);
+		}
 
 		icd->bytes_done[ddir] += bytes;
 

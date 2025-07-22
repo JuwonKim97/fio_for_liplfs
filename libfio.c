@@ -237,6 +237,13 @@ void fio_mark_td_terminate(struct thread_data *td)
 	td->terminate = true;
 }
 
+void jw_fio_mark_td_gcstart(struct thread_data *td)
+{
+	fio_gettime(&td->jw_gcstart_time, NULL);
+	write_barrier();
+	td->jw_gcstart = true;
+}
+
 void fio_terminate_threads(unsigned int group_id, unsigned int terminate)
 {
 	struct thread_data *td;

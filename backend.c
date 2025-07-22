@@ -337,7 +337,21 @@ static inline bool runtime_exceeded(struct thread_data *td, struct timespec *t)
 		return false;
 	if (!td->o.timeout)
 		return false;
+	//printf("%s: timeout: %llu\n", __func__, td->o.timeout);
 	if (utime_since(&td->epoch, t) >= td->o.timeout)
+		return true;
+
+	return false;
+}
+
+static inline bool jw_gctime_started(struct thread_data *td, struct timespec *t)
+{
+	if (in_ramp_time(td))
+		return false;
+	if (!td->o.timeout)
+		return false;
+	//printf("%s: gcstarttime: %llu\n", __func__, td->o.jw_gc_start_time);
+	if (utime_since(&td->epoch, t) >= td->o.jw_gc_start_time)
 		return true;
 
 	return false;
@@ -997,6 +1011,16 @@ static void do_io(struct thread_data *td, uint64_t *bytes_done)
 			if (runtime_exceeded(td, &td->ts_cache)) {
 				fio_mark_td_terminate(td);
 				break;
+			}
+		}
+		
+		if (!td->jw_gcstart) {
+			if (jw_gctime_started(td, &td->ts_cache)) {
+				__update_ts_cache(td);
+				if (jw_gctime_started(td, &td->ts_cache)) {
+					jw_fio_mark_td_gcstart(td);
+					printf("%s: set jw_gcstart: true\n", __func__);
+				}
 			}
 		}
 
@@ -1854,6 +1878,10 @@ static void *thread_main(void *data)
 
 	memset(bytes_done, 0, sizeof(bytes_done));
 	clear_state = false;
+
+	td->jw_gcstart = false;
+	printf("%s: set jw_gcstart: false\n", __func__);
+	td->o.jw_gc_start_time = 100000000;
 
 	while (keep_running(td)) {
 		uint64_t verify_bytes;

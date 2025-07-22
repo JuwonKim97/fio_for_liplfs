@@ -206,6 +206,7 @@ struct thread_options {
 	unsigned long long start_delay_orig;
 	unsigned long long start_delay_high;
 	unsigned long long timeout;
+	unsigned long long jw_gc_start_time;
 	unsigned long long ramp_time;
 	unsigned int ss_state;
 	fio_fp64_t ss_limit;
