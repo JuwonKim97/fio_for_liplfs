@@ -17,17 +17,17 @@ ALIGN_RIGHT	ghelpers.h	29;"	d
 ALLSPHINXOPTS	doc/Makefile	/^ALLSPHINXOPTS   = -d $(BUILDDIR)\/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .$/;"	m
 ALLSPHINXOPTS	doc/make.bat	/^	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%$/;"	v
 ALLSPHINXOPTS	doc/make.bat	/^set ALLSPHINXOPTS=-d %BUILDDIR%\/doctrees %SPHINXOPTS% .$/;"	v
-ALL_LOG_NR	iolog.c	/^	ALL_LOG_NR	= 6,$/;"	e	enum:__anon7	file:
+ALL_LOG_NR	iolog.c	/^	ALL_LOG_NR	= 6,$/;"	e	enum:__anon104	file:
 ARCH_AARCH64_H	arch/arch-aarch64.h	2;"	d
 ARCH_ALPHA_H	arch/arch-alpha.h	2;"	d
 ARCH_ARM_H	arch/arch-arm.h	2;"	d
 ARCH_CPU_CLOCK_CYCLES_PER_USEC	arch/arch-s390.h	26;"	d
 ARCH_CPU_CLOCK_WRAPS	arch/arch-s390.h	28;"	d
 ARCH_CPU_CLOCK_WRAPS	arch/arch.h	41;"	d
-ARCH_FLAG_1	arch/arch.h	/^	ARCH_FLAG_1	= 1 << 0,$/;"	e	enum:__anon29
-ARCH_FLAG_2	arch/arch.h	/^	ARCH_FLAG_2	= 1 << 1,$/;"	e	enum:__anon29
-ARCH_FLAG_3	arch/arch.h	/^	ARCH_FLAG_3	= 1 << 2,$/;"	e	enum:__anon29
-ARCH_FLAG_4	arch/arch.h	/^	ARCH_FLAG_4	= 1 << 3,$/;"	e	enum:__anon29
+ARCH_FLAG_1	arch/arch.h	/^	ARCH_FLAG_1	= 1 << 0,$/;"	e	enum:__anon106
+ARCH_FLAG_2	arch/arch.h	/^	ARCH_FLAG_2	= 1 << 1,$/;"	e	enum:__anon106
+ARCH_FLAG_3	arch/arch.h	/^	ARCH_FLAG_3	= 1 << 2,$/;"	e	enum:__anon106
+ARCH_FLAG_4	arch/arch.h	/^	ARCH_FLAG_4	= 1 << 3,$/;"	e	enum:__anon106
 ARCH_GENERIC_H	arch/arch-generic.h	2;"	d
 ARCH_H	arch/arch.h	2;"	d
 ARCH_HAVE_CPU_CLOCK	arch/arch-aarch64.h	40;"	d
@@ -96,23 +96,23 @@ BLK_TA_SPLIT	blktrace_api.h	79;"	d
 BLK_TA_UNPLUG_IO	blktrace_api.h	76;"	d
 BLK_TA_UNPLUG_TIMER	blktrace_api.h	77;"	d
 BLK_TC_ACT	blktrace_api.h	30;"	d
-BLK_TC_AHEAD	blktrace_api.h	/^	BLK_TC_AHEAD	= 1 << 11,	\/* readahead *\/$/;"	e	enum:__anon8
-BLK_TC_COMPLETE	blktrace_api.h	/^	BLK_TC_COMPLETE	= 1 << 7,	\/* completions *\/$/;"	e	enum:__anon8
-BLK_TC_DISCARD	blktrace_api.h	/^	BLK_TC_DISCARD	= 1 << 13,	\/* discard requests *\/$/;"	e	enum:__anon8
-BLK_TC_DRV_DATA	blktrace_api.h	/^	BLK_TC_DRV_DATA	= 1 << 14,	\/* binary per-driver data *\/$/;"	e	enum:__anon8
-BLK_TC_END	blktrace_api.h	/^	BLK_TC_END	= 1 << 15,	\/* only 16-bits, reminder *\/$/;"	e	enum:__anon8
-BLK_TC_FLUSH	blktrace_api.h	/^	BLK_TC_FLUSH	= 1 << 2,	\/* flush *\/$/;"	e	enum:__anon8
-BLK_TC_FS	blktrace_api.h	/^	BLK_TC_FS	= 1 << 8,	\/* fs requests *\/$/;"	e	enum:__anon8
-BLK_TC_ISSUE	blktrace_api.h	/^	BLK_TC_ISSUE	= 1 << 6,	\/* issue *\/$/;"	e	enum:__anon8
-BLK_TC_META	blktrace_api.h	/^	BLK_TC_META	= 1 << 12,	\/* metadata *\/$/;"	e	enum:__anon8
-BLK_TC_NOTIFY	blktrace_api.h	/^	BLK_TC_NOTIFY	= 1 << 10,	\/* special message *\/$/;"	e	enum:__anon8
-BLK_TC_PC	blktrace_api.h	/^	BLK_TC_PC	= 1 << 9,	\/* pc requests *\/$/;"	e	enum:__anon8
-BLK_TC_QUEUE	blktrace_api.h	/^	BLK_TC_QUEUE	= 1 << 4,	\/* queueing\/merging *\/$/;"	e	enum:__anon8
-BLK_TC_READ	blktrace_api.h	/^	BLK_TC_READ	= 1 << 0,	\/* reads *\/$/;"	e	enum:__anon8
-BLK_TC_REQUEUE	blktrace_api.h	/^	BLK_TC_REQUEUE	= 1 << 5,	\/* requeueing *\/$/;"	e	enum:__anon8
+BLK_TC_AHEAD	blktrace_api.h	/^	BLK_TC_AHEAD	= 1 << 11,	\/* readahead *\/$/;"	e	enum:__anon3
+BLK_TC_COMPLETE	blktrace_api.h	/^	BLK_TC_COMPLETE	= 1 << 7,	\/* completions *\/$/;"	e	enum:__anon3
+BLK_TC_DISCARD	blktrace_api.h	/^	BLK_TC_DISCARD	= 1 << 13,	\/* discard requests *\/$/;"	e	enum:__anon3
+BLK_TC_DRV_DATA	blktrace_api.h	/^	BLK_TC_DRV_DATA	= 1 << 14,	\/* binary per-driver data *\/$/;"	e	enum:__anon3
+BLK_TC_END	blktrace_api.h	/^	BLK_TC_END	= 1 << 15,	\/* only 16-bits, reminder *\/$/;"	e	enum:__anon3
+BLK_TC_FLUSH	blktrace_api.h	/^	BLK_TC_FLUSH	= 1 << 2,	\/* flush *\/$/;"	e	enum:__anon3
+BLK_TC_FS	blktrace_api.h	/^	BLK_TC_FS	= 1 << 8,	\/* fs requests *\/$/;"	e	enum:__anon3
+BLK_TC_ISSUE	blktrace_api.h	/^	BLK_TC_ISSUE	= 1 << 6,	\/* issue *\/$/;"	e	enum:__anon3
+BLK_TC_META	blktrace_api.h	/^	BLK_TC_META	= 1 << 12,	\/* metadata *\/$/;"	e	enum:__anon3
+BLK_TC_NOTIFY	blktrace_api.h	/^	BLK_TC_NOTIFY	= 1 << 10,	\/* special message *\/$/;"	e	enum:__anon3
+BLK_TC_PC	blktrace_api.h	/^	BLK_TC_PC	= 1 << 9,	\/* pc requests *\/$/;"	e	enum:__anon3
+BLK_TC_QUEUE	blktrace_api.h	/^	BLK_TC_QUEUE	= 1 << 4,	\/* queueing\/merging *\/$/;"	e	enum:__anon3
+BLK_TC_READ	blktrace_api.h	/^	BLK_TC_READ	= 1 << 0,	\/* reads *\/$/;"	e	enum:__anon3
+BLK_TC_REQUEUE	blktrace_api.h	/^	BLK_TC_REQUEUE	= 1 << 5,	\/* requeueing *\/$/;"	e	enum:__anon3
 BLK_TC_SHIFT	blktrace_api.h	29;"	d
-BLK_TC_SYNC	blktrace_api.h	/^	BLK_TC_SYNC	= 1 << 3,	\/* sync *\/$/;"	e	enum:__anon8
-BLK_TC_WRITE	blktrace_api.h	/^	BLK_TC_WRITE	= 1 << 1,	\/* writes *\/$/;"	e	enum:__anon8
+BLK_TC_SYNC	blktrace_api.h	/^	BLK_TC_SYNC	= 1 << 3,	\/* sync *\/$/;"	e	enum:__anon3
+BLK_TC_WRITE	blktrace_api.h	/^	BLK_TC_WRITE	= 1 << 1,	\/* writes *\/$/;"	e	enum:__anon3
 BLK_TN_MESSAGE	blktrace_api.h	86;"	d
 BLK_TN_PROCESS	blktrace_api.h	84;"	d
 BLK_TN_TIMESTAMP	blktrace_api.h	85;"	d
@@ -139,7 +139,7 @@ BUF_SIZE	lib/memcpy.c	12;"	d	file:
 BUILDDIR	doc/Makefile	/^BUILDDIR      = output$/;"	m
 BUILDDIR	doc/make.bat	/^set BUILDDIR=_build$/;"	v
 BUILD_CFLAGS	config-host.mak	/^BUILD_CFLAGS= -D_GNU_SOURCE -include config-host.h  -Wimplicit-fallthrough$/;"	m
-BW_LOG_MASK	iolog.c	/^	BW_LOG_MASK	= 1,$/;"	e	enum:__anon7	file:
+BW_LOG_MASK	iolog.c	/^	BW_LOG_MASK	= 1,$/;"	e	enum:__anon104	file:
 BYE	y.tab.c	/^    BYE = 259,$/;"	e	enum:yytokentype	file:
 BYE	y.tab.c	172;"	d	file:
 BYE	y.tab.h	/^    BYE = 259,$/;"	e	enum:yytokentype
@@ -155,144 +155,139 @@ CHECK_SWD	zbd.c	/^	CHECK_SWD,$/;"	e	enum:swd_action	file:
 CHUNCK_CREATION_BUFFER_SIZE	engines/libhdfs.c	21;"	d	file:
 CHUNCK_NAME_LENGTH_MAX	engines/libhdfs.c	20;"	d	file:
 CHUNK	crc/test.c	28;"	d	file:
-CLAT_HIST_LOG_MASK	iolog.c	/^	CLAT_HIST_LOG_MASK = 32,$/;"	e	enum:__anon7	file:
-CLAT_LOG_MASK	iolog.c	/^	CLAT_LOG_MASK	= 8,$/;"	e	enum:__anon7	file:
+CLAT_HIST_LOG_MASK	iolog.c	/^	CLAT_HIST_LOG_MASK = 32,$/;"	e	enum:__anon104	file:
+CLAT_LOG_MASK	iolog.c	/^	CLAT_LOG_MASK	= 8,$/;"	e	enum:__anon104	file:
 CLIENT_H	client.h	2;"	d
-CLOCK128_MULT_SHIFT	t/time-test.c	/^	CLOCK128_MULT_SHIFT	= __CLOCK128_BIT | __CLOCK_MULT_SHIFT,$/;"	e	enum:__anon3	file:
-CLOCK64_2STAGE	t/time-test.c	/^	CLOCK64_2STAGE		= __CLOCK64_BIT | __CLOCK_2STAGE,$/;"	e	enum:__anon3	file:
-CLOCK64_EMULATE_128	t/time-test.c	/^	CLOCK64_EMULATE_128	= __CLOCK64_BIT | __CLOCK_EMULATE_128,$/;"	e	enum:__anon3	file:
-CLOCK64_LOCK	t/time-test.c	/^	CLOCK64_LOCK		= __CLOCK64_BIT | __CLOCK_LOCK,$/;"	e	enum:__anon3	file:
-CLOCK64_MULT_SHIFT	t/time-test.c	/^	CLOCK64_MULT_SHIFT	= __CLOCK64_BIT | __CLOCK_MULT_SHIFT,$/;"	e	enum:__anon3	file:
+CLOCK128_MULT_SHIFT	t/time-test.c	/^	CLOCK128_MULT_SHIFT	= __CLOCK128_BIT | __CLOCK_MULT_SHIFT,$/;"	e	enum:__anon65	file:
+CLOCK64_2STAGE	t/time-test.c	/^	CLOCK64_2STAGE		= __CLOCK64_BIT | __CLOCK_2STAGE,$/;"	e	enum:__anon65	file:
+CLOCK64_EMULATE_128	t/time-test.c	/^	CLOCK64_EMULATE_128	= __CLOCK64_BIT | __CLOCK_EMULATE_128,$/;"	e	enum:__anon65	file:
+CLOCK64_LOCK	t/time-test.c	/^	CLOCK64_LOCK		= __CLOCK64_BIT | __CLOCK_LOCK,$/;"	e	enum:__anon65	file:
+CLOCK64_MULT_SHIFT	t/time-test.c	/^	CLOCK64_MULT_SHIFT	= __CLOCK64_BIT | __CLOCK_MULT_SHIFT,$/;"	e	enum:__anon65	file:
 CLOCK_ENTRIES_DEBUG	gettime.c	564;"	d	file:
 CLOCK_ENTRIES_TEST	gettime.c	565;"	d	file:
 CLOCK_MONOTONIC_RAW	os/windows/posix.c	541;"	d	file:
-CMDPRIO_MODE_BSSPLIT	engines/cmdprio.h	/^	CMDPRIO_MODE_BSSPLIT,$/;"	e	enum:__anon102
-CMDPRIO_MODE_NONE	engines/cmdprio.h	/^	CMDPRIO_MODE_NONE,$/;"	e	enum:__anon102
-CMDPRIO_MODE_PERC	engines/cmdprio.h	/^	CMDPRIO_MODE_PERC,$/;"	e	enum:__anon102
+CMDPRIO_MODE_BSSPLIT	engines/cmdprio.h	/^	CMDPRIO_MODE_BSSPLIT,$/;"	e	enum:__anon41
+CMDPRIO_MODE_NONE	engines/cmdprio.h	/^	CMDPRIO_MODE_NONE,$/;"	e	enum:__anon41
+CMDPRIO_MODE_PERC	engines/cmdprio.h	/^	CMDPRIO_MODE_PERC,$/;"	e	enum:__anon41
 CMDPRIO_RWDIR_CNT	engines/cmdprio.h	12;"	d
-CONFIG_3ARG_AFFINITY	config-host.h	33;"	d
+CONFIG_3ARG_AFFINITY	config-host.h	31;"	d
 CONFIG_3ARG_AFFINITY	config-host.mak	/^CONFIG_3ARG_AFFINITY=y$/;"	m
 CONFIG_64BIT	config-host.h	5;"	d
 CONFIG_64BIT	config-host.mak	/^CONFIG_64BIT=y$/;"	m
-CONFIG_ARITHMETIC	config-host.h	54;"	d
+CONFIG_ARITHMETIC	config-host.h	51;"	d
 CONFIG_ARITHMETIC	config-host.mak	/^CONFIG_ARITHMETIC=y$/;"	m
-CONFIG_BUILD_NATIVE	config-host.h	60;"	d
+CONFIG_BUILD_NATIVE	config-host.h	57;"	d
 CONFIG_BUILD_NATIVE	config-host.mak	/^CONFIG_BUILD_NATIVE=y$/;"	m
-CONFIG_CLOCKID_T	config-host.h	30;"	d
+CONFIG_CLOCKID_T	config-host.h	28;"	d
 CONFIG_CLOCKID_T	config-host.mak	/^CONFIG_CLOCKID_T=y$/;"	m
-CONFIG_CLOCK_GETTIME	config-host.h	28;"	d
+CONFIG_CLOCK_GETTIME	config-host.h	26;"	d
 CONFIG_CLOCK_GETTIME	config-host.mak	/^CONFIG_CLOCK_GETTIME=y$/;"	m
-CONFIG_CLOCK_MONOTONIC	config-host.h	29;"	d
+CONFIG_CLOCK_MONOTONIC	config-host.h	27;"	d
 CONFIG_CLOCK_MONOTONIC	config-host.mak	/^CONFIG_CLOCK_MONOTONIC=y$/;"	m
-CONFIG_CMP_SWAP	config-host.h	27;"	d
+CONFIG_CMP_SWAP	config-host.h	25;"	d
 CONFIG_CMP_SWAP	config-host.mak	/^CONFIG_CMP_SWAP=y$/;"	m
-CONFIG_FDATASYNC	config-host.h	20;"	d
+CONFIG_FDATASYNC	config-host.h	18;"	d
 CONFIG_FDATASYNC	config-host.mak	/^CONFIG_FDATASYNC=y$/;"	m
-CONFIG_GETMNTENT	config-host.h	55;"	d
+CONFIG_GETMNTENT	config-host.h	52;"	d
 CONFIG_GETMNTENT	config-host.mak	/^CONFIG_GETMNTENT=y$/;"	m
-CONFIG_GETOPT_LONG_ONLY	config-host.h	36;"	d
+CONFIG_GETOPT_LONG_ONLY	config-host.h	34;"	d
 CONFIG_GETOPT_LONG_ONLY	config-host.mak	/^CONFIG_GETOPT_LONG_ONLY=y$/;"	m
-CONFIG_GETTIMEOFDAY	config-host.h	31;"	d
+CONFIG_GETTIMEOFDAY	config-host.h	29;"	d
 CONFIG_GETTIMEOFDAY	config-host.mak	/^CONFIG_GETTIMEOFDAY=y$/;"	m
-CONFIG_HAS_BLKZONED	config-host.h	59;"	d
+CONFIG_HAS_BLKZONED	config-host.h	56;"	d
 CONFIG_HAS_BLKZONED	config-host.mak	/^CONFIG_HAS_BLKZONED=y$/;"	m
-CONFIG_HAVE_ASPRINTF	config-host.h	16;"	d
+CONFIG_HAVE_ASPRINTF	config-host.h	14;"	d
 CONFIG_HAVE_ASPRINTF	config-host.mak	/^CONFIG_HAVE_ASPRINTF=y$/;"	m
-CONFIG_HAVE_BOOL	config-host.h	57;"	d
+CONFIG_HAVE_BOOL	config-host.h	54;"	d
 CONFIG_HAVE_BOOL	config-host.mak	/^CONFIG_HAVE_BOOL=y$/;"	m
-CONFIG_HAVE_GETTID	config-host.h	62;"	d
+CONFIG_HAVE_GETTID	config-host.h	59;"	d
 CONFIG_HAVE_GETTID	config-host.mak	/^CONFIG_HAVE_GETTID=y$/;"	m
-CONFIG_HAVE_KERNEL_RWF_T	config-host.h	61;"	d
+CONFIG_HAVE_KERNEL_RWF_T	config-host.h	58;"	d
 CONFIG_HAVE_KERNEL_RWF_T	config-host.mak	/^CONFIG_HAVE_KERNEL_RWF_T=y$/;"	m
-CONFIG_HAVE_STATX	config-host.h	63;"	d
+CONFIG_HAVE_STATX	config-host.h	60;"	d
 CONFIG_HAVE_STATX	config-host.mak	/^CONFIG_HAVE_STATX=y$/;"	m
-CONFIG_HAVE_STATX_SYSCALL	config-host.h	64;"	d
+CONFIG_HAVE_STATX_SYSCALL	config-host.h	61;"	d
 CONFIG_HAVE_STATX_SYSCALL	config-host.mak	/^CONFIG_HAVE_STATX_SYSCALL=y$/;"	m
-CONFIG_HAVE_STRNDUP	config-host.h	58;"	d
+CONFIG_HAVE_STRNDUP	config-host.h	55;"	d
 CONFIG_HAVE_STRNDUP	config-host.mak	/^CONFIG_HAVE_STRNDUP=y$/;"	m
-CONFIG_HAVE_THP	config-host.h	66;"	d
+CONFIG_HAVE_THP	config-host.h	63;"	d
 CONFIG_HAVE_THP	config-host.mak	/^CONFIG_HAVE_THP=y$/;"	m
-CONFIG_HAVE_TIMERFD_CREATE	config-host.h	65;"	d
+CONFIG_HAVE_TIMERFD_CREATE	config-host.h	62;"	d
 CONFIG_HAVE_TIMERFD_CREATE	config-host.mak	/^CONFIG_HAVE_TIMERFD_CREATE=y$/;"	m
-CONFIG_HAVE_VASPRINTF	config-host.h	17;"	d
+CONFIG_HAVE_VASPRINTF	config-host.h	15;"	d
 CONFIG_HAVE_VASPRINTF	config-host.mak	/^CONFIG_HAVE_VASPRINTF=y$/;"	m
-CONFIG_INET_ATON	config-host.h	37;"	d
+CONFIG_INET_ATON	config-host.h	35;"	d
 CONFIG_INET_ATON	config-host.mak	/^CONFIG_INET_ATON=y$/;"	m
-CONFIG_IPV6	config-host.h	51;"	d
+CONFIG_IPV6	config-host.h	48;"	d
 CONFIG_IPV6	config-host.mak	/^CONFIG_IPV6=y$/;"	m
-CONFIG_LIBAIO	config-host.h	8;"	d
-CONFIG_LIBAIO	config-host.mak	/^CONFIG_LIBAIO=y$/;"	m
-CONFIG_LIBAIO_RW_FLAGS	config-host.h	9;"	d
-CONFIG_LIBAIO_RW_FLAGS	config-host.mak	/^CONFIG_LIBAIO_RW_FLAGS=y$/;"	m
-CONFIG_LIBNUMA	config-host.h	41;"	d
-CONFIG_LIBNUMA	config-host.mak	/^CONFIG_LIBNUMA=y$/;"	m
-CONFIG_LINUX_EXT4_MOVE_EXTENT	config-host.h	39;"	d
+CONFIG_LEX_USE_O	config-host.mak	/^CONFIG_LEX_USE_O=y$/;"	m
+CONFIG_LINUX_EXT4_MOVE_EXTENT	config-host.h	37;"	d
 CONFIG_LINUX_EXT4_MOVE_EXTENT	config-host.mak	/^CONFIG_LINUX_EXT4_MOVE_EXTENT=y$/;"	m
-CONFIG_LINUX_FALLOCATE	config-host.h	18;"	d
+CONFIG_LINUX_FALLOCATE	config-host.h	16;"	d
 CONFIG_LINUX_FALLOCATE	config-host.mak	/^CONFIG_LINUX_FALLOCATE=y$/;"	m
-CONFIG_LINUX_SPLICE	config-host.h	40;"	d
+CONFIG_LINUX_SPLICE	config-host.h	38;"	d
 CONFIG_LINUX_SPLICE	config-host.mak	/^CONFIG_LINUX_SPLICE=y$/;"	m
 CONFIG_LITTLE_ENDIAN	config-host.h	6;"	d
 CONFIG_LITTLE_ENDIAN	config-host.mak	/^CONFIG_LITTLE_ENDIAN=y$/;"	m
-CONFIG_MTD	config-host.h	53;"	d
+CONFIG_MTD	config-host.h	50;"	d
 CONFIG_MTD	config-host.mak	/^CONFIG_MTD=y$/;"	m
-CONFIG_NET_MSS	config-host.h	47;"	d
+CONFIG_NET_MSS	config-host.h	44;"	d
 CONFIG_NET_MSS	config-host.mak	/^CONFIG_NET_MSS=y$/;"	m
-CONFIG_NET_WINDOWSIZE	config-host.h	46;"	d
+CONFIG_NET_WINDOWSIZE	config-host.h	43;"	d
 CONFIG_NET_WINDOWSIZE	config-host.mak	/^CONFIG_NET_WINDOWSIZE=y$/;"	m
-CONFIG_PIPE	config-host.h	21;"	d
+CONFIG_PIPE	config-host.h	19;"	d
 CONFIG_PIPE	config-host.mak	/^CONFIG_PIPE=y$/;"	m
-CONFIG_PIPE2	config-host.h	22;"	d
+CONFIG_PIPE2	config-host.h	20;"	d
 CONFIG_PIPE2	config-host.mak	/^CONFIG_PIPE2=y$/;"	m
-CONFIG_POSIXAIO	config-host.h	10;"	d
+CONFIG_POSIXAIO	config-host.h	8;"	d
 CONFIG_POSIXAIO	config-host.mak	/^CONFIG_POSIXAIO=y$/;"	m
-CONFIG_POSIXAIO_FSYNC	config-host.h	11;"	d
+CONFIG_POSIXAIO_FSYNC	config-host.h	9;"	d
 CONFIG_POSIXAIO_FSYNC	config-host.mak	/^CONFIG_POSIXAIO_FSYNC=y$/;"	m
-CONFIG_POSIX_FADVISE	config-host.h	32;"	d
+CONFIG_POSIX_FADVISE	config-host.h	30;"	d
 CONFIG_POSIX_FADVISE	config-host.mak	/^CONFIG_POSIX_FADVISE=y$/;"	m
-CONFIG_POSIX_FALLOCATE	config-host.h	19;"	d
+CONFIG_POSIX_FALLOCATE	config-host.h	17;"	d
 CONFIG_POSIX_FALLOCATE	config-host.mak	/^CONFIG_POSIX_FALLOCATE=y$/;"	m
-CONFIG_PREAD	config-host.h	23;"	d
+CONFIG_PREAD	config-host.h	21;"	d
 CONFIG_PREAD	config-host.mak	/^CONFIG_PREAD=y$/;"	m
-CONFIG_PSHARED	config-host.h	12;"	d
+CONFIG_PSHARED	config-host.h	10;"	d
 CONFIG_PSHARED	config-host.mak	/^CONFIG_PSHARED=y$/;"	m
-CONFIG_PTHREAD_CONDATTR_SETCLOCK	config-host.h	13;"	d
+CONFIG_PTHREAD_CONDATTR_SETCLOCK	config-host.h	11;"	d
 CONFIG_PTHREAD_CONDATTR_SETCLOCK	config-host.mak	/^CONFIG_PTHREAD_CONDATTR_SETCLOCK=y$/;"	m
-CONFIG_PTHREAD_GETAFFINITY	config-host.h	15;"	d
+CONFIG_PTHREAD_GETAFFINITY	config-host.h	13;"	d
 CONFIG_PTHREAD_GETAFFINITY	config-host.mak	/^CONFIG_PTHREAD_GETAFFINITY=y$/;"	m
-CONFIG_PTHREAD_SIGMASK	config-host.h	14;"	d
+CONFIG_PTHREAD_SIGMASK	config-host.h	12;"	d
 CONFIG_PTHREAD_SIGMASK	config-host.mak	/^CONFIG_PTHREAD_SIGMASK=y$/;"	m
-CONFIG_PWRITEV	config-host.h	49;"	d
+CONFIG_PWRITEV	config-host.h	46;"	d
 CONFIG_PWRITEV	config-host.mak	/^CONFIG_PWRITEV=y$/;"	m
-CONFIG_PWRITEV2	config-host.h	50;"	d
+CONFIG_PWRITEV2	config-host.h	47;"	d
 CONFIG_PWRITEV2	config-host.mak	/^CONFIG_PWRITEV2=y$/;"	m
-CONFIG_RLIMIT_MEMLOCK	config-host.h	48;"	d
+CONFIG_RLIMIT_MEMLOCK	config-host.h	45;"	d
 CONFIG_RLIMIT_MEMLOCK	config-host.mak	/^CONFIG_RLIMIT_MEMLOCK=y$/;"	m
-CONFIG_RUSAGE_THREAD	config-host.h	43;"	d
+CONFIG_RUSAGE_THREAD	config-host.h	40;"	d
 CONFIG_RUSAGE_THREAD	config-host.mak	/^CONFIG_RUSAGE_THREAD=y$/;"	m
-CONFIG_SCHED_IDLE	config-host.h	44;"	d
+CONFIG_SCHED_IDLE	config-host.h	41;"	d
 CONFIG_SCHED_IDLE	config-host.mak	/^CONFIG_SCHED_IDLE=y$/;"	m
-CONFIG_SEED_BUCKETS	config-host.h	67;"	d
-CONFIG_SETVBUF	config-host.h	52;"	d
+CONFIG_SEED_BUCKETS	config-host.h	64;"	d
+CONFIG_SETVBUF	config-host.h	49;"	d
 CONFIG_SETVBUF	config-host.mak	/^CONFIG_SETVBUF=y$/;"	m
-CONFIG_SFAA	config-host.h	25;"	d
+CONFIG_SFAA	config-host.h	23;"	d
 CONFIG_SFAA	config-host.mak	/^CONFIG_SFAA=y$/;"	m
-CONFIG_SOCKLEN_T	config-host.h	38;"	d
+CONFIG_SOCKLEN_T	config-host.h	36;"	d
 CONFIG_SOCKLEN_T	config-host.mak	/^CONFIG_SOCKLEN_T=y$/;"	m
-CONFIG_STATIC_ASSERT	config-host.h	56;"	d
+CONFIG_STATIC_ASSERT	config-host.h	53;"	d
 CONFIG_STATIC_ASSERT	config-host.mak	/^CONFIG_STATIC_ASSERT=y$/;"	m
-CONFIG_STRCASESTR	config-host.h	35;"	d
+CONFIG_STRCASESTR	config-host.h	33;"	d
 CONFIG_STRCASESTR	config-host.mak	/^CONFIG_STRCASESTR=y$/;"	m
-CONFIG_STRSEP	config-host.h	34;"	d
+CONFIG_STRSEP	config-host.h	32;"	d
 CONFIG_STRSEP	config-host.mak	/^CONFIG_STRSEP=y$/;"	m
-CONFIG_SYNC_FILE_RANGE	config-host.h	24;"	d
+CONFIG_SYNC_FILE_RANGE	config-host.h	22;"	d
 CONFIG_SYNC_FILE_RANGE	config-host.mak	/^CONFIG_SYNC_FILE_RANGE=y$/;"	m
-CONFIG_SYNC_SYNC	config-host.h	26;"	d
+CONFIG_SYNC_SYNC	config-host.h	24;"	d
 CONFIG_SYNC_SYNC	config-host.mak	/^CONFIG_SYNC_SYNC=y$/;"	m
 CONFIG_TARGET_OS	config-host.mak	/^CONFIG_TARGET_OS=Linux$/;"	m
-CONFIG_TCP_NODELAY	config-host.h	45;"	d
+CONFIG_TCP_NODELAY	config-host.h	42;"	d
 CONFIG_TCP_NODELAY	config-host.mak	/^CONFIG_TCP_NODELAY=y$/;"	m
-CONFIG_TLS_THREAD	config-host.h	42;"	d
+CONFIG_TLS_THREAD	config-host.h	39;"	d
 CONFIG_TLS_THREAD	config-host.mak	/^CONFIG_TLS_THREAD=y$/;"	m
 CONFIG_ZLIB	config-host.h	7;"	d
 CONFIG_ZLIB	config-host.mak	/^CONFIG_ZLIB=y$/;"	m
@@ -302,7 +297,7 @@ CPUMASK_NANDBIT	os/os-dragonfly.h	69;"	d
 CPUMASK_ORBIT	os/os-dragonfly.h	67;"	d
 CPUMASK_SIMPLE	os/os-dragonfly.h	64;"	d
 CPUMASK_TESTBIT	os/os-dragonfly.h	65;"	d
-CPU_ARM64_CRC32C	os/os.h	/^        CPU_ARM64_CRC32C,$/;"	e	enum:__anon80
+CPU_ARM64_CRC32C	os/os.h	/^        CPU_ARM64_CRC32C,$/;"	e	enum:__anon67
 CPU_COUNT	os/os.h	/^static inline int CPU_COUNT(os_cpu_mask_t *mask)$/;"	f
 CPU_HAS_LLSC	arch/arch-sh.h	26;"	d
 CRC32C3X8	crc/crc32c-arm64.c	8;"	d	file:
@@ -321,12 +316,12 @@ Cache	engines/pmemblk.c	/^static fio_pmemblk_file_t Cache;$/;"	v	file:
 CacheLock	engines/pmemblk.c	/^static pthread_mutex_t CacheLock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
 Ch	crc/sha256.c	/^static inline uint32_t Ch(uint32_t x, uint32_t y, uint32_t z)$/;"	f	file:
 Ch	crc/sha512.c	/^static inline uint64_t Ch(uint64_t x, uint64_t y, uint64_t z)$/;"	f	file:
-Client_connected	client.h	/^	Client_connected	= 1,$/;"	e	enum:__anon41
-Client_created	client.h	/^	Client_created		= 0,$/;"	e	enum:__anon41
-Client_exited	client.h	/^	Client_exited		= 5,$/;"	e	enum:__anon41
-Client_running	client.h	/^	Client_running		= 3,$/;"	e	enum:__anon41
-Client_started	client.h	/^	Client_started		= 2,$/;"	e	enum:__anon41
-Client_stopped	client.h	/^	Client_stopped		= 4,$/;"	e	enum:__anon41
+Client_connected	client.h	/^	Client_connected	= 1,$/;"	e	enum:__anon11
+Client_created	client.h	/^	Client_created		= 0,$/;"	e	enum:__anon11
+Client_exited	client.h	/^	Client_exited		= 5,$/;"	e	enum:__anon11
+Client_running	client.h	/^	Client_running		= 3,$/;"	e	enum:__anon11
+Client_started	client.h	/^	Client_started		= 2,$/;"	e	enum:__anon11
+Client_stopped	client.h	/^	Client_stopped		= 4,$/;"	e	enum:__anon11
 DAIOCTRIM	os/os-dragonfly.h	19;"	d
 DDIR_DATASYNC	io_ddir.h	/^	DDIR_DATASYNC,$/;"	e	enum:fio_ddir
 DDIR_INVAL	io_ddir.h	/^	DDIR_INVAL = -1,$/;"	e	enum:fio_ddir
@@ -364,10 +359,10 @@ DYNAMIC_ENGS	Makefile	/^ DYNAMIC_ENGS := $(ENGINES)$/;"	m
 EAI_SYSTEM	os/windows/posix/include/arpa/inet.h	11;"	d
 ECHO	lex.yy.c	622;"	d	file:
 EDQUOT	os/os.h	61;"	d
-ENDIAN_BROKEN	libfio.c	/^	ENDIAN_BROKEN,$/;"	e	enum:__anon6	file:
-ENDIAN_INVALID_BE	libfio.c	/^	ENDIAN_INVALID_BE = 1,$/;"	e	enum:__anon6	file:
-ENDIAN_INVALID_CONFIG	libfio.c	/^	ENDIAN_INVALID_CONFIG,$/;"	e	enum:__anon6	file:
-ENDIAN_INVALID_LE	libfio.c	/^	ENDIAN_INVALID_LE,$/;"	e	enum:__anon6	file:
+ENDIAN_BROKEN	libfio.c	/^	ENDIAN_BROKEN,$/;"	e	enum:__anon5	file:
+ENDIAN_INVALID_BE	libfio.c	/^	ENDIAN_INVALID_BE = 1,$/;"	e	enum:__anon5	file:
+ENDIAN_INVALID_CONFIG	libfio.c	/^	ENDIAN_INVALID_CONFIG,$/;"	e	enum:__anon5	file:
+ENDIAN_INVALID_LE	libfio.c	/^	ENDIAN_INVALID_LE,$/;"	e	enum:__anon5	file:
 EOB_ACT_CONTINUE_SCAN	lex.yy.c	162;"	d	file:
 EOB_ACT_END_OF_FILE	lex.yy.c	163;"	d	file:
 EOB_ACT_LAST_MATCH	lex.yy.c	164;"	d	file:
@@ -392,26 +387,26 @@ F3	crc/md5.h	13;"	d
 F4	crc/md5.h	14;"	d
 FALLOC_FL_KEEP_SIZE	engines/falloc.c	64;"	d	file:
 FALLOC_FL_PUNCH_HOLE	engines/falloc.c	67;"	d	file:
-FD_BLKTRACE	debug.h	/^	FD_BLKTRACE,$/;"	e	enum:__anon75
-FD_COMPRESS	debug.h	/^	FD_COMPRESS,$/;"	e	enum:__anon75
-FD_DEBUG_MAX	debug.h	/^	FD_DEBUG_MAX,$/;"	e	enum:__anon75
-FD_DISKUTIL	debug.h	/^	FD_DISKUTIL,$/;"	e	enum:__anon75
-FD_FILE	debug.h	/^	FD_FILE,$/;"	e	enum:__anon75
-FD_HELPERTHREAD	debug.h	/^	FD_HELPERTHREAD,$/;"	e	enum:__anon75
-FD_IO	debug.h	/^	FD_IO,$/;"	e	enum:__anon75
-FD_JOB	debug.h	/^	FD_JOB,$/;"	e	enum:__anon75
-FD_MEM	debug.h	/^	FD_MEM,$/;"	e	enum:__anon75
-FD_MUTEX	debug.h	/^	FD_MUTEX,$/;"	e	enum:__anon75
-FD_NET	debug.h	/^	FD_NET,$/;"	e	enum:__anon75
-FD_PARSE	debug.h	/^	FD_PARSE,$/;"	e	enum:__anon75
-FD_PROCESS	debug.h	/^	FD_PROCESS	= 0,$/;"	e	enum:__anon75
-FD_PROFILE	debug.h	/^	FD_PROFILE,$/;"	e	enum:__anon75
-FD_RANDOM	debug.h	/^	FD_RANDOM,$/;"	e	enum:__anon75
-FD_RATE	debug.h	/^	FD_RATE,$/;"	e	enum:__anon75
-FD_STEADYSTATE	debug.h	/^	FD_STEADYSTATE,$/;"	e	enum:__anon75
-FD_TIME	debug.h	/^	FD_TIME,$/;"	e	enum:__anon75
-FD_VERIFY	debug.h	/^	FD_VERIFY,$/;"	e	enum:__anon75
-FD_ZBD	debug.h	/^	FD_ZBD,$/;"	e	enum:__anon75
+FD_BLKTRACE	debug.h	/^	FD_BLKTRACE,$/;"	e	enum:__anon1
+FD_COMPRESS	debug.h	/^	FD_COMPRESS,$/;"	e	enum:__anon1
+FD_DEBUG_MAX	debug.h	/^	FD_DEBUG_MAX,$/;"	e	enum:__anon1
+FD_DISKUTIL	debug.h	/^	FD_DISKUTIL,$/;"	e	enum:__anon1
+FD_FILE	debug.h	/^	FD_FILE,$/;"	e	enum:__anon1
+FD_HELPERTHREAD	debug.h	/^	FD_HELPERTHREAD,$/;"	e	enum:__anon1
+FD_IO	debug.h	/^	FD_IO,$/;"	e	enum:__anon1
+FD_JOB	debug.h	/^	FD_JOB,$/;"	e	enum:__anon1
+FD_MEM	debug.h	/^	FD_MEM,$/;"	e	enum:__anon1
+FD_MUTEX	debug.h	/^	FD_MUTEX,$/;"	e	enum:__anon1
+FD_NET	debug.h	/^	FD_NET,$/;"	e	enum:__anon1
+FD_PARSE	debug.h	/^	FD_PARSE,$/;"	e	enum:__anon1
+FD_PROCESS	debug.h	/^	FD_PROCESS	= 0,$/;"	e	enum:__anon1
+FD_PROFILE	debug.h	/^	FD_PROFILE,$/;"	e	enum:__anon1
+FD_RANDOM	debug.h	/^	FD_RANDOM,$/;"	e	enum:__anon1
+FD_RATE	debug.h	/^	FD_RATE,$/;"	e	enum:__anon1
+FD_STEADYSTATE	debug.h	/^	FD_STEADYSTATE,$/;"	e	enum:__anon1
+FD_TIME	debug.h	/^	FD_TIME,$/;"	e	enum:__anon1
+FD_VERIFY	debug.h	/^	FD_VERIFY,$/;"	e	enum:__anon1
+FD_ZBD	debug.h	/^	FD_ZBD,$/;"	e	enum:__anon1
 FILE_ENG_DATA	file.h	168;"	d
 FILE_FLAG_FNS	file.h	171;"	d
 FILE_FLAG_FNS	file.h	195;"	d
@@ -457,12 +452,12 @@ FIO_CLIENT_FLAG	init.c	93;"	d	file:
 FIO_CLIENT_HASH_BITS	client.c	71;"	d	file:
 FIO_CLIENT_HASH_MASK	client.c	73;"	d	file:
 FIO_CLIENT_HASH_SZ	client.c	72;"	d	file:
-FIO_CLIENT_TYPE_CLI	client.h	/^	FIO_CLIENT_TYPE_CLI		= 1,$/;"	e	enum:__anon44
-FIO_CLIENT_TYPE_GUI	client.h	/^	FIO_CLIENT_TYPE_GUI		= 2,$/;"	e	enum:__anon44
+FIO_CLIENT_TYPE_CLI	client.h	/^	FIO_CLIENT_TYPE_CLI		= 1,$/;"	e	enum:__anon14
+FIO_CLIENT_TYPE_GUI	client.h	/^	FIO_CLIENT_TYPE_GUI		= 2,$/;"	e	enum:__anon14
 FIO_CMDPRIO_H	engines/cmdprio.h	7;"	d
 FIO_COMPILER_H	compiler/compiler.h	2;"	d
-FIO_CPUS_SHARED	fio.h	/^	FIO_CPUS_SHARED		= 0,$/;"	e	enum:__anon72
-FIO_CPUS_SPLIT	fio.h	/^	FIO_CPUS_SPLIT,$/;"	e	enum:__anon72
+FIO_CPUS_SHARED	fio.h	/^	FIO_CPUS_SHARED		= 0,$/;"	e	enum:__anon30
+FIO_CPUS_SPLIT	fio.h	/^	FIO_CPUS_SPLIT,$/;"	e	enum:__anon30
 FIO_CPU_MASK_ROWS	os/os-windows-7.h	3;"	d
 FIO_CPU_MASK_STRIDE	os/os-windows-7.h	2;"	d
 FIO_CPU_NOOP	engines/cpu.c	/^	FIO_CPU_NOOP = 0,$/;"	e	enum:stress_mode	file:
@@ -471,18 +466,18 @@ FIO_CRC_TEST_H	crc/test.h	2;"	d
 FIO_DDIR_H	io_ddir.h	2;"	d
 FIO_DEBUG_H	debug.h	2;"	d
 FIO_DEBUG_INC_H	t/debug.h	2;"	d
-FIO_DEDUPE_OFF	fio.h	/^	FIO_DEDUPE_OFF,$/;"	e	enum:__anon60
+FIO_DEDUPE_OFF	fio.h	/^	FIO_DEDUPE_OFF,$/;"	e	enum:__anon18
 FIO_DEF_CL_SIZE	os/os.h	296;"	d
-FIO_DEF_PARETO	fio.h	882;"	d
-FIO_DEF_ZIPF	fio.h	881;"	d
+FIO_DEF_PARETO	fio.h	883;"	d
+FIO_DEF_ZIPF	fio.h	882;"	d
 FIO_DISKLESSIO	ioengines.h	/^	FIO_DISKLESSIO	= 1 << 2,	\/* no disk involved *\/$/;"	e	enum:fio_ioengine_flags
 FIO_DISKUTIL_H	diskutil.h	2;"	d
 FIO_DU_NAME_SZ	diskutil.h	3;"	d
 FIO_EMULATED_MKDIR_TWO	os/os-windows.h	34;"	d
 FIO_ERR_H	err.h	2;"	d
-FIO_ETA_ALWAYS	fio.h	/^	FIO_ETA_ALWAYS,$/;"	e	enum:__anon66
-FIO_ETA_AUTO	fio.h	/^	FIO_ETA_AUTO,$/;"	e	enum:__anon66
-FIO_ETA_NEVER	fio.h	/^	FIO_ETA_NEVER,$/;"	e	enum:__anon66
+FIO_ETA_ALWAYS	fio.h	/^	FIO_ETA_ALWAYS,$/;"	e	enum:__anon24
+FIO_ETA_AUTO	fio.h	/^	FIO_ETA_AUTO,$/;"	e	enum:__anon24
+FIO_ETA_NEVER	fio.h	/^	FIO_ETA_NEVER,$/;"	e	enum:__anon24
 FIO_EXT_ENG_DIR	os/os-linux.h	72;"	d
 FIO_FAKEIO	ioengines.h	/^	FIO_FAKEIO	= 1 << 11,	\/* engine pretends to do IO *\/$/;"	e	enum:fio_ioengine_flags
 FIO_FALLOCATE_KEEP_SIZE	file.h	/^	FIO_FALLOCATE_KEEP_SIZE	= 3,$/;"	e	enum:fio_fallocate_mode
@@ -493,9 +488,9 @@ FIO_FALLOCATE_TRUNCATE	file.h	/^	FIO_FALLOCATE_TRUNCATE	= 5,$/;"	e	enum:fio_fall
 FIO_FFZ_H	lib/ffz.h	2;"	d
 FIO_FIELD_SIZE	compiler/compiler.h	66;"	d
 FIO_FIFO_H	fifo.h	2;"	d
-FIO_FILESTAT_LSTAT	engines/fileoperations.c	/^	FIO_FILESTAT_LSTAT	= 2,$/;"	e	enum:__anon106	file:
-FIO_FILESTAT_STAT	engines/fileoperations.c	/^	FIO_FILESTAT_STAT	= 1,$/;"	e	enum:__anon106	file:
-FIO_FILESTAT_STATX	engines/fileoperations.c	/^	FIO_FILESTAT_STATX	= 3,$/;"	e	enum:__anon106	file:
+FIO_FILESTAT_LSTAT	engines/fileoperations.c	/^	FIO_FILESTAT_LSTAT	= 2,$/;"	e	enum:__anon35	file:
+FIO_FILESTAT_STAT	engines/fileoperations.c	/^	FIO_FILESTAT_STAT	= 1,$/;"	e	enum:__anon35	file:
+FIO_FILESTAT_STATX	engines/fileoperations.c	/^	FIO_FILESTAT_STATX	= 3,$/;"	e	enum:__anon35	file:
 FIO_FILE_H	file.h	2;"	d
 FIO_FILE_HASH_H	filehash.h	2;"	d
 FIO_FILE_axmap	file.h	/^	FIO_FILE_axmap		= 1 << 7,	\/* uses axmap *\/$/;"	e	enum:fio_file_flags
@@ -510,13 +505,13 @@ FIO_FILE_size_known	file.h	/^	FIO_FILE_size_known	= 1 << 4,	\/* size has been se
 FIO_FILE_smalloc	file.h	/^	FIO_FILE_smalloc	= 1 << 9,	\/* smalloc file\/file_name *\/$/;"	e	enum:fio_file_flags
 FIO_FLOW_H	flow.h	2;"	d
 FIO_FNV_H	crc/fnv.h	2;"	d
-FIO_FSERVICE_GAUSS	file.h	/^	FIO_FSERVICE_GAUSS		= __FIO_FSERVICE_NONUNIFORM | 6,$/;"	e	enum:__anon31
-FIO_FSERVICE_PARETO	file.h	/^	FIO_FSERVICE_PARETO		= __FIO_FSERVICE_NONUNIFORM | 5,$/;"	e	enum:__anon31
-FIO_FSERVICE_RANDOM	file.h	/^	FIO_FSERVICE_RANDOM		= 1,$/;"	e	enum:__anon31
-FIO_FSERVICE_RR	file.h	/^	FIO_FSERVICE_RR			= 2,$/;"	e	enum:__anon31
-FIO_FSERVICE_SEQ	file.h	/^	FIO_FSERVICE_SEQ		= 3,$/;"	e	enum:__anon31
-FIO_FSERVICE_SHIFT	file.h	/^	FIO_FSERVICE_SHIFT		= 10,$/;"	e	enum:__anon31
-FIO_FSERVICE_ZIPF	file.h	/^	FIO_FSERVICE_ZIPF		= __FIO_FSERVICE_NONUNIFORM | 4,$/;"	e	enum:__anon31
+FIO_FSERVICE_GAUSS	file.h	/^	FIO_FSERVICE_GAUSS		= __FIO_FSERVICE_NONUNIFORM | 6,$/;"	e	enum:__anon53
+FIO_FSERVICE_PARETO	file.h	/^	FIO_FSERVICE_PARETO		= __FIO_FSERVICE_NONUNIFORM | 5,$/;"	e	enum:__anon53
+FIO_FSERVICE_RANDOM	file.h	/^	FIO_FSERVICE_RANDOM		= 1,$/;"	e	enum:__anon53
+FIO_FSERVICE_RR	file.h	/^	FIO_FSERVICE_RR			= 2,$/;"	e	enum:__anon53
+FIO_FSERVICE_SEQ	file.h	/^	FIO_FSERVICE_SEQ		= 3,$/;"	e	enum:__anon53
+FIO_FSERVICE_SHIFT	file.h	/^	FIO_FSERVICE_SHIFT		= 10,$/;"	e	enum:__anon53
+FIO_FSERVICE_ZIPF	file.h	/^	FIO_FSERVICE_ZIPF		= __FIO_FSERVICE_NONUNIFORM | 4,$/;"	e	enum:__anon53
 FIO_GAUSS_H	lib/gauss.h	2;"	d
 FIO_GETOPT_IOENGINE	fio.h	654;"	d
 FIO_GETOPT_JOB	fio.h	653;"	d
@@ -595,12 +590,12 @@ FIO_HAVE_WRITE_HINT	os/os-linux.h	316;"	d
 FIO_HDR_MAGIC	verify.h	8;"	d
 FIO_HELPERS_H	helpers.h	2;"	d
 FIO_HELPER_THREAD_H	helper_thread.h	2;"	d
-FIO_HTTPS_INSECURE	engines/http.c	/^	FIO_HTTPS_INSECURE  = 2,$/;"	e	enum:__anon103	file:
-FIO_HTTPS_OFF	engines/http.c	/^	FIO_HTTPS_OFF	    = 0,$/;"	e	enum:__anon103	file:
-FIO_HTTPS_ON	engines/http.c	/^	FIO_HTTPS_ON	    = 1,$/;"	e	enum:__anon103	file:
-FIO_HTTP_S3	engines/http.c	/^	FIO_HTTP_S3	    = 1,$/;"	e	enum:__anon103	file:
-FIO_HTTP_SWIFT	engines/http.c	/^	FIO_HTTP_SWIFT	    = 2,$/;"	e	enum:__anon103	file:
-FIO_HTTP_WEBDAV	engines/http.c	/^	FIO_HTTP_WEBDAV	    = 0,$/;"	e	enum:__anon103	file:
+FIO_HTTPS_INSECURE	engines/http.c	/^	FIO_HTTPS_INSECURE  = 2,$/;"	e	enum:__anon40	file:
+FIO_HTTPS_OFF	engines/http.c	/^	FIO_HTTPS_OFF	    = 0,$/;"	e	enum:__anon40	file:
+FIO_HTTPS_ON	engines/http.c	/^	FIO_HTTPS_ON	    = 1,$/;"	e	enum:__anon40	file:
+FIO_HTTP_S3	engines/http.c	/^	FIO_HTTP_S3	    = 1,$/;"	e	enum:__anon40	file:
+FIO_HTTP_SWIFT	engines/http.c	/^	FIO_HTTP_SWIFT	    = 2,$/;"	e	enum:__anon40	file:
+FIO_HTTP_WEBDAV	engines/http.c	/^	FIO_HTTP_WEBDAV	    = 0,$/;"	e	enum:__anon40	file:
 FIO_HUGE_PAGE	arch/arch-x86.h	17;"	d
 FIO_HUGE_PAGE	arch/arch-x86_64.h	17;"	d
 FIO_HUGE_PAGE	os/os.h	146;"	d
@@ -630,17 +625,17 @@ FIO_JOBNAME_SIZE	stat.h	146;"	d
 FIO_LAT	stat.h	/^	FIO_LAT,$/;"	e	enum:fio_lat
 FIO_LAT_CNT	stat.h	/^	FIO_LAT_CNT = 3,$/;"	e	enum:fio_lat
 FIO_LFSR_H	lib/lfsr.h	2;"	d
-FIO_LINK_CLOSE	engines/net.c	/^	FIO_LINK_CLOSE = 0x89,$/;"	e	enum:__anon104	file:
-FIO_LINK_OPEN	engines/net.c	/^	FIO_LINK_OPEN = 0x98,$/;"	e	enum:__anon104	file:
-FIO_LINK_OPEN_CLOSE_MAGIC	engines/net.c	/^	FIO_LINK_OPEN_CLOSE_MAGIC = 0x6c696e6b,$/;"	e	enum:__anon104	file:
+FIO_LINK_CLOSE	engines/net.c	/^	FIO_LINK_CLOSE = 0x89,$/;"	e	enum:__anon36	file:
+FIO_LINK_OPEN	engines/net.c	/^	FIO_LINK_OPEN = 0x98,$/;"	e	enum:__anon36	file:
+FIO_LINK_OPEN_CLOSE_MAGIC	engines/net.c	/^	FIO_LINK_OPEN_CLOSE_MAGIC = 0x6c696e6b,$/;"	e	enum:__anon36	file:
 FIO_LOCK_FILE_H	filelock.h	2;"	d
 FIO_LOG_ADD_FILE	iolog.h	/^	FIO_LOG_ADD_FILE,$/;"	e	enum:file_log_act
 FIO_LOG_CLOSE_FILE	iolog.h	/^	FIO_LOG_CLOSE_FILE,$/;"	e	enum:file_log_act
-FIO_LOG_DEBUG	log.h	/^	FIO_LOG_DEBUG	= 1,$/;"	e	enum:__anon15
-FIO_LOG_ERR	log.h	/^	FIO_LOG_ERR	= 3,$/;"	e	enum:__anon15
+FIO_LOG_DEBUG	log.h	/^	FIO_LOG_DEBUG	= 1,$/;"	e	enum:__anon43
+FIO_LOG_ERR	log.h	/^	FIO_LOG_ERR	= 3,$/;"	e	enum:__anon43
 FIO_LOG_H	log.h	2;"	d
-FIO_LOG_INFO	log.h	/^	FIO_LOG_INFO	= 2,$/;"	e	enum:__anon15
-FIO_LOG_NR	log.h	/^	FIO_LOG_NR	= 4,$/;"	e	enum:__anon15
+FIO_LOG_INFO	log.h	/^	FIO_LOG_INFO	= 2,$/;"	e	enum:__anon43
+FIO_LOG_NR	log.h	/^	FIO_LOG_NR	= 4,$/;"	e	enum:__anon43
 FIO_LOG_OPEN_FILE	iolog.h	/^	FIO_LOG_OPEN_FILE,$/;"	e	enum:file_log_act
 FIO_LOG_UNLINK_FILE	iolog.h	/^	FIO_LOG_UNLINK_FILE,$/;"	e	enum:file_log_act
 FIO_MADV_FREE	os/os-dragonfly.h	246;"	d
@@ -662,33 +657,33 @@ FIO_MEMCPY_H	lib/memcpy.h	2;"	d
 FIO_MIN_MAX_H	minmax.h	2;"	d
 FIO_MOUNT_CHECK_H	lib/mountcheck.h	2;"	d
 FIO_MURMUR3_H	crc/murmur3.h	2;"	d
-FIO_NET_CLIENT_TIMEOUT	server.h	/^	FIO_NET_CLIENT_TIMEOUT		= 5000,$/;"	e	enum:__anon98
-FIO_NET_CMD_ADD_JOB	server.h	/^	FIO_NET_CMD_ADD_JOB		= 15,$/;"	e	enum:__anon98
-FIO_NET_CMD_CRC_SZ	server.h	/^	FIO_NET_CMD_CRC_SZ		= sizeof(struct fio_net_cmd) -$/;"	e	enum:__anon98
-FIO_NET_CMD_DU	server.h	/^	FIO_NET_CMD_DU			= 13,$/;"	e	enum:__anon98
-FIO_NET_CMD_ETA	server.h	/^	FIO_NET_CMD_ETA			= 9,$/;"	e	enum:__anon98
-FIO_NET_CMD_EXIT	server.h	/^	FIO_NET_CMD_EXIT		= 2,$/;"	e	enum:__anon98
-FIO_NET_CMD_F_MORE	server.h	/^	FIO_NET_CMD_F_MORE		= 1UL << 0,$/;"	e	enum:__anon98
-FIO_NET_CMD_GS	server.h	/^	FIO_NET_CMD_GS			= 7,$/;"	e	enum:__anon98
-FIO_NET_CMD_IOLOG	server.h	/^	FIO_NET_CMD_IOLOG		= 17,$/;"	e	enum:__anon98
-FIO_NET_CMD_JOB	server.h	/^	FIO_NET_CMD_JOB			= 3,$/;"	e	enum:__anon98
-FIO_NET_CMD_JOBLINE	server.h	/^	FIO_NET_CMD_JOBLINE		= 4,$/;"	e	enum:__anon98
-FIO_NET_CMD_JOB_OPT	server.h	/^	FIO_NET_CMD_JOB_OPT		= 22,$/;"	e	enum:__anon98
-FIO_NET_CMD_LOAD_FILE	server.h	/^	FIO_NET_CMD_LOAD_FILE		= 19,$/;"	e	enum:__anon98
-FIO_NET_CMD_NR	server.h	/^	FIO_NET_CMD_NR			= 23,$/;"	e	enum:__anon98
-FIO_NET_CMD_PROBE	server.h	/^	FIO_NET_CMD_PROBE		= 10,$/;"	e	enum:__anon98
-FIO_NET_CMD_QUIT	server.h	/^	FIO_NET_CMD_QUIT		= 1,$/;"	e	enum:__anon98
-FIO_NET_CMD_RUN	server.h	/^	FIO_NET_CMD_RUN			= 16,$/;"	e	enum:__anon98
-FIO_NET_CMD_SENDFILE	server.h	/^	FIO_NET_CMD_SENDFILE		= 21,$/;"	e	enum:__anon98
-FIO_NET_CMD_SEND_ETA	server.h	/^	FIO_NET_CMD_SEND_ETA		= 8,$/;"	e	enum:__anon98
-FIO_NET_CMD_SERVER_START	server.h	/^	FIO_NET_CMD_SERVER_START	= 14,$/;"	e	enum:__anon98
-FIO_NET_CMD_START	server.h	/^	FIO_NET_CMD_START		= 11,$/;"	e	enum:__anon98
-FIO_NET_CMD_STOP	server.h	/^	FIO_NET_CMD_STOP		= 12,$/;"	e	enum:__anon98
-FIO_NET_CMD_TEXT	server.h	/^	FIO_NET_CMD_TEXT		= 5,$/;"	e	enum:__anon98
-FIO_NET_CMD_TS	server.h	/^	FIO_NET_CMD_TS			= 6,$/;"	e	enum:__anon98
-FIO_NET_CMD_UPDATE_JOB	server.h	/^	FIO_NET_CMD_UPDATE_JOB		= 18,$/;"	e	enum:__anon98
-FIO_NET_CMD_VTRIGGER	server.h	/^	FIO_NET_CMD_VTRIGGER		= 20,$/;"	e	enum:__anon98
-FIO_NET_NAME_MAX	server.h	/^	FIO_NET_NAME_MAX		= 256,$/;"	e	enum:__anon98
+FIO_NET_CLIENT_TIMEOUT	server.h	/^	FIO_NET_CLIENT_TIMEOUT		= 5000,$/;"	e	enum:__anon50
+FIO_NET_CMD_ADD_JOB	server.h	/^	FIO_NET_CMD_ADD_JOB		= 15,$/;"	e	enum:__anon50
+FIO_NET_CMD_CRC_SZ	server.h	/^	FIO_NET_CMD_CRC_SZ		= sizeof(struct fio_net_cmd) -$/;"	e	enum:__anon50
+FIO_NET_CMD_DU	server.h	/^	FIO_NET_CMD_DU			= 13,$/;"	e	enum:__anon50
+FIO_NET_CMD_ETA	server.h	/^	FIO_NET_CMD_ETA			= 9,$/;"	e	enum:__anon50
+FIO_NET_CMD_EXIT	server.h	/^	FIO_NET_CMD_EXIT		= 2,$/;"	e	enum:__anon50
+FIO_NET_CMD_F_MORE	server.h	/^	FIO_NET_CMD_F_MORE		= 1UL << 0,$/;"	e	enum:__anon50
+FIO_NET_CMD_GS	server.h	/^	FIO_NET_CMD_GS			= 7,$/;"	e	enum:__anon50
+FIO_NET_CMD_IOLOG	server.h	/^	FIO_NET_CMD_IOLOG		= 17,$/;"	e	enum:__anon50
+FIO_NET_CMD_JOB	server.h	/^	FIO_NET_CMD_JOB			= 3,$/;"	e	enum:__anon50
+FIO_NET_CMD_JOBLINE	server.h	/^	FIO_NET_CMD_JOBLINE		= 4,$/;"	e	enum:__anon50
+FIO_NET_CMD_JOB_OPT	server.h	/^	FIO_NET_CMD_JOB_OPT		= 22,$/;"	e	enum:__anon50
+FIO_NET_CMD_LOAD_FILE	server.h	/^	FIO_NET_CMD_LOAD_FILE		= 19,$/;"	e	enum:__anon50
+FIO_NET_CMD_NR	server.h	/^	FIO_NET_CMD_NR			= 23,$/;"	e	enum:__anon50
+FIO_NET_CMD_PROBE	server.h	/^	FIO_NET_CMD_PROBE		= 10,$/;"	e	enum:__anon50
+FIO_NET_CMD_QUIT	server.h	/^	FIO_NET_CMD_QUIT		= 1,$/;"	e	enum:__anon50
+FIO_NET_CMD_RUN	server.h	/^	FIO_NET_CMD_RUN			= 16,$/;"	e	enum:__anon50
+FIO_NET_CMD_SENDFILE	server.h	/^	FIO_NET_CMD_SENDFILE		= 21,$/;"	e	enum:__anon50
+FIO_NET_CMD_SEND_ETA	server.h	/^	FIO_NET_CMD_SEND_ETA		= 8,$/;"	e	enum:__anon50
+FIO_NET_CMD_SERVER_START	server.h	/^	FIO_NET_CMD_SERVER_START	= 14,$/;"	e	enum:__anon50
+FIO_NET_CMD_START	server.h	/^	FIO_NET_CMD_START		= 11,$/;"	e	enum:__anon50
+FIO_NET_CMD_STOP	server.h	/^	FIO_NET_CMD_STOP		= 12,$/;"	e	enum:__anon50
+FIO_NET_CMD_TEXT	server.h	/^	FIO_NET_CMD_TEXT		= 5,$/;"	e	enum:__anon50
+FIO_NET_CMD_TS	server.h	/^	FIO_NET_CMD_TS			= 6,$/;"	e	enum:__anon50
+FIO_NET_CMD_UPDATE_JOB	server.h	/^	FIO_NET_CMD_UPDATE_JOB		= 18,$/;"	e	enum:__anon50
+FIO_NET_CMD_VTRIGGER	server.h	/^	FIO_NET_CMD_VTRIGGER		= 20,$/;"	e	enum:__anon50
+FIO_NET_NAME_MAX	server.h	/^	FIO_NET_NAME_MAX		= 256,$/;"	e	enum:__anon50
 FIO_NET_PORT	server.h	12;"	d
 FIO_NODISKUTIL	ioengines.h	/^	FIO_NODISKUTIL  = 1 << 4,	\/* diskutil can't handle filename *\/$/;"	e	enum:fio_ioengine_flags
 FIO_NOEXTEND	ioengines.h	/^	FIO_NOEXTEND	= 1 << 3,	\/* engine can't extend file *\/$/;"	e	enum:fio_ioengine_flags
@@ -804,11 +799,11 @@ FIO_OS_PATH_SEPARATOR	os/os.h	171;"	d
 FIO_OS_SOLARIS_H	os/os-solaris.h	2;"	d
 FIO_OS_WINDOWS_H	os/os-windows.h	2;"	d
 FIO_OUTPUT_BUFFER_H	lib/output_buffer.h	2;"	d
-FIO_OUTPUT_JSON	fio.h	/^	FIO_OUTPUT_JSON		= 1U << __FIO_OUTPUT_JSON,$/;"	e	enum:__anon69
-FIO_OUTPUT_JSON_PLUS	fio.h	/^	FIO_OUTPUT_JSON_PLUS    = 1U << __FIO_OUTPUT_JSON_PLUS,$/;"	e	enum:__anon69
-FIO_OUTPUT_NORMAL	fio.h	/^	FIO_OUTPUT_NORMAL	= 1U << __FIO_OUTPUT_NORMAL,$/;"	e	enum:__anon69
-FIO_OUTPUT_NR	fio.h	/^	FIO_OUTPUT_NR		= 4,$/;"	e	enum:__anon69
-FIO_OUTPUT_TERSE	fio.h	/^	FIO_OUTPUT_TERSE	= 1U << __FIO_OUTPUT_TERSE,$/;"	e	enum:__anon69
+FIO_OUTPUT_JSON	fio.h	/^	FIO_OUTPUT_JSON		= 1U << __FIO_OUTPUT_JSON,$/;"	e	enum:__anon27
+FIO_OUTPUT_JSON_PLUS	fio.h	/^	FIO_OUTPUT_JSON_PLUS    = 1U << __FIO_OUTPUT_JSON_PLUS,$/;"	e	enum:__anon27
+FIO_OUTPUT_NORMAL	fio.h	/^	FIO_OUTPUT_NORMAL	= 1U << __FIO_OUTPUT_NORMAL,$/;"	e	enum:__anon27
+FIO_OUTPUT_NR	fio.h	/^	FIO_OUTPUT_NR		= 4,$/;"	e	enum:__anon27
+FIO_OUTPUT_TERSE	fio.h	/^	FIO_OUTPUT_TERSE	= 1U << __FIO_OUTPUT_TERSE,$/;"	e	enum:__anon27
 FIO_O_ATOMIC	os/os.h	137;"	d
 FIO_O_ATOMIC	os/os.h	139;"	d
 FIO_O_NOATIME	os/os-linux.h	203;"	d
@@ -825,44 +820,44 @@ FIO_PREFERRED_CLOCK_SOURCE	os/os.h	176;"	d
 FIO_PREFERRED_CLOCK_SOURCE	os/os.h	178;"	d
 FIO_PREFERRED_ENGINE	os/os-windows.h	36;"	d
 FIO_PREFERRED_ENGINE	os/os.h	167;"	d
-FIO_PROBE_FLAG_ZLIB	server.h	/^	FIO_PROBE_FLAG_ZLIB		= 1UL << 0,$/;"	e	enum:__anon98
+FIO_PROBE_FLAG_ZLIB	server.h	/^	FIO_PROBE_FLAG_ZLIB		= 1UL << 0,$/;"	e	enum:__anon50
 FIO_PROFILE_H	profile.h	2;"	d
 FIO_PSHARED_H	pshared.h	2;"	d
 FIO_Q_BUSY	ioengines.h	/^	FIO_Q_BUSY	= 2,		\/* no more room, call ->commit() *\/$/;"	e	enum:fio_q_status
 FIO_Q_COMPLETED	ioengines.h	/^	FIO_Q_COMPLETED	= 0,		\/* completed sync *\/$/;"	e	enum:fio_q_status
 FIO_Q_QUEUED	ioengines.h	/^	FIO_Q_QUEUED	= 1,		\/* queued, will complete async *\/$/;"	e	enum:fio_q_status
 FIO_RANDSEED	init.c	45;"	d	file:
-FIO_RAND_BLOCK_OFF	fio.h	/^	FIO_RAND_BLOCK_OFF,$/;"	e	enum:__anon60
-FIO_RAND_BS1_OFF	fio.h	/^	FIO_RAND_BS1_OFF,$/;"	e	enum:__anon60
-FIO_RAND_BS2_OFF	fio.h	/^	FIO_RAND_BS2_OFF,$/;"	e	enum:__anon60
-FIO_RAND_BS_OFF	fio.h	/^	FIO_RAND_BS_OFF		= 0,$/;"	e	enum:__anon60
-FIO_RAND_BUF_OFF	fio.h	/^	FIO_RAND_BUF_OFF,$/;"	e	enum:__anon60
-FIO_RAND_DEDUPE_WORKING_SET_IX	fio.h	/^	FIO_RAND_DEDUPE_WORKING_SET_IX,$/;"	e	enum:__anon60
-FIO_RAND_DIST_GAUSS	fio.h	/^	FIO_RAND_DIST_GAUSS,$/;"	e	enum:__anon70
-FIO_RAND_DIST_PARETO	fio.h	/^	FIO_RAND_DIST_PARETO,$/;"	e	enum:__anon70
-FIO_RAND_DIST_RANDOM	fio.h	/^	FIO_RAND_DIST_RANDOM	= 0,$/;"	e	enum:__anon70
-FIO_RAND_DIST_ZIPF	fio.h	/^	FIO_RAND_DIST_ZIPF,$/;"	e	enum:__anon70
-FIO_RAND_DIST_ZONED	fio.h	/^	FIO_RAND_DIST_ZONED,$/;"	e	enum:__anon70
-FIO_RAND_DIST_ZONED_ABS	fio.h	/^	FIO_RAND_DIST_ZONED_ABS,$/;"	e	enum:__anon70
-FIO_RAND_FILE_OFF	fio.h	/^	FIO_RAND_FILE_OFF,$/;"	e	enum:__anon60
-FIO_RAND_FILE_SIZE_OFF	fio.h	/^	FIO_RAND_FILE_SIZE_OFF,$/;"	e	enum:__anon60
-FIO_RAND_GEN_LFSR	fio.h	/^	FIO_RAND_GEN_LFSR,$/;"	e	enum:__anon71
-FIO_RAND_GEN_TAUSWORTHE	fio.h	/^	FIO_RAND_GEN_TAUSWORTHE = 0,$/;"	e	enum:__anon71
-FIO_RAND_GEN_TAUSWORTHE64	fio.h	/^	FIO_RAND_GEN_TAUSWORTHE64,$/;"	e	enum:__anon71
+FIO_RAND_BLOCK_OFF	fio.h	/^	FIO_RAND_BLOCK_OFF,$/;"	e	enum:__anon18
+FIO_RAND_BS1_OFF	fio.h	/^	FIO_RAND_BS1_OFF,$/;"	e	enum:__anon18
+FIO_RAND_BS2_OFF	fio.h	/^	FIO_RAND_BS2_OFF,$/;"	e	enum:__anon18
+FIO_RAND_BS_OFF	fio.h	/^	FIO_RAND_BS_OFF		= 0,$/;"	e	enum:__anon18
+FIO_RAND_BUF_OFF	fio.h	/^	FIO_RAND_BUF_OFF,$/;"	e	enum:__anon18
+FIO_RAND_DEDUPE_WORKING_SET_IX	fio.h	/^	FIO_RAND_DEDUPE_WORKING_SET_IX,$/;"	e	enum:__anon18
+FIO_RAND_DIST_GAUSS	fio.h	/^	FIO_RAND_DIST_GAUSS,$/;"	e	enum:__anon28
+FIO_RAND_DIST_PARETO	fio.h	/^	FIO_RAND_DIST_PARETO,$/;"	e	enum:__anon28
+FIO_RAND_DIST_RANDOM	fio.h	/^	FIO_RAND_DIST_RANDOM	= 0,$/;"	e	enum:__anon28
+FIO_RAND_DIST_ZIPF	fio.h	/^	FIO_RAND_DIST_ZIPF,$/;"	e	enum:__anon28
+FIO_RAND_DIST_ZONED	fio.h	/^	FIO_RAND_DIST_ZONED,$/;"	e	enum:__anon28
+FIO_RAND_DIST_ZONED_ABS	fio.h	/^	FIO_RAND_DIST_ZONED_ABS,$/;"	e	enum:__anon28
+FIO_RAND_FILE_OFF	fio.h	/^	FIO_RAND_FILE_OFF,$/;"	e	enum:__anon18
+FIO_RAND_FILE_SIZE_OFF	fio.h	/^	FIO_RAND_FILE_SIZE_OFF,$/;"	e	enum:__anon18
+FIO_RAND_GEN_LFSR	fio.h	/^	FIO_RAND_GEN_LFSR,$/;"	e	enum:__anon29
+FIO_RAND_GEN_TAUSWORTHE	fio.h	/^	FIO_RAND_GEN_TAUSWORTHE = 0,$/;"	e	enum:__anon29
+FIO_RAND_GEN_TAUSWORTHE64	fio.h	/^	FIO_RAND_GEN_TAUSWORTHE64,$/;"	e	enum:__anon29
 FIO_RAND_H	lib/rand.h	2;"	d
-FIO_RAND_MIX_OFF	fio.h	/^	FIO_RAND_MIX_OFF,$/;"	e	enum:__anon60
-FIO_RAND_NR_OFFS	fio.h	/^	FIO_RAND_NR_OFFS,$/;"	e	enum:__anon60
-FIO_RAND_POISSON2_OFF	fio.h	/^	FIO_RAND_POISSON2_OFF,$/;"	e	enum:__anon60
-FIO_RAND_POISSON3_OFF	fio.h	/^	FIO_RAND_POISSON3_OFF,$/;"	e	enum:__anon60
-FIO_RAND_POISSON_OFF	fio.h	/^	FIO_RAND_POISSON_OFF,$/;"	e	enum:__anon60
-FIO_RAND_PRIO_CMDS	fio.h	/^	FIO_RAND_PRIO_CMDS,$/;"	e	enum:__anon60
-FIO_RAND_SEQ_RAND_READ_OFF	fio.h	/^	FIO_RAND_SEQ_RAND_READ_OFF,$/;"	e	enum:__anon60
-FIO_RAND_SEQ_RAND_TRIM_OFF	fio.h	/^	FIO_RAND_SEQ_RAND_TRIM_OFF,$/;"	e	enum:__anon60
-FIO_RAND_SEQ_RAND_WRITE_OFF	fio.h	/^	FIO_RAND_SEQ_RAND_WRITE_OFF,$/;"	e	enum:__anon60
-FIO_RAND_START_DELAY	fio.h	/^	FIO_RAND_START_DELAY,$/;"	e	enum:__anon60
-FIO_RAND_TRIM_OFF	fio.h	/^	FIO_RAND_TRIM_OFF,$/;"	e	enum:__anon60
-FIO_RAND_VER_OFF	fio.h	/^	FIO_RAND_VER_OFF,$/;"	e	enum:__anon60
-FIO_RAND_ZONE_OFF	fio.h	/^	FIO_RAND_ZONE_OFF,$/;"	e	enum:__anon60
+FIO_RAND_MIX_OFF	fio.h	/^	FIO_RAND_MIX_OFF,$/;"	e	enum:__anon18
+FIO_RAND_NR_OFFS	fio.h	/^	FIO_RAND_NR_OFFS,$/;"	e	enum:__anon18
+FIO_RAND_POISSON2_OFF	fio.h	/^	FIO_RAND_POISSON2_OFF,$/;"	e	enum:__anon18
+FIO_RAND_POISSON3_OFF	fio.h	/^	FIO_RAND_POISSON3_OFF,$/;"	e	enum:__anon18
+FIO_RAND_POISSON_OFF	fio.h	/^	FIO_RAND_POISSON_OFF,$/;"	e	enum:__anon18
+FIO_RAND_PRIO_CMDS	fio.h	/^	FIO_RAND_PRIO_CMDS,$/;"	e	enum:__anon18
+FIO_RAND_SEQ_RAND_READ_OFF	fio.h	/^	FIO_RAND_SEQ_RAND_READ_OFF,$/;"	e	enum:__anon18
+FIO_RAND_SEQ_RAND_TRIM_OFF	fio.h	/^	FIO_RAND_SEQ_RAND_TRIM_OFF,$/;"	e	enum:__anon18
+FIO_RAND_SEQ_RAND_WRITE_OFF	fio.h	/^	FIO_RAND_SEQ_RAND_WRITE_OFF,$/;"	e	enum:__anon18
+FIO_RAND_START_DELAY	fio.h	/^	FIO_RAND_START_DELAY,$/;"	e	enum:__anon18
+FIO_RAND_TRIM_OFF	fio.h	/^	FIO_RAND_TRIM_OFF,$/;"	e	enum:__anon18
+FIO_RAND_VER_OFF	fio.h	/^	FIO_RAND_VER_OFF,$/;"	e	enum:__anon18
+FIO_RAND_ZONE_OFF	fio.h	/^	FIO_RAND_ZONE_OFF,$/;"	e	enum:__anon18
 FIO_RATE_H	workqueue.h	2;"	d
 FIO_RATE_SUBMIT	rate-submit.h	2;"	d
 FIO_RAWIO	ioengines.h	/^	FIO_RAWIO	= 1 << 1,	\/* some sort of direct\/raw io *\/$/;"	e	enum:fio_ioengine_flags
@@ -877,37 +872,37 @@ FIO_ROUNDUP_H	lib/roundup.h	2;"	d
 FIO_RWLOCK_H	rwlock.h	2;"	d
 FIO_RWLOCK_MAGIC	rwlock.h	6;"	d
 FIO_SEM_H	fio_sem.h	2;"	d
-FIO_SEM_LOCKED	fio_sem.h	/^	FIO_SEM_LOCKED	= 0,$/;"	e	enum:__anon30
+FIO_SEM_LOCKED	fio_sem.h	/^	FIO_SEM_LOCKED	= 0,$/;"	e	enum:__anon92
 FIO_SEM_MAGIC	fio_sem.h	7;"	d
-FIO_SEM_UNLOCKED	fio_sem.h	/^	FIO_SEM_UNLOCKED	= 1,$/;"	e	enum:__anon30
+FIO_SEM_UNLOCKED	fio_sem.h	/^	FIO_SEM_UNLOCKED	= 1,$/;"	e	enum:__anon92
 FIO_SEQLOCK_H	lib/seqlock.h	2;"	d
 FIO_SERVER_H	server.h	2;"	d
-FIO_SERVER_MAX_CMD_MB	server.h	/^	FIO_SERVER_MAX_CMD_MB		= 2048,$/;"	e	enum:__anon98
-FIO_SERVER_MAX_FRAGMENT_PDU	server.h	/^	FIO_SERVER_MAX_FRAGMENT_PDU	= 1024,$/;"	e	enum:__anon98
-FIO_SERVER_VER	server.h	/^	FIO_SERVER_VER			= 97,$/;"	e	enum:__anon98
-FIO_SG_VERIFY_BYTCHK_00	engines/sg.c	/^	FIO_SG_VERIFY_BYTCHK_00,$/;"	e	enum:__anon105	file:
-FIO_SG_VERIFY_BYTCHK_01	engines/sg.c	/^	FIO_SG_VERIFY_BYTCHK_01,$/;"	e	enum:__anon105	file:
-FIO_SG_VERIFY_BYTCHK_11	engines/sg.c	/^	FIO_SG_VERIFY_BYTCHK_11,$/;"	e	enum:__anon105	file:
-FIO_SG_WRITE	engines/sg.c	/^	FIO_SG_WRITE		= 1,$/;"	e	enum:__anon105	file:
-FIO_SG_WRITE_SAME	engines/sg.c	/^	FIO_SG_WRITE_SAME,$/;"	e	enum:__anon105	file:
-FIO_SG_WRITE_SAME_NDOB	engines/sg.c	/^	FIO_SG_WRITE_SAME_NDOB,$/;"	e	enum:__anon105	file:
-FIO_SG_WRITE_STREAM	engines/sg.c	/^	FIO_SG_WRITE_STREAM,$/;"	e	enum:__anon105	file:
-FIO_SG_WRITE_VERIFY	engines/sg.c	/^	FIO_SG_WRITE_VERIFY,$/;"	e	enum:__anon105	file:
+FIO_SERVER_MAX_CMD_MB	server.h	/^	FIO_SERVER_MAX_CMD_MB		= 2048,$/;"	e	enum:__anon50
+FIO_SERVER_MAX_FRAGMENT_PDU	server.h	/^	FIO_SERVER_MAX_FRAGMENT_PDU	= 1024,$/;"	e	enum:__anon50
+FIO_SERVER_VER	server.h	/^	FIO_SERVER_VER			= 97,$/;"	e	enum:__anon50
+FIO_SG_VERIFY_BYTCHK_00	engines/sg.c	/^	FIO_SG_VERIFY_BYTCHK_00,$/;"	e	enum:__anon38	file:
+FIO_SG_VERIFY_BYTCHK_01	engines/sg.c	/^	FIO_SG_VERIFY_BYTCHK_01,$/;"	e	enum:__anon38	file:
+FIO_SG_VERIFY_BYTCHK_11	engines/sg.c	/^	FIO_SG_VERIFY_BYTCHK_11,$/;"	e	enum:__anon38	file:
+FIO_SG_WRITE	engines/sg.c	/^	FIO_SG_WRITE		= 1,$/;"	e	enum:__anon38	file:
+FIO_SG_WRITE_SAME	engines/sg.c	/^	FIO_SG_WRITE_SAME,$/;"	e	enum:__anon38	file:
+FIO_SG_WRITE_SAME_NDOB	engines/sg.c	/^	FIO_SG_WRITE_SAME_NDOB,$/;"	e	enum:__anon38	file:
+FIO_SG_WRITE_STREAM	engines/sg.c	/^	FIO_SG_WRITE_STREAM,$/;"	e	enum:__anon38	file:
+FIO_SG_WRITE_VERIFY	engines/sg.c	/^	FIO_SG_WRITE_VERIFY,$/;"	e	enum:__anon38	file:
 FIO_SHA1	crc/sha1.h	2;"	d
 FIO_SHA256_H	crc/sha256.h	2;"	d
 FIO_SHA512_H	crc/sha512.h	2;"	d
 FIO_SLAT	stat.h	/^	FIO_SLAT = 0,$/;"	e	enum:fio_lat
 FIO_SMALLOC_H	smalloc.h	2;"	d
-FIO_SS_ATTAINED	steadystate.h	/^	FIO_SS_ATTAINED		= 1 << __FIO_SS_ATTAINED,$/;"	e	enum:__anon40
-FIO_SS_BUFFER_FULL	steadystate.h	/^	FIO_SS_BUFFER_FULL	= 1 << __FIO_SS_BUFFER_FULL,$/;"	e	enum:__anon40
-FIO_SS_BW	steadystate.h	/^	FIO_SS_BW		= 1 << __FIO_SS_BW,$/;"	e	enum:__anon40
-FIO_SS_BW_SLOPE	steadystate.h	/^	FIO_SS_BW_SLOPE		= FIO_SS_BW | FIO_SS_SLOPE,$/;"	e	enum:__anon40
-FIO_SS_DATA	steadystate.h	/^	FIO_SS_DATA		= 1 << __FIO_SS_DATA,$/;"	e	enum:__anon40
-FIO_SS_IOPS	steadystate.h	/^	FIO_SS_IOPS		= 1 << __FIO_SS_IOPS,$/;"	e	enum:__anon40
-FIO_SS_IOPS_SLOPE	steadystate.h	/^	FIO_SS_IOPS_SLOPE	= FIO_SS_IOPS | FIO_SS_SLOPE,$/;"	e	enum:__anon40
-FIO_SS_PCT	steadystate.h	/^	FIO_SS_PCT		= 1 << __FIO_SS_PCT,$/;"	e	enum:__anon40
-FIO_SS_RAMP_OVER	steadystate.h	/^	FIO_SS_RAMP_OVER	= 1 << __FIO_SS_RAMP_OVER,$/;"	e	enum:__anon40
-FIO_SS_SLOPE	steadystate.h	/^	FIO_SS_SLOPE		= 1 << __FIO_SS_SLOPE,$/;"	e	enum:__anon40
+FIO_SS_ATTAINED	steadystate.h	/^	FIO_SS_ATTAINED		= 1 << __FIO_SS_ATTAINED,$/;"	e	enum:__anon58
+FIO_SS_BUFFER_FULL	steadystate.h	/^	FIO_SS_BUFFER_FULL	= 1 << __FIO_SS_BUFFER_FULL,$/;"	e	enum:__anon58
+FIO_SS_BW	steadystate.h	/^	FIO_SS_BW		= 1 << __FIO_SS_BW,$/;"	e	enum:__anon58
+FIO_SS_BW_SLOPE	steadystate.h	/^	FIO_SS_BW_SLOPE		= FIO_SS_BW | FIO_SS_SLOPE,$/;"	e	enum:__anon58
+FIO_SS_DATA	steadystate.h	/^	FIO_SS_DATA		= 1 << __FIO_SS_DATA,$/;"	e	enum:__anon58
+FIO_SS_IOPS	steadystate.h	/^	FIO_SS_IOPS		= 1 << __FIO_SS_IOPS,$/;"	e	enum:__anon58
+FIO_SS_IOPS_SLOPE	steadystate.h	/^	FIO_SS_IOPS_SLOPE	= FIO_SS_IOPS | FIO_SS_SLOPE,$/;"	e	enum:__anon58
+FIO_SS_PCT	steadystate.h	/^	FIO_SS_PCT		= 1 << __FIO_SS_PCT,$/;"	e	enum:__anon58
+FIO_SS_RAMP_OVER	steadystate.h	/^	FIO_SS_RAMP_OVER	= 1 << __FIO_SS_RAMP_OVER,$/;"	e	enum:__anon58
+FIO_SS_SLOPE	steadystate.h	/^	FIO_SS_SLOPE		= 1 << __FIO_SS_SLOPE,$/;"	e	enum:__anon58
 FIO_STATIC	ioengines.h	14;"	d
 FIO_STATIC	ioengines.h	16;"	d
 FIO_STATUS_FILE	stat.c	2808;"	d	file:
@@ -929,12 +924,12 @@ FIO_TYPE_BLOCK	file.h	/^	FIO_TYPE_BLOCK,			\/* block device *\/$/;"	e	enum:fio_f
 FIO_TYPE_CHAR	file.h	/^	FIO_TYPE_CHAR,			\/* character device *\/$/;"	e	enum:fio_filetype
 FIO_TYPE_FILE	file.h	/^	FIO_TYPE_FILE = 1,		\/* plain file *\/$/;"	e	enum:fio_filetype
 FIO_TYPE_PIPE	file.h	/^	FIO_TYPE_PIPE,			\/* pipe *\/$/;"	e	enum:fio_filetype
-FIO_TYPE_TCP	engines/net.c	/^	FIO_TYPE_TCP	= 1,$/;"	e	enum:__anon104	file:
-FIO_TYPE_TCP_V6	engines/net.c	/^	FIO_TYPE_TCP_V6	= 4,$/;"	e	enum:__anon104	file:
-FIO_TYPE_UDP	engines/net.c	/^	FIO_TYPE_UDP	= 2,$/;"	e	enum:__anon104	file:
-FIO_TYPE_UDP_V6	engines/net.c	/^	FIO_TYPE_UDP_V6	= 5,$/;"	e	enum:__anon104	file:
-FIO_TYPE_UNIX	engines/net.c	/^	FIO_TYPE_UNIX	= 3,$/;"	e	enum:__anon104	file:
-FIO_UDP_SEQ_MAGIC	engines/net.c	/^	FIO_UDP_SEQ_MAGIC = 0x657375716e556563ULL,$/;"	e	enum:__anon104	file:
+FIO_TYPE_TCP	engines/net.c	/^	FIO_TYPE_TCP	= 1,$/;"	e	enum:__anon36	file:
+FIO_TYPE_TCP_V6	engines/net.c	/^	FIO_TYPE_TCP_V6	= 4,$/;"	e	enum:__anon36	file:
+FIO_TYPE_UDP	engines/net.c	/^	FIO_TYPE_UDP	= 2,$/;"	e	enum:__anon36	file:
+FIO_TYPE_UDP_V6	engines/net.c	/^	FIO_TYPE_UDP_V6	= 5,$/;"	e	enum:__anon36	file:
+FIO_TYPE_UNIX	engines/net.c	/^	FIO_TYPE_UNIX	= 3,$/;"	e	enum:__anon36	file:
+FIO_UDP_SEQ_MAGIC	engines/net.c	/^	FIO_UDP_SEQ_MAGIC = 0x657375716e556563ULL,$/;"	e	enum:__anon36	file:
 FIO_UNIDIR	ioengines.h	/^	FIO_UNIDIR	= 1 << 5,	\/* engine is uni-directional *\/$/;"	e	enum:fio_ioengine_flags
 FIO_UNITTEST_H	unittests/unittest.h	2;"	d
 FIO_URING_CMD_NVME	engines/io_uring.c	/^	FIO_URING_CMD_NVME = 1,$/;"	e	enum:uring_cmd_type	file:
@@ -955,12 +950,12 @@ FIO_VERIFY_STATE_H	verify-state.h	2;"	d
 FIO_VERROR_SIZE	stat.h	148;"	d
 FIO_VERSION	os/windows/dobuild.cmd	/^ if "!counter!"=="1" set FIO_VERSION=%%i$/;"	v
 FIO_VERSION_NUMBERS	os/windows/dobuild.cmd	/^ set FIO_VERSION_NUMBERS=%%i$/;"	v
-FIO_WARN_BTRACE_ZERO	debug.h	/^	FIO_WARN_BTRACE_ZERO	= 32,$/;"	e	enum:__anon76
-FIO_WARN_FADVISE	debug.h	/^	FIO_WARN_FADVISE	= 16,$/;"	e	enum:__anon76
-FIO_WARN_IOLOG_DROP	debug.h	/^	FIO_WARN_IOLOG_DROP	= 8,$/;"	e	enum:__anon76
-FIO_WARN_ROOT_FLUSH	debug.h	/^	FIO_WARN_ROOT_FLUSH	= 1,$/;"	e	enum:__anon76
-FIO_WARN_VERIFY_BUF	debug.h	/^	FIO_WARN_VERIFY_BUF	= 2,$/;"	e	enum:__anon76
-FIO_WARN_ZONED_BUG	debug.h	/^	FIO_WARN_ZONED_BUG	= 4,$/;"	e	enum:__anon76
+FIO_WARN_BTRACE_ZERO	debug.h	/^	FIO_WARN_BTRACE_ZERO	= 32,$/;"	e	enum:__anon2
+FIO_WARN_FADVISE	debug.h	/^	FIO_WARN_FADVISE	= 16,$/;"	e	enum:__anon2
+FIO_WARN_IOLOG_DROP	debug.h	/^	FIO_WARN_IOLOG_DROP	= 8,$/;"	e	enum:__anon2
+FIO_WARN_ROOT_FLUSH	debug.h	/^	FIO_WARN_ROOT_FLUSH	= 1,$/;"	e	enum:__anon2
+FIO_WARN_VERIFY_BUF	debug.h	/^	FIO_WARN_VERIFY_BUF	= 2,$/;"	e	enum:__anon2
+FIO_WARN_ZONED_BUG	debug.h	/^	FIO_WARN_ZONED_BUG	= 4,$/;"	e	enum:__anon2
 FIO_WINDOWS_POSIX_H	os/windows/posix.h	2;"	d
 FIO_ZBD_H	zbd.h	8;"	d
 FIO_ZBD_TYPES_H	zbd_types.h	7;"	d
@@ -982,19 +977,19 @@ FMINORBITS	t/btrace2fio.c	268;"	d	file:
 FMINORMASK	blktrace.c	79;"	d	file:
 FMINORMASK	t/btrace2fio.c	269;"	d	file:
 FNV_PRIME	crc/fnv.c	3;"	d	file:
-FPRE_CLIENTUID	init.c	/^	FPRE_CLIENTUID$/;"	e	enum:__anon37	file:
-FPRE_FILENUM	init.c	/^	FPRE_FILENUM,$/;"	e	enum:__anon37	file:
-FPRE_JOBNAME	init.c	/^	FPRE_JOBNAME,$/;"	e	enum:__anon37	file:
-FPRE_JOBNUM	init.c	/^	FPRE_JOBNUM,$/;"	e	enum:__anon37	file:
-FPRE_NONE	init.c	/^	FPRE_NONE = 0,$/;"	e	enum:__anon37	file:
+FPRE_CLIENTUID	init.c	/^	FPRE_CLIENTUID$/;"	e	enum:__anon61	file:
+FPRE_FILENUM	init.c	/^	FPRE_FILENUM,$/;"	e	enum:__anon61	file:
+FPRE_JOBNAME	init.c	/^	FPRE_JOBNAME,$/;"	e	enum:__anon61	file:
+FPRE_JOBNUM	init.c	/^	FPRE_JOBNUM,$/;"	e	enum:__anon61	file:
+FPRE_NONE	init.c	/^	FPRE_NONE = 0,$/;"	e	enum:__anon61	file:
 FRAND32_MAX	lib/rand.h	8;"	d
 FRAND32_MAX_PLUS_ONE	lib/rand.h	9;"	d
 FRAND64_MAX	lib/rand.h	10;"	d
 FRAND64_MAX_PLUS_ONE	lib/rand.h	11;"	d
-F_ADV_NONE	fio.h	/^	F_ADV_NONE = 0,$/;"	e	enum:__anon62
-F_ADV_RANDOM	fio.h	/^	F_ADV_RANDOM,$/;"	e	enum:__anon62
-F_ADV_SEQUENTIAL	fio.h	/^	F_ADV_SEQUENTIAL,$/;"	e	enum:__anon62
-F_ADV_TYPE	fio.h	/^	F_ADV_TYPE,$/;"	e	enum:__anon62
+F_ADV_NONE	fio.h	/^	F_ADV_NONE = 0,$/;"	e	enum:__anon20
+F_ADV_RANDOM	fio.h	/^	F_ADV_RANDOM,$/;"	e	enum:__anon20
+F_ADV_SEQUENTIAL	fio.h	/^	F_ADV_SEQUENTIAL,$/;"	e	enum:__anon20
+F_ADV_TYPE	fio.h	/^	F_ADV_TYPE,$/;"	e	enum:__anon20
 F_GETFL	os/os-windows.h	67;"	d
 F_GET_FILE_RW_HINT	os/os-linux.h	303;"	d
 F_GET_RW_HINT	os/os-linux.h	301;"	d
@@ -1021,22 +1016,22 @@ FioJobTest_t0023	t/run-fio-tests.py	/^class FioJobTest_t0023(FioJobTest):$/;"	c
 FioJobTest_t0024	t/run-fio-tests.py	/^class FioJobTest_t0024(FioJobTest_t0023):$/;"	c
 FioLatTest	t/latency_percentiles.py	/^class FioLatTest():$/;"	c
 FioTest	t/run-fio-tests.py	/^class FioTest():$/;"	c
-Fio_client_ipv4	client.h	/^	Fio_client_ipv4 = 1,$/;"	e	enum:__anon43
-Fio_client_ipv6	client.h	/^	Fio_client_ipv6,$/;"	e	enum:__anon43
-Fio_client_socket	client.h	/^	Fio_client_socket,$/;"	e	enum:__anon43
+Fio_client_ipv4	client.h	/^	Fio_client_ipv4 = 1,$/;"	e	enum:__anon13
+Fio_client_ipv6	client.h	/^	Fio_client_ipv6,$/;"	e	enum:__anon13
+Fio_client_socket	client.h	/^	Fio_client_socket,$/;"	e	enum:__anon13
 Flush_req_last	engines/librpma_gpspm.c	/^static const GPSPMFlushRequest Flush_req_last = GPSPM_FLUSH_REQUEST__LAST;$/;"	v	file:
 GAUSS_ITERS	lib/gauss.c	6;"	d	file:
 GCC_VERSION	crc/xxhash.c	96;"	d	file:
-GE_STATE_CONNECTED	gfio.h	/^	GE_STATE_CONNECTED,$/;"	e	enum:__anon4
-GE_STATE_JOB_DONE	gfio.h	/^	GE_STATE_JOB_DONE,$/;"	e	enum:__anon4
-GE_STATE_JOB_RUNNING	gfio.h	/^	GE_STATE_JOB_RUNNING,$/;"	e	enum:__anon4
-GE_STATE_JOB_SENT	gfio.h	/^	GE_STATE_JOB_SENT,$/;"	e	enum:__anon4
-GE_STATE_JOB_STARTED	gfio.h	/^	GE_STATE_JOB_STARTED,$/;"	e	enum:__anon4
-GE_STATE_NEW	gfio.h	/^	GE_STATE_NEW = 1,$/;"	e	enum:__anon4
-GFIO_BUTTON_CONNECT	gfio.h	/^	GFIO_BUTTON_CONNECT = 0,$/;"	e	enum:__anon5
-GFIO_BUTTON_NR	gfio.h	/^	GFIO_BUTTON_NR,$/;"	e	enum:__anon5
-GFIO_BUTTON_SEND	gfio.h	/^	GFIO_BUTTON_SEND,$/;"	e	enum:__anon5
-GFIO_BUTTON_START	gfio.h	/^	GFIO_BUTTON_START,$/;"	e	enum:__anon5
+GE_STATE_CONNECTED	gfio.h	/^	GE_STATE_CONNECTED,$/;"	e	enum:__anon59
+GE_STATE_JOB_DONE	gfio.h	/^	GE_STATE_JOB_DONE,$/;"	e	enum:__anon59
+GE_STATE_JOB_RUNNING	gfio.h	/^	GE_STATE_JOB_RUNNING,$/;"	e	enum:__anon59
+GE_STATE_JOB_SENT	gfio.h	/^	GE_STATE_JOB_SENT,$/;"	e	enum:__anon59
+GE_STATE_JOB_STARTED	gfio.h	/^	GE_STATE_JOB_STARTED,$/;"	e	enum:__anon59
+GE_STATE_NEW	gfio.h	/^	GE_STATE_NEW = 1,$/;"	e	enum:__anon59
+GFIO_BUTTON_CONNECT	gfio.h	/^	GFIO_BUTTON_CONNECT = 0,$/;"	e	enum:__anon60
+GFIO_BUTTON_NR	gfio.h	/^	GFIO_BUTTON_NR,$/;"	e	enum:__anon60
+GFIO_BUTTON_SEND	gfio.h	/^	GFIO_BUTTON_SEND,$/;"	e	enum:__anon60
+GFIO_BUTTON_START	gfio.h	/^	GFIO_BUTTON_START,$/;"	e	enum:__anon60
 GFIO_CLAT	gclient.c	1155;"	d	file:
 GFIO_CLIENT_H	gclient.h	2;"	d
 GFIO_DRAW_EVENT	gcompat.h	37;"	d
@@ -1061,15 +1056,15 @@ GFIO_WRITE_G	gclient.h	12;"	d
 GFIO_WRITE_R	gclient.h	11;"	d
 GOLDEN_RATIO_32	hash.h	19;"	d
 GOLDEN_RATIO_64	hash.h	20;"	d
-GOPT_BOOL	goptions.c	/^	GOPT_BOOL,$/;"	e	enum:__anon77	file:
-GOPT_COMBO_INT	goptions.c	/^	GOPT_COMBO_INT = 1,$/;"	e	enum:__anon77	file:
-GOPT_COMBO_STR	goptions.c	/^	GOPT_COMBO_STR,$/;"	e	enum:__anon77	file:
-GOPT_INT	goptions.c	/^	GOPT_INT,$/;"	e	enum:__anon77	file:
-GOPT_RANGE	goptions.c	/^	GOPT_RANGE,$/;"	e	enum:__anon77	file:
+GOPT_BOOL	goptions.c	/^	GOPT_BOOL,$/;"	e	enum:__anon42	file:
+GOPT_COMBO_INT	goptions.c	/^	GOPT_COMBO_INT = 1,$/;"	e	enum:__anon42	file:
+GOPT_COMBO_STR	goptions.c	/^	GOPT_COMBO_STR,$/;"	e	enum:__anon42	file:
+GOPT_INT	goptions.c	/^	GOPT_INT,$/;"	e	enum:__anon42	file:
+GOPT_RANGE	goptions.c	/^	GOPT_RANGE,$/;"	e	enum:__anon42	file:
 GOPT_RANGE_SPIN	goptions.c	53;"	d	file:
-GOPT_STR	goptions.c	/^	GOPT_STR,$/;"	e	enum:__anon77	file:
-GOPT_STR_MULTI	goptions.c	/^	GOPT_STR_MULTI,$/;"	e	enum:__anon77	file:
-GOPT_STR_VAL	goptions.c	/^	GOPT_STR_VAL,$/;"	e	enum:__anon77	file:
+GOPT_STR	goptions.c	/^	GOPT_STR,$/;"	e	enum:__anon42	file:
+GOPT_STR_MULTI	goptions.c	/^	GOPT_STR_MULTI,$/;"	e	enum:__anon42	file:
+GOPT_STR_VAL	goptions.c	/^	GOPT_STR_VAL,$/;"	e	enum:__anon42	file:
 GPSPMFlushRequest	engines/librpma_gpspm_flush.pb-c.h	/^typedef struct _GPSPMFlushRequest GPSPMFlushRequest;$/;"	t	typeref:struct:_GPSPMFlushRequest
 GPSPMFlushRequest_Closure	engines/librpma_gpspm_flush.pb-c.h	/^typedef void (*GPSPMFlushRequest_Closure)$/;"	t
 GPSPMFlushResponse	engines/librpma_gpspm_flush.pb-c.h	/^typedef struct _GPSPMFlushResponse GPSPMFlushResponse;$/;"	t	typeref:struct:_GPSPMFlushResponse
@@ -1081,8 +1076,8 @@ GPU_ID_SEP	engines/libcufile.c	33;"	d	file:
 GRAPH_DEFAULT_FONT	graph.h	9;"	d
 GRAPH_H	graph.h	2;"	d
 GTK_COMBO_BOX_TEXT	gcompat.h	17;"	d
-GV_F_ON_PRIO	graph.c	/^	GV_F_ON_PRIO	= 1,$/;"	e	enum:__anon49	file:
-GV_F_PRIO_SKIP	graph.c	/^	GV_F_PRIO_SKIP	= 2,$/;"	e	enum:__anon49	file:
+GV_F_ON_PRIO	graph.c	/^	GV_F_ON_PRIO	= 1,$/;"	e	enum:__anon52	file:
+GV_F_PRIO_SKIP	graph.c	/^	GV_F_PRIO_SKIP	= 2,$/;"	e	enum:__anon52	file:
 GZ_CHUNK	iolog.c	1036;"	d	file:
 GetNumLogicalProcessors	os/windows/posix.c	/^int GetNumLogicalProcessors(void)$/;"	f
 GtkComboBoxText	gcompat.h	/^typedef GtkComboBox GtkComboBoxText;$/;"	t
@@ -1123,14 +1118,14 @@ HistFileRdr	tools/hist/fiologparser_hist.py	/^class HistFileRdr():$/;"	c
 I18NSPHINXOPTS	doc/Makefile	/^I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .$/;"	m
 I18NSPHINXOPTS	doc/make.bat	/^	set I18NSPHINXOPTS=-D latex_paper_size=%PAPER% %I18NSPHINXOPTS%$/;"	v
 I18NSPHINXOPTS	doc/make.bat	/^set I18NSPHINXOPTS=%SPHINXOPTS% .$/;"	v
-IDLE_PROF_OPT_CALI	idletime.h	/^	IDLE_PROF_OPT_CALI,                \/* calibration only *\/$/;"	e	enum:__anon50
-IDLE_PROF_OPT_NONE	idletime.h	/^	IDLE_PROF_OPT_NONE,$/;"	e	enum:__anon50
-IDLE_PROF_OPT_PERCPU	idletime.h	/^	IDLE_PROF_OPT_PERCPU$/;"	e	enum:__anon50
-IDLE_PROF_OPT_SYSTEM	idletime.h	/^	IDLE_PROF_OPT_SYSTEM,$/;"	e	enum:__anon50
-IDLE_PROF_STATUS_ABORT	idletime.h	/^	 IDLE_PROF_STATUS_ABORT$/;"	e	enum:__anon51
-IDLE_PROF_STATUS_CALI_STOP	idletime.h	/^	 IDLE_PROF_STATUS_CALI_STOP,$/;"	e	enum:__anon51
-IDLE_PROF_STATUS_OK	idletime.h	/^	 IDLE_PROF_STATUS_OK,$/;"	e	enum:__anon51
-IDLE_PROF_STATUS_PROF_STOP	idletime.h	/^	 IDLE_PROF_STATUS_PROF_STOP,$/;"	e	enum:__anon51
+IDLE_PROF_OPT_CALI	idletime.h	/^	IDLE_PROF_OPT_CALI,                \/* calibration only *\/$/;"	e	enum:__anon48
+IDLE_PROF_OPT_NONE	idletime.h	/^	IDLE_PROF_OPT_NONE,$/;"	e	enum:__anon48
+IDLE_PROF_OPT_PERCPU	idletime.h	/^	IDLE_PROF_OPT_PERCPU$/;"	e	enum:__anon48
+IDLE_PROF_OPT_SYSTEM	idletime.h	/^	IDLE_PROF_OPT_SYSTEM,$/;"	e	enum:__anon48
+IDLE_PROF_STATUS_ABORT	idletime.h	/^	 IDLE_PROF_STATUS_ABORT$/;"	e	enum:__anon49
+IDLE_PROF_STATUS_CALI_STOP	idletime.h	/^	 IDLE_PROF_STATUS_CALI_STOP,$/;"	e	enum:__anon49
+IDLE_PROF_STATUS_OK	idletime.h	/^	 IDLE_PROF_STATUS_OK,$/;"	e	enum:__anon49
+IDLE_PROF_STATUS_PROF_STOP	idletime.h	/^	 IDLE_PROF_STATUS_PROF_STOP,$/;"	e	enum:__anon49
 INFLIGHT_HASH_BITS	t/btrace2fio.c	99;"	d	file:
 INFLIGHT_HASH_SIZE	t/btrace2fio.c	100;"	d	file:
 INITIAL	lex.yy.c	527;"	d	file:
@@ -1155,10 +1150,10 @@ IOCB_FLAG_IOPRIO	engines/libaio.c	22;"	d	file:
 IOCTL_H	os/windows/posix/include/sys/ioctl.h	2;"	d
 IOLOG_MAX_DEFER	iolog.h	144;"	d
 IOPRIO_BITS	os/os-linux.h	125;"	d
-IOPRIO_CLASS_BE	os/os-linux.h	/^	IOPRIO_CLASS_BE,$/;"	e	enum:__anon95
-IOPRIO_CLASS_IDLE	os/os-linux.h	/^	IOPRIO_CLASS_IDLE,$/;"	e	enum:__anon95
-IOPRIO_CLASS_NONE	os/os-linux.h	/^	IOPRIO_CLASS_NONE,$/;"	e	enum:__anon95
-IOPRIO_CLASS_RT	os/os-linux.h	/^	IOPRIO_CLASS_RT,$/;"	e	enum:__anon95
+IOPRIO_CLASS_BE	os/os-linux.h	/^	IOPRIO_CLASS_BE,$/;"	e	enum:__anon83
+IOPRIO_CLASS_IDLE	os/os-linux.h	/^	IOPRIO_CLASS_IDLE,$/;"	e	enum:__anon83
+IOPRIO_CLASS_NONE	os/os-linux.h	/^	IOPRIO_CLASS_NONE,$/;"	e	enum:__anon83
+IOPRIO_CLASS_RT	os/os-linux.h	/^	IOPRIO_CLASS_RT,$/;"	e	enum:__anon83
 IOPRIO_CLASS_SHIFT	os/os-linux.h	126;"	d
 IOPRIO_MAX_PRIO	os/os-dragonfly.h	167;"	d
 IOPRIO_MAX_PRIO	os/os-linux.h	129;"	d
@@ -1171,13 +1166,13 @@ IOPRIO_MIN_PRIO	os/os.h	126;"	d
 IOPRIO_MIN_PRIO_CLASS	os/os-linux.h	131;"	d
 IOPRIO_MIN_PRIO_CLASS	os/os.h	120;"	d
 IOPRIO_WHO_PGRP	os/os-dragonfly.h	163;"	d
-IOPRIO_WHO_PGRP	os/os-linux.h	/^	IOPRIO_WHO_PGRP,$/;"	e	enum:__anon96
+IOPRIO_WHO_PGRP	os/os-linux.h	/^	IOPRIO_WHO_PGRP,$/;"	e	enum:__anon84
 IOPRIO_WHO_PROCESS	os/os-dragonfly.h	162;"	d
-IOPRIO_WHO_PROCESS	os/os-linux.h	/^	IOPRIO_WHO_PROCESS = 1,$/;"	e	enum:__anon96
+IOPRIO_WHO_PROCESS	os/os-linux.h	/^	IOPRIO_WHO_PROCESS = 1,$/;"	e	enum:__anon84
 IOPRIO_WHO_USER	os/os-dragonfly.h	164;"	d
-IOPRIO_WHO_USER	os/os-linux.h	/^	IOPRIO_WHO_USER,$/;"	e	enum:__anon96
-IOPS_LOG_MASK	iolog.c	/^	IOPS_LOG_MASK	= 16,$/;"	e	enum:__anon7	file:
-IORING_CQE_BUFFER_SHIFT	os/linux/io_uring.h	/^	IORING_CQE_BUFFER_SHIFT		= 16,$/;"	e	enum:__anon90
+IOPRIO_WHO_USER	os/os-linux.h	/^	IOPRIO_WHO_USER,$/;"	e	enum:__anon84
+IOPS_LOG_MASK	iolog.c	/^	IOPS_LOG_MASK	= 16,$/;"	e	enum:__anon104	file:
+IORING_CQE_BUFFER_SHIFT	os/linux/io_uring.h	/^	IORING_CQE_BUFFER_SHIFT		= 16,$/;"	e	enum:__anon78
 IORING_CQE_F_BUFFER	os/linux/io_uring.h	266;"	d
 IORING_CQE_F_MORE	os/linux/io_uring.h	267;"	d
 IORING_CQ_EVENTFD_DISABLED	os/linux/io_uring.h	318;"	d
@@ -1203,81 +1198,81 @@ IORING_LINK_TIMEOUT_UPDATE	os/linux/io_uring.h	220;"	d
 IORING_OFF_CQ_RING	os/linux/io_uring.h	277;"	d
 IORING_OFF_SQES	os/linux/io_uring.h	278;"	d
 IORING_OFF_SQ_RING	os/linux/io_uring.h	276;"	d
-IORING_OP_ACCEPT	os/linux/io_uring.h	/^	IORING_OP_ACCEPT,$/;"	e	enum:__anon89
-IORING_OP_ASYNC_CANCEL	os/linux/io_uring.h	/^	IORING_OP_ASYNC_CANCEL,$/;"	e	enum:__anon89
-IORING_OP_CLOSE	os/linux/io_uring.h	/^	IORING_OP_CLOSE,$/;"	e	enum:__anon89
-IORING_OP_CONNECT	os/linux/io_uring.h	/^	IORING_OP_CONNECT,$/;"	e	enum:__anon89
-IORING_OP_EPOLL_CTL	os/linux/io_uring.h	/^	IORING_OP_EPOLL_CTL,$/;"	e	enum:__anon89
-IORING_OP_FADVISE	os/linux/io_uring.h	/^	IORING_OP_FADVISE,$/;"	e	enum:__anon89
-IORING_OP_FALLOCATE	os/linux/io_uring.h	/^	IORING_OP_FALLOCATE,$/;"	e	enum:__anon89
-IORING_OP_FGETXATTR	os/linux/io_uring.h	/^	IORING_OP_FGETXATTR,$/;"	e	enum:__anon89
-IORING_OP_FILES_UPDATE	os/linux/io_uring.h	/^	IORING_OP_FILES_UPDATE,$/;"	e	enum:__anon89
-IORING_OP_FSETXATTR	os/linux/io_uring.h	/^	IORING_OP_FSETXATTR,$/;"	e	enum:__anon89
-IORING_OP_FSYNC	os/linux/io_uring.h	/^	IORING_OP_FSYNC,$/;"	e	enum:__anon89
-IORING_OP_GETXATTR	os/linux/io_uring.h	/^	IORING_OP_GETXATTR,$/;"	e	enum:__anon89
-IORING_OP_LAST	os/linux/io_uring.h	/^	IORING_OP_LAST,$/;"	e	enum:__anon89
-IORING_OP_LINKAT	os/linux/io_uring.h	/^	IORING_OP_LINKAT,$/;"	e	enum:__anon89
-IORING_OP_LINK_TIMEOUT	os/linux/io_uring.h	/^	IORING_OP_LINK_TIMEOUT,$/;"	e	enum:__anon89
-IORING_OP_MADVISE	os/linux/io_uring.h	/^	IORING_OP_MADVISE,$/;"	e	enum:__anon89
-IORING_OP_MKDIRAT	os/linux/io_uring.h	/^	IORING_OP_MKDIRAT,$/;"	e	enum:__anon89
-IORING_OP_MSG_RING	os/linux/io_uring.h	/^	IORING_OP_MSG_RING,$/;"	e	enum:__anon89
-IORING_OP_NOP	os/linux/io_uring.h	/^	IORING_OP_NOP,$/;"	e	enum:__anon89
-IORING_OP_OPENAT	os/linux/io_uring.h	/^	IORING_OP_OPENAT,$/;"	e	enum:__anon89
-IORING_OP_OPENAT2	os/linux/io_uring.h	/^	IORING_OP_OPENAT2,$/;"	e	enum:__anon89
-IORING_OP_POLL_ADD	os/linux/io_uring.h	/^	IORING_OP_POLL_ADD,$/;"	e	enum:__anon89
-IORING_OP_POLL_REMOVE	os/linux/io_uring.h	/^	IORING_OP_POLL_REMOVE,$/;"	e	enum:__anon89
-IORING_OP_PROVIDE_BUFFERS	os/linux/io_uring.h	/^	IORING_OP_PROVIDE_BUFFERS,$/;"	e	enum:__anon89
-IORING_OP_READ	os/linux/io_uring.h	/^	IORING_OP_READ,$/;"	e	enum:__anon89
-IORING_OP_READV	os/linux/io_uring.h	/^	IORING_OP_READV,$/;"	e	enum:__anon89
-IORING_OP_READ_FIXED	os/linux/io_uring.h	/^	IORING_OP_READ_FIXED,$/;"	e	enum:__anon89
-IORING_OP_RECV	os/linux/io_uring.h	/^	IORING_OP_RECV,$/;"	e	enum:__anon89
-IORING_OP_RECVMSG	os/linux/io_uring.h	/^	IORING_OP_RECVMSG,$/;"	e	enum:__anon89
-IORING_OP_REMOVE_BUFFERS	os/linux/io_uring.h	/^	IORING_OP_REMOVE_BUFFERS,$/;"	e	enum:__anon89
-IORING_OP_RENAMEAT	os/linux/io_uring.h	/^	IORING_OP_RENAMEAT,$/;"	e	enum:__anon89
-IORING_OP_SEND	os/linux/io_uring.h	/^	IORING_OP_SEND,$/;"	e	enum:__anon89
-IORING_OP_SENDMSG	os/linux/io_uring.h	/^	IORING_OP_SENDMSG,$/;"	e	enum:__anon89
-IORING_OP_SETXATTR	os/linux/io_uring.h	/^	IORING_OP_SETXATTR,$/;"	e	enum:__anon89
-IORING_OP_SHUTDOWN	os/linux/io_uring.h	/^	IORING_OP_SHUTDOWN,$/;"	e	enum:__anon89
-IORING_OP_SOCKET	os/linux/io_uring.h	/^	IORING_OP_SOCKET,$/;"	e	enum:__anon89
-IORING_OP_SPLICE	os/linux/io_uring.h	/^	IORING_OP_SPLICE,$/;"	e	enum:__anon89
-IORING_OP_STATX	os/linux/io_uring.h	/^	IORING_OP_STATX,$/;"	e	enum:__anon89
-IORING_OP_SYMLINKAT	os/linux/io_uring.h	/^	IORING_OP_SYMLINKAT,$/;"	e	enum:__anon89
-IORING_OP_SYNC_FILE_RANGE	os/linux/io_uring.h	/^	IORING_OP_SYNC_FILE_RANGE,$/;"	e	enum:__anon89
-IORING_OP_TEE	os/linux/io_uring.h	/^	IORING_OP_TEE,$/;"	e	enum:__anon89
-IORING_OP_TIMEOUT	os/linux/io_uring.h	/^	IORING_OP_TIMEOUT,$/;"	e	enum:__anon89
-IORING_OP_TIMEOUT_REMOVE	os/linux/io_uring.h	/^	IORING_OP_TIMEOUT_REMOVE,$/;"	e	enum:__anon89
-IORING_OP_UNLINKAT	os/linux/io_uring.h	/^	IORING_OP_UNLINKAT,$/;"	e	enum:__anon89
-IORING_OP_URING_CMD	os/linux/io_uring.h	/^	IORING_OP_URING_CMD,$/;"	e	enum:__anon89
-IORING_OP_WRITE	os/linux/io_uring.h	/^	IORING_OP_WRITE,$/;"	e	enum:__anon89
-IORING_OP_WRITEV	os/linux/io_uring.h	/^	IORING_OP_WRITEV,$/;"	e	enum:__anon89
-IORING_OP_WRITE_FIXED	os/linux/io_uring.h	/^	IORING_OP_WRITE_FIXED,$/;"	e	enum:__anon89
+IORING_OP_ACCEPT	os/linux/io_uring.h	/^	IORING_OP_ACCEPT,$/;"	e	enum:__anon77
+IORING_OP_ASYNC_CANCEL	os/linux/io_uring.h	/^	IORING_OP_ASYNC_CANCEL,$/;"	e	enum:__anon77
+IORING_OP_CLOSE	os/linux/io_uring.h	/^	IORING_OP_CLOSE,$/;"	e	enum:__anon77
+IORING_OP_CONNECT	os/linux/io_uring.h	/^	IORING_OP_CONNECT,$/;"	e	enum:__anon77
+IORING_OP_EPOLL_CTL	os/linux/io_uring.h	/^	IORING_OP_EPOLL_CTL,$/;"	e	enum:__anon77
+IORING_OP_FADVISE	os/linux/io_uring.h	/^	IORING_OP_FADVISE,$/;"	e	enum:__anon77
+IORING_OP_FALLOCATE	os/linux/io_uring.h	/^	IORING_OP_FALLOCATE,$/;"	e	enum:__anon77
+IORING_OP_FGETXATTR	os/linux/io_uring.h	/^	IORING_OP_FGETXATTR,$/;"	e	enum:__anon77
+IORING_OP_FILES_UPDATE	os/linux/io_uring.h	/^	IORING_OP_FILES_UPDATE,$/;"	e	enum:__anon77
+IORING_OP_FSETXATTR	os/linux/io_uring.h	/^	IORING_OP_FSETXATTR,$/;"	e	enum:__anon77
+IORING_OP_FSYNC	os/linux/io_uring.h	/^	IORING_OP_FSYNC,$/;"	e	enum:__anon77
+IORING_OP_GETXATTR	os/linux/io_uring.h	/^	IORING_OP_GETXATTR,$/;"	e	enum:__anon77
+IORING_OP_LAST	os/linux/io_uring.h	/^	IORING_OP_LAST,$/;"	e	enum:__anon77
+IORING_OP_LINKAT	os/linux/io_uring.h	/^	IORING_OP_LINKAT,$/;"	e	enum:__anon77
+IORING_OP_LINK_TIMEOUT	os/linux/io_uring.h	/^	IORING_OP_LINK_TIMEOUT,$/;"	e	enum:__anon77
+IORING_OP_MADVISE	os/linux/io_uring.h	/^	IORING_OP_MADVISE,$/;"	e	enum:__anon77
+IORING_OP_MKDIRAT	os/linux/io_uring.h	/^	IORING_OP_MKDIRAT,$/;"	e	enum:__anon77
+IORING_OP_MSG_RING	os/linux/io_uring.h	/^	IORING_OP_MSG_RING,$/;"	e	enum:__anon77
+IORING_OP_NOP	os/linux/io_uring.h	/^	IORING_OP_NOP,$/;"	e	enum:__anon77
+IORING_OP_OPENAT	os/linux/io_uring.h	/^	IORING_OP_OPENAT,$/;"	e	enum:__anon77
+IORING_OP_OPENAT2	os/linux/io_uring.h	/^	IORING_OP_OPENAT2,$/;"	e	enum:__anon77
+IORING_OP_POLL_ADD	os/linux/io_uring.h	/^	IORING_OP_POLL_ADD,$/;"	e	enum:__anon77
+IORING_OP_POLL_REMOVE	os/linux/io_uring.h	/^	IORING_OP_POLL_REMOVE,$/;"	e	enum:__anon77
+IORING_OP_PROVIDE_BUFFERS	os/linux/io_uring.h	/^	IORING_OP_PROVIDE_BUFFERS,$/;"	e	enum:__anon77
+IORING_OP_READ	os/linux/io_uring.h	/^	IORING_OP_READ,$/;"	e	enum:__anon77
+IORING_OP_READV	os/linux/io_uring.h	/^	IORING_OP_READV,$/;"	e	enum:__anon77
+IORING_OP_READ_FIXED	os/linux/io_uring.h	/^	IORING_OP_READ_FIXED,$/;"	e	enum:__anon77
+IORING_OP_RECV	os/linux/io_uring.h	/^	IORING_OP_RECV,$/;"	e	enum:__anon77
+IORING_OP_RECVMSG	os/linux/io_uring.h	/^	IORING_OP_RECVMSG,$/;"	e	enum:__anon77
+IORING_OP_REMOVE_BUFFERS	os/linux/io_uring.h	/^	IORING_OP_REMOVE_BUFFERS,$/;"	e	enum:__anon77
+IORING_OP_RENAMEAT	os/linux/io_uring.h	/^	IORING_OP_RENAMEAT,$/;"	e	enum:__anon77
+IORING_OP_SEND	os/linux/io_uring.h	/^	IORING_OP_SEND,$/;"	e	enum:__anon77
+IORING_OP_SENDMSG	os/linux/io_uring.h	/^	IORING_OP_SENDMSG,$/;"	e	enum:__anon77
+IORING_OP_SETXATTR	os/linux/io_uring.h	/^	IORING_OP_SETXATTR,$/;"	e	enum:__anon77
+IORING_OP_SHUTDOWN	os/linux/io_uring.h	/^	IORING_OP_SHUTDOWN,$/;"	e	enum:__anon77
+IORING_OP_SOCKET	os/linux/io_uring.h	/^	IORING_OP_SOCKET,$/;"	e	enum:__anon77
+IORING_OP_SPLICE	os/linux/io_uring.h	/^	IORING_OP_SPLICE,$/;"	e	enum:__anon77
+IORING_OP_STATX	os/linux/io_uring.h	/^	IORING_OP_STATX,$/;"	e	enum:__anon77
+IORING_OP_SYMLINKAT	os/linux/io_uring.h	/^	IORING_OP_SYMLINKAT,$/;"	e	enum:__anon77
+IORING_OP_SYNC_FILE_RANGE	os/linux/io_uring.h	/^	IORING_OP_SYNC_FILE_RANGE,$/;"	e	enum:__anon77
+IORING_OP_TEE	os/linux/io_uring.h	/^	IORING_OP_TEE,$/;"	e	enum:__anon77
+IORING_OP_TIMEOUT	os/linux/io_uring.h	/^	IORING_OP_TIMEOUT,$/;"	e	enum:__anon77
+IORING_OP_TIMEOUT_REMOVE	os/linux/io_uring.h	/^	IORING_OP_TIMEOUT_REMOVE,$/;"	e	enum:__anon77
+IORING_OP_UNLINKAT	os/linux/io_uring.h	/^	IORING_OP_UNLINKAT,$/;"	e	enum:__anon77
+IORING_OP_URING_CMD	os/linux/io_uring.h	/^	IORING_OP_URING_CMD,$/;"	e	enum:__anon77
+IORING_OP_WRITE	os/linux/io_uring.h	/^	IORING_OP_WRITE,$/;"	e	enum:__anon77
+IORING_OP_WRITEV	os/linux/io_uring.h	/^	IORING_OP_WRITEV,$/;"	e	enum:__anon77
+IORING_OP_WRITE_FIXED	os/linux/io_uring.h	/^	IORING_OP_WRITE_FIXED,$/;"	e	enum:__anon77
 IORING_POLL_ADD_MULTI	os/linux/io_uring.h	241;"	d
 IORING_POLL_UPDATE_EVENTS	os/linux/io_uring.h	242;"	d
 IORING_POLL_UPDATE_USER_DATA	os/linux/io_uring.h	243;"	d
-IORING_REGISTER_BUFFERS	os/linux/io_uring.h	/^	IORING_REGISTER_BUFFERS			= 0,$/;"	e	enum:__anon91
-IORING_REGISTER_BUFFERS2	os/linux/io_uring.h	/^	IORING_REGISTER_BUFFERS2		= 15,$/;"	e	enum:__anon91
-IORING_REGISTER_BUFFERS_UPDATE	os/linux/io_uring.h	/^	IORING_REGISTER_BUFFERS_UPDATE		= 16,$/;"	e	enum:__anon91
-IORING_REGISTER_ENABLE_RINGS	os/linux/io_uring.h	/^	IORING_REGISTER_ENABLE_RINGS		= 12,$/;"	e	enum:__anon91
-IORING_REGISTER_EVENTFD	os/linux/io_uring.h	/^	IORING_REGISTER_EVENTFD			= 4,$/;"	e	enum:__anon91
-IORING_REGISTER_EVENTFD_ASYNC	os/linux/io_uring.h	/^	IORING_REGISTER_EVENTFD_ASYNC		= 7,$/;"	e	enum:__anon91
-IORING_REGISTER_FILES	os/linux/io_uring.h	/^	IORING_REGISTER_FILES			= 2,$/;"	e	enum:__anon91
-IORING_REGISTER_FILES2	os/linux/io_uring.h	/^	IORING_REGISTER_FILES2			= 13,$/;"	e	enum:__anon91
+IORING_REGISTER_BUFFERS	os/linux/io_uring.h	/^	IORING_REGISTER_BUFFERS			= 0,$/;"	e	enum:__anon79
+IORING_REGISTER_BUFFERS2	os/linux/io_uring.h	/^	IORING_REGISTER_BUFFERS2		= 15,$/;"	e	enum:__anon79
+IORING_REGISTER_BUFFERS_UPDATE	os/linux/io_uring.h	/^	IORING_REGISTER_BUFFERS_UPDATE		= 16,$/;"	e	enum:__anon79
+IORING_REGISTER_ENABLE_RINGS	os/linux/io_uring.h	/^	IORING_REGISTER_ENABLE_RINGS		= 12,$/;"	e	enum:__anon79
+IORING_REGISTER_EVENTFD	os/linux/io_uring.h	/^	IORING_REGISTER_EVENTFD			= 4,$/;"	e	enum:__anon79
+IORING_REGISTER_EVENTFD_ASYNC	os/linux/io_uring.h	/^	IORING_REGISTER_EVENTFD_ASYNC		= 7,$/;"	e	enum:__anon79
+IORING_REGISTER_FILES	os/linux/io_uring.h	/^	IORING_REGISTER_FILES			= 2,$/;"	e	enum:__anon79
+IORING_REGISTER_FILES2	os/linux/io_uring.h	/^	IORING_REGISTER_FILES2			= 13,$/;"	e	enum:__anon79
 IORING_REGISTER_FILES_SKIP	os/linux/io_uring.h	437;"	d
-IORING_REGISTER_FILES_UPDATE	os/linux/io_uring.h	/^	IORING_REGISTER_FILES_UPDATE		= 6,$/;"	e	enum:__anon91
-IORING_REGISTER_FILES_UPDATE2	os/linux/io_uring.h	/^	IORING_REGISTER_FILES_UPDATE2		= 14,$/;"	e	enum:__anon91
-IORING_REGISTER_IOWQ_AFF	os/linux/io_uring.h	/^	IORING_REGISTER_IOWQ_AFF		= 17,$/;"	e	enum:__anon91
-IORING_REGISTER_IOWQ_MAX_WORKERS	os/linux/io_uring.h	/^	IORING_REGISTER_IOWQ_MAX_WORKERS	= 19,$/;"	e	enum:__anon91
-IORING_REGISTER_LAST	os/linux/io_uring.h	/^	IORING_REGISTER_LAST$/;"	e	enum:__anon91
+IORING_REGISTER_FILES_UPDATE	os/linux/io_uring.h	/^	IORING_REGISTER_FILES_UPDATE		= 6,$/;"	e	enum:__anon79
+IORING_REGISTER_FILES_UPDATE2	os/linux/io_uring.h	/^	IORING_REGISTER_FILES_UPDATE2		= 14,$/;"	e	enum:__anon79
+IORING_REGISTER_IOWQ_AFF	os/linux/io_uring.h	/^	IORING_REGISTER_IOWQ_AFF		= 17,$/;"	e	enum:__anon79
+IORING_REGISTER_IOWQ_MAX_WORKERS	os/linux/io_uring.h	/^	IORING_REGISTER_IOWQ_MAX_WORKERS	= 19,$/;"	e	enum:__anon79
+IORING_REGISTER_LAST	os/linux/io_uring.h	/^	IORING_REGISTER_LAST$/;"	e	enum:__anon79
 IORING_REGISTER_MAP_BUFFERS	t/io_uring.c	159;"	d	file:
-IORING_REGISTER_PERSONALITY	os/linux/io_uring.h	/^	IORING_REGISTER_PERSONALITY		= 9,$/;"	e	enum:__anon91
-IORING_REGISTER_PROBE	os/linux/io_uring.h	/^	IORING_REGISTER_PROBE			= 8,$/;"	e	enum:__anon91
-IORING_REGISTER_RESTRICTIONS	os/linux/io_uring.h	/^	IORING_REGISTER_RESTRICTIONS		= 11,$/;"	e	enum:__anon91
-IORING_REGISTER_RING_FDS	os/linux/io_uring.h	/^	IORING_REGISTER_RING_FDS		= 20,$/;"	e	enum:__anon91
-IORING_RESTRICTION_LAST	os/linux/io_uring.h	/^	IORING_RESTRICTION_LAST$/;"	e	enum:__anon94
-IORING_RESTRICTION_REGISTER_OP	os/linux/io_uring.h	/^	IORING_RESTRICTION_REGISTER_OP		= 0,$/;"	e	enum:__anon94
-IORING_RESTRICTION_SQE_FLAGS_ALLOWED	os/linux/io_uring.h	/^	IORING_RESTRICTION_SQE_FLAGS_ALLOWED	= 2,$/;"	e	enum:__anon94
-IORING_RESTRICTION_SQE_FLAGS_REQUIRED	os/linux/io_uring.h	/^	IORING_RESTRICTION_SQE_FLAGS_REQUIRED	= 3,$/;"	e	enum:__anon94
-IORING_RESTRICTION_SQE_OP	os/linux/io_uring.h	/^	IORING_RESTRICTION_SQE_OP		= 1,$/;"	e	enum:__anon94
+IORING_REGISTER_PERSONALITY	os/linux/io_uring.h	/^	IORING_REGISTER_PERSONALITY		= 9,$/;"	e	enum:__anon79
+IORING_REGISTER_PROBE	os/linux/io_uring.h	/^	IORING_REGISTER_PROBE			= 8,$/;"	e	enum:__anon79
+IORING_REGISTER_RESTRICTIONS	os/linux/io_uring.h	/^	IORING_REGISTER_RESTRICTIONS		= 11,$/;"	e	enum:__anon79
+IORING_REGISTER_RING_FDS	os/linux/io_uring.h	/^	IORING_REGISTER_RING_FDS		= 20,$/;"	e	enum:__anon79
+IORING_RESTRICTION_LAST	os/linux/io_uring.h	/^	IORING_RESTRICTION_LAST$/;"	e	enum:__anon82
+IORING_RESTRICTION_REGISTER_OP	os/linux/io_uring.h	/^	IORING_RESTRICTION_REGISTER_OP		= 0,$/;"	e	enum:__anon82
+IORING_RESTRICTION_SQE_FLAGS_ALLOWED	os/linux/io_uring.h	/^	IORING_RESTRICTION_SQE_FLAGS_ALLOWED	= 2,$/;"	e	enum:__anon82
+IORING_RESTRICTION_SQE_FLAGS_REQUIRED	os/linux/io_uring.h	/^	IORING_RESTRICTION_SQE_FLAGS_REQUIRED	= 3,$/;"	e	enum:__anon82
+IORING_RESTRICTION_SQE_OP	os/linux/io_uring.h	/^	IORING_RESTRICTION_SQE_OP		= 1,$/;"	e	enum:__anon82
 IORING_SETUP_ATTACH_WQ	os/linux/io_uring.h	114;"	d
 IORING_SETUP_CLAMP	os/linux/io_uring.h	113;"	d
 IORING_SETUP_COOP_TASKRUN	os/linux/io_uring.h	124;"	d
@@ -1301,59 +1296,59 @@ IORING_TIMEOUT_ETIME_SUCCESS	os/linux/io_uring.h	221;"	d
 IORING_TIMEOUT_REALTIME	os/linux/io_uring.h	219;"	d
 IORING_TIMEOUT_UPDATE	os/linux/io_uring.h	217;"	d
 IORING_TIMEOUT_UPDATE_MASK	os/linux/io_uring.h	223;"	d
-IORING_UNREGISTER_BUFFERS	os/linux/io_uring.h	/^	IORING_UNREGISTER_BUFFERS		= 1,$/;"	e	enum:__anon91
-IORING_UNREGISTER_EVENTFD	os/linux/io_uring.h	/^	IORING_UNREGISTER_EVENTFD		= 5,$/;"	e	enum:__anon91
-IORING_UNREGISTER_FILES	os/linux/io_uring.h	/^	IORING_UNREGISTER_FILES			= 3,$/;"	e	enum:__anon91
-IORING_UNREGISTER_IOWQ_AFF	os/linux/io_uring.h	/^	IORING_UNREGISTER_IOWQ_AFF		= 18,$/;"	e	enum:__anon91
-IORING_UNREGISTER_PERSONALITY	os/linux/io_uring.h	/^	IORING_UNREGISTER_PERSONALITY		= 10,$/;"	e	enum:__anon91
-IORING_UNREGISTER_RING_FDS	os/linux/io_uring.h	/^	IORING_UNREGISTER_RING_FDS		= 21,$/;"	e	enum:__anon91
+IORING_UNREGISTER_BUFFERS	os/linux/io_uring.h	/^	IORING_UNREGISTER_BUFFERS		= 1,$/;"	e	enum:__anon79
+IORING_UNREGISTER_EVENTFD	os/linux/io_uring.h	/^	IORING_UNREGISTER_EVENTFD		= 5,$/;"	e	enum:__anon79
+IORING_UNREGISTER_FILES	os/linux/io_uring.h	/^	IORING_UNREGISTER_FILES			= 3,$/;"	e	enum:__anon79
+IORING_UNREGISTER_IOWQ_AFF	os/linux/io_uring.h	/^	IORING_UNREGISTER_IOWQ_AFF		= 18,$/;"	e	enum:__anon79
+IORING_UNREGISTER_PERSONALITY	os/linux/io_uring.h	/^	IORING_UNREGISTER_PERSONALITY		= 10,$/;"	e	enum:__anon79
+IORING_UNREGISTER_RING_FDS	os/linux/io_uring.h	/^	IORING_UNREGISTER_RING_FDS		= 21,$/;"	e	enum:__anon79
 IORING_URING_CMD_FIXED	os/linux/io_uring.h	206;"	d
 IOSQE_ASYNC	os/linux/io_uring.h	100;"	d
-IOSQE_ASYNC_BIT	os/linux/io_uring.h	/^	IOSQE_ASYNC_BIT,$/;"	e	enum:__anon88
+IOSQE_ASYNC_BIT	os/linux/io_uring.h	/^	IOSQE_ASYNC_BIT,$/;"	e	enum:__anon76
 IOSQE_BUFFER_SELECT	os/linux/io_uring.h	102;"	d
-IOSQE_BUFFER_SELECT_BIT	os/linux/io_uring.h	/^	IOSQE_BUFFER_SELECT_BIT,$/;"	e	enum:__anon88
+IOSQE_BUFFER_SELECT_BIT	os/linux/io_uring.h	/^	IOSQE_BUFFER_SELECT_BIT,$/;"	e	enum:__anon76
 IOSQE_CQE_SKIP_SUCCESS	os/linux/io_uring.h	104;"	d
-IOSQE_CQE_SKIP_SUCCESS_BIT	os/linux/io_uring.h	/^	IOSQE_CQE_SKIP_SUCCESS_BIT,$/;"	e	enum:__anon88
+IOSQE_CQE_SKIP_SUCCESS_BIT	os/linux/io_uring.h	/^	IOSQE_CQE_SKIP_SUCCESS_BIT,$/;"	e	enum:__anon76
 IOSQE_FIXED_FILE	os/linux/io_uring.h	92;"	d
-IOSQE_FIXED_FILE_BIT	os/linux/io_uring.h	/^	IOSQE_FIXED_FILE_BIT,$/;"	e	enum:__anon88
+IOSQE_FIXED_FILE_BIT	os/linux/io_uring.h	/^	IOSQE_FIXED_FILE_BIT,$/;"	e	enum:__anon76
 IOSQE_IO_DRAIN	os/linux/io_uring.h	94;"	d
-IOSQE_IO_DRAIN_BIT	os/linux/io_uring.h	/^	IOSQE_IO_DRAIN_BIT,$/;"	e	enum:__anon88
+IOSQE_IO_DRAIN_BIT	os/linux/io_uring.h	/^	IOSQE_IO_DRAIN_BIT,$/;"	e	enum:__anon76
 IOSQE_IO_HARDLINK	os/linux/io_uring.h	98;"	d
-IOSQE_IO_HARDLINK_BIT	os/linux/io_uring.h	/^	IOSQE_IO_HARDLINK_BIT,$/;"	e	enum:__anon88
+IOSQE_IO_HARDLINK_BIT	os/linux/io_uring.h	/^	IOSQE_IO_HARDLINK_BIT,$/;"	e	enum:__anon76
 IOSQE_IO_LINK	os/linux/io_uring.h	96;"	d
-IOSQE_IO_LINK_BIT	os/linux/io_uring.h	/^	IOSQE_IO_LINK_BIT,$/;"	e	enum:__anon88
-IO_CUFILE	engines/libcufile.c	/^	IO_CUFILE    = 1,$/;"	e	enum:__anon101	file:
+IOSQE_IO_LINK_BIT	os/linux/io_uring.h	/^	IOSQE_IO_LINK_BIT,$/;"	e	enum:__anon76
+IO_CUFILE	engines/libcufile.c	/^	IO_CUFILE    = 1,$/;"	e	enum:__anon37	file:
 IO_LIST_ALL	verify-state.h	57;"	d
-IO_LOG_TYPE_BW	iolog.h	/^	IO_LOG_TYPE_BW,$/;"	e	enum:__anon45
-IO_LOG_TYPE_CLAT	iolog.h	/^	IO_LOG_TYPE_CLAT,$/;"	e	enum:__anon45
-IO_LOG_TYPE_HIST	iolog.h	/^	IO_LOG_TYPE_HIST,$/;"	e	enum:__anon45
-IO_LOG_TYPE_IOPS	iolog.h	/^	IO_LOG_TYPE_IOPS,$/;"	e	enum:__anon45
-IO_LOG_TYPE_LAT	iolog.h	/^	IO_LOG_TYPE_LAT = 1,$/;"	e	enum:__anon45
-IO_LOG_TYPE_SLAT	iolog.h	/^	IO_LOG_TYPE_SLAT,$/;"	e	enum:__anon45
-IO_MODE_INLINE	fio.h	/^	IO_MODE_INLINE = 0,$/;"	e	enum:__anon61
-IO_MODE_OFFLOAD	fio.h	/^	IO_MODE_OFFLOAD = 1,$/;"	e	enum:__anon61
-IO_POSIX	engines/libcufile.c	/^	IO_POSIX     = 2$/;"	e	enum:__anon101	file:
+IO_LOG_TYPE_BW	iolog.h	/^	IO_LOG_TYPE_BW,$/;"	e	enum:__anon7
+IO_LOG_TYPE_CLAT	iolog.h	/^	IO_LOG_TYPE_CLAT,$/;"	e	enum:__anon7
+IO_LOG_TYPE_HIST	iolog.h	/^	IO_LOG_TYPE_HIST,$/;"	e	enum:__anon7
+IO_LOG_TYPE_IOPS	iolog.h	/^	IO_LOG_TYPE_IOPS,$/;"	e	enum:__anon7
+IO_LOG_TYPE_LAT	iolog.h	/^	IO_LOG_TYPE_LAT = 1,$/;"	e	enum:__anon7
+IO_LOG_TYPE_SLAT	iolog.h	/^	IO_LOG_TYPE_SLAT,$/;"	e	enum:__anon7
+IO_MODE_INLINE	fio.h	/^	IO_MODE_INLINE = 0,$/;"	e	enum:__anon19
+IO_MODE_OFFLOAD	fio.h	/^	IO_MODE_OFFLOAD = 1,$/;"	e	enum:__anon19
+IO_POSIX	engines/libcufile.c	/^	IO_POSIX     = 2$/;"	e	enum:__anon37	file:
 IO_URING_OP_SUPPORTED	os/linux/io_uring.h	439;"	d
 IO_U_BUFF_OFF_SERVER	engines/librpma_gpspm.c	366;"	d	file:
 IO_U_BUF_LEN	engines/librpma_gpspm.c	29;"	d	file:
-IO_U_F_BARRIER	io_u.h	/^	IO_U_F_BARRIER		= 1 << 6,$/;"	e	enum:__anon11
-IO_U_F_BUSY_OK	io_u.h	/^	IO_U_F_BUSY_OK		= 1 << 4,$/;"	e	enum:__anon11
-IO_U_F_FLIGHT	io_u.h	/^	IO_U_F_FLIGHT		= 1 << 1,$/;"	e	enum:__anon11
-IO_U_F_FREE	io_u.h	/^	IO_U_F_FREE		= 1 << 0,$/;"	e	enum:__anon11
-IO_U_F_IN_CUR_DEPTH	io_u.h	/^	IO_U_F_IN_CUR_DEPTH	= 1 << 3,$/;"	e	enum:__anon11
-IO_U_F_NO_FILE_PUT	io_u.h	/^	IO_U_F_NO_FILE_PUT	= 1 << 2,$/;"	e	enum:__anon11
-IO_U_F_TRIMMED	io_u.h	/^	IO_U_F_TRIMMED		= 1 << 5,$/;"	e	enum:__anon11
-IO_U_F_VER_LIST	io_u.h	/^	IO_U_F_VER_LIST		= 1 << 7,$/;"	e	enum:__anon11
+IO_U_F_BARRIER	io_u.h	/^	IO_U_F_BARRIER		= 1 << 6,$/;"	e	enum:__anon31
+IO_U_F_BUSY_OK	io_u.h	/^	IO_U_F_BUSY_OK		= 1 << 4,$/;"	e	enum:__anon31
+IO_U_F_FLIGHT	io_u.h	/^	IO_U_F_FLIGHT		= 1 << 1,$/;"	e	enum:__anon31
+IO_U_F_FREE	io_u.h	/^	IO_U_F_FREE		= 1 << 0,$/;"	e	enum:__anon31
+IO_U_F_IN_CUR_DEPTH	io_u.h	/^	IO_U_F_IN_CUR_DEPTH	= 1 << 3,$/;"	e	enum:__anon31
+IO_U_F_NO_FILE_PUT	io_u.h	/^	IO_U_F_NO_FILE_PUT	= 1 << 2,$/;"	e	enum:__anon31
+IO_U_F_TRIMMED	io_u.h	/^	IO_U_F_TRIMMED		= 1 << 5,$/;"	e	enum:__anon31
+IO_U_F_VER_LIST	io_u.h	/^	IO_U_F_VER_LIST		= 1 << 7,$/;"	e	enum:__anon31
 IO_U_NEXT_BUF_OFF_CLIENT	engines/librpma_gpspm.c	50;"	d	file:
-IO_WQ_BOUND	os/linux/io_uring.h	/^	IO_WQ_BOUND,$/;"	e	enum:__anon92
-IO_WQ_UNBOUND	os/linux/io_uring.h	/^	IO_WQ_UNBOUND,$/;"	e	enum:__anon92
+IO_WQ_BOUND	os/linux/io_uring.h	/^	IO_WQ_BOUND,$/;"	e	enum:__anon80
+IO_WQ_UNBOUND	os/linux/io_uring.h	/^	IO_WQ_UNBOUND,$/;"	e	enum:__anon80
 IPC_CREAT	os/windows/posix/include/sys/shm.h	5;"	d
 IPC_PRIVATE	os/windows/posix/include/sys/shm.h	6;"	d
 IPC_RMID	os/windows/posix/include/sys/shm.h	4;"	d
-IP_F_IN_FLIGHT	iolog.h	/^	IP_F_IN_FLIGHT	= 8,$/;"	e	enum:__anon46
-IP_F_ONLIST	iolog.h	/^	IP_F_ONLIST	= 2,$/;"	e	enum:__anon46
-IP_F_ONRB	iolog.h	/^	IP_F_ONRB	= 1,$/;"	e	enum:__anon46
-IP_F_TRIMMED	iolog.h	/^	IP_F_TRIMMED	= 4,$/;"	e	enum:__anon46
+IP_F_IN_FLIGHT	iolog.h	/^	IP_F_IN_FLIGHT	= 8,$/;"	e	enum:__anon8
+IP_F_ONLIST	iolog.h	/^	IP_F_ONLIST	= 2,$/;"	e	enum:__anon8
+IP_F_ONRB	iolog.h	/^	IP_F_ONRB	= 1,$/;"	e	enum:__anon8
+IP_F_TRIMMED	iolog.h	/^	IP_F_TRIMMED	= 4,$/;"	e	enum:__anon8
 IS_ERR	err.h	/^static inline uintptr_t IS_ERR(const void *ptr)$/;"	f
 IS_ERR_OR_NULL	err.h	/^static inline uintptr_t IS_ERR_OR_NULL(const void *ptr)$/;"	f
 IS_ERR_VALUE	err.h	14;"	d
@@ -1376,7 +1371,7 @@ KECCAK_ROUNDS	crc/sha3.c	21;"	d	file:
 LARGESMALLOC	t/stest.c	15;"	d	file:
 LAST_POS	engines/glusterfs_sync.c	10;"	d	file:
 LAST_POS	engines/sync.c	21;"	d	file:
-LAT_LOG_MASK	iolog.c	/^	LAT_LOG_MASK	= 2,$/;"	e	enum:__anon7	file:
+LAT_LOG_MASK	iolog.c	/^	LAT_LOG_MASK	= 2,$/;"	e	enum:__anon104	file:
 LCG	lib/rand.c	52;"	d	file:
 LCG64	lib/rand.c	66;"	d	file:
 LEFT_JUSTIFIED	cairo_text_helpers.c	9;"	d	file:
@@ -1564,8 +1559,8 @@ OS_O_DIRECT	os/os.h	131;"	d
 OS_O_DIRECT	os/os.h	133;"	d
 OS_RAND_MAX	os/os-solaris.h	29;"	d
 OS_RAND_MAX	os/os.h	163;"	d
-OUTPUT_CSV	t/genzipf.c	/^	OUTPUT_CSV,$/;"	e	enum:__anon2	file:
-OUTPUT_NORMAL	t/genzipf.c	/^	OUTPUT_NORMAL,$/;"	e	enum:__anon2	file:
+OUTPUT_CSV	t/genzipf.c	/^	OUTPUT_CSV,$/;"	e	enum:__anon64	file:
+OUTPUT_NORMAL	t/genzipf.c	/^	OUTPUT_NORMAL,$/;"	e	enum:__anon64	file:
 O_CLOEXEC	oslib/libmtd_common.h	67;"	d
 O_DIRECT	os/os-windows.h	58;"	d
 O_NONBLOCK	os/os-windows.h	68;"	d
@@ -1629,7 +1624,7 @@ PTHREAD_STACK_MIN	os/os-dragonfly.h	40;"	d
 PTHREAD_STACK_MIN	os/os-netbsd.h	31;"	d
 PTHREAD_STACK_MIN	os/os-openbsd.h	31;"	d
 PTHREAD_STACK_MIN	os/os-windows.h	27;"	d
-PTR_ALIGN	fio.h	733;"	d
+PTR_ALIGN	fio.h	734;"	d
 PTR_ALIGN	lib/memalign.c	7;"	d	file:
 PTR_ERR	err.h	/^static inline uintptr_t PTR_ERR(const void *ptr)$/;"	f
 PTR_ERR_OR_ZERO	err.h	/^static inline int PTR_ERR_OR_ZERO(const void *ptr)$/;"	f
@@ -1638,8 +1633,8 @@ QUIET_DEP	Makefile	/^	QUIET_DEP	= @echo '  ' DEP $@;$/;"	m
 QUIET_LEX	Makefile	/^	QUIET_LEX	= @echo '  ' LEX $@;$/;"	m
 QUIET_LINK	Makefile	/^	QUIET_LINK	= @echo ' ' LINK $@;$/;"	m
 QUIET_YACC	Makefile	/^	QUIET_YACC	= @echo ' ' YACC $@;$/;"	m
-RATE_PROCESS_LINEAR	fio.h	/^	RATE_PROCESS_LINEAR = 0,$/;"	e	enum:__anon61
-RATE_PROCESS_POISSON	fio.h	/^	RATE_PROCESS_POISSON = 1,$/;"	e	enum:__anon61
+RATE_PROCESS_LINEAR	fio.h	/^	RATE_PROCESS_LINEAR = 0,$/;"	e	enum:__anon19
+RATE_PROCESS_POISSON	fio.h	/^	RATE_PROCESS_POISSON = 1,$/;"	e	enum:__anon19
 RB_BLACK	lib/rbtree.h	104;"	d
 RB_BLACK	os/os-openbsd.h	17;"	d
 RB_CLEAR_NODE	lib/rbtree.h	137;"	d
@@ -1683,8 +1678,8 @@ RWH_WRITE_LIFE_MEDIUM	os/os-linux.h	311;"	d
 RWH_WRITE_LIFE_NONE	os/os-linux.h	309;"	d
 RWH_WRITE_LIFE_NOT_SET	os/os-linux.h	308;"	d
 RWH_WRITE_LIFE_SHORT	os/os-linux.h	310;"	d
-RW_SEQ_IDENT	fio.h	/^	RW_SEQ_IDENT,$/;"	e	enum:__anon57
-RW_SEQ_SEQ	fio.h	/^	RW_SEQ_SEQ	= 0,$/;"	e	enum:__anon57
+RW_SEQ_IDENT	fio.h	/^	RW_SEQ_IDENT,$/;"	e	enum:__anon15
+RW_SEQ_SEQ	fio.h	/^	RW_SEQ_SEQ	= 0,$/;"	e	enum:__anon15
 R_LOAD	profiles/act.c	9;"	d	file:
 Requirements	t/run-fio-tests.py	/^class Requirements():$/;"	c
 S	iolog.h	/^	fio_fp64_t S;$/;"	m	struct:io_stat
@@ -1733,12 +1728,12 @@ SIGPIPE	os/os-windows.h	51;"	d
 SIGUSR1	os/os-windows.h	78;"	d
 SIGUSR2	os/os-windows.h	79;"	d
 SIZE_MAX	lex.yy.c	88;"	d	file:
-SK_F_COPY	server.c	/^	SK_F_COPY	= 2,$/;"	e	enum:__anon73	file:
-SK_F_FREE	server.c	/^	SK_F_FREE	= 1,$/;"	e	enum:__anon73	file:
-SK_F_INLINE	server.c	/^	SK_F_INLINE	= 16,$/;"	e	enum:__anon73	file:
-SK_F_SIMPLE	server.c	/^	SK_F_SIMPLE	= 4,$/;"	e	enum:__anon73	file:
-SK_F_VEC	server.c	/^	SK_F_VEC	= 8,$/;"	e	enum:__anon73	file:
-SLAT_LOG_MASK	iolog.c	/^	SLAT_LOG_MASK	= 4,$/;"	e	enum:__anon7	file:
+SK_F_COPY	server.c	/^	SK_F_COPY	= 2,$/;"	e	enum:__anon46	file:
+SK_F_FREE	server.c	/^	SK_F_FREE	= 1,$/;"	e	enum:__anon46	file:
+SK_F_INLINE	server.c	/^	SK_F_INLINE	= 16,$/;"	e	enum:__anon46	file:
+SK_F_SIMPLE	server.c	/^	SK_F_SIMPLE	= 4,$/;"	e	enum:__anon46	file:
+SK_F_VEC	server.c	/^	SK_F_VEC	= 8,$/;"	e	enum:__anon46	file:
+SLAT_LOG_MASK	iolog.c	/^	SLAT_LOG_MASK	= 4,$/;"	e	enum:__anon104	file:
 SMALLOC_BPB	smalloc.c	17;"	d	file:
 SMALLOC_BPI	smalloc.c	18;"	d	file:
 SMALLOC_BPL	smalloc.c	19;"	d	file:
@@ -1759,7 +1754,7 @@ SPRN_TBRU	arch/arch-ppc.h	51;"	d
 SRCDIR	Makefile	/^SRCDIR := .$/;"	m
 STATX_ALL	oslib/statx.h	6;"	d
 STEADYSTATE_MSEC	steadystate.h	67;"	d
-STORE_COMPRESSED	server.h	/^	STORE_COMPRESSED	= 2U,$/;"	e	enum:__anon99
+STORE_COMPRESSED	server.h	/^	STORE_COMPRESSED	= 2U,$/;"	e	enum:__anon51
 SUCCESS_DEFAULT	t/run-fio-tests.py	/^SUCCESS_DEFAULT = {$/;"	v
 SUCCESS_NONZERO	t/run-fio-tests.py	/^SUCCESS_NONZERO = {$/;"	v
 SUCCESS_STDERR	t/run-fio-tests.py	/^SUCCESS_STDERR = {$/;"	v
@@ -1768,11 +1763,11 @@ SUFFIX	y.tab.c	173;"	d	file:
 SUFFIX	y.tab.h	/^    SUFFIX = 260,$/;"	e	enum:yytokentype
 SUFFIX	y.tab.h	61;"	d
 SUSPEND_ENTRIES	engines/posixaio.c	58;"	d	file:
-SW_F_ACCOUNTED	workqueue.c	/^	SW_F_ACCOUNTED	= 1 << 3,$/;"	e	enum:__anon38	file:
-SW_F_ERROR	workqueue.c	/^	SW_F_ERROR	= 1 << 4,$/;"	e	enum:__anon38	file:
-SW_F_EXIT	workqueue.c	/^	SW_F_EXIT	= 1 << 2,$/;"	e	enum:__anon38	file:
-SW_F_IDLE	workqueue.c	/^	SW_F_IDLE	= 1 << 0,$/;"	e	enum:__anon38	file:
-SW_F_RUNNING	workqueue.c	/^	SW_F_RUNNING	= 1 << 1,$/;"	e	enum:__anon38	file:
+SW_F_ACCOUNTED	workqueue.c	/^	SW_F_ACCOUNTED	= 1 << 3,$/;"	e	enum:__anon86	file:
+SW_F_ERROR	workqueue.c	/^	SW_F_ERROR	= 1 << 4,$/;"	e	enum:__anon86	file:
+SW_F_EXIT	workqueue.c	/^	SW_F_EXIT	= 1 << 2,$/;"	e	enum:__anon86	file:
+SW_F_IDLE	workqueue.c	/^	SW_F_IDLE	= 1 << 0,$/;"	e	enum:__anon86	file:
+SW_F_RUNNING	workqueue.c	/^	SW_F_RUNNING	= 1 << 1,$/;"	e	enum:__anon86	file:
 SYSFS_MTD	oslib/libmtd_int.h	35;"	d
 SYSLOG_H	os/windows/posix/include/syslog.h	2;"	d
 SYS_IPC_H	os/windows/posix/include/sys/ipc.h	2;"	d
@@ -1786,7 +1781,7 @@ SYS_WAIT_H	os/windows/posix/include/sys/wait.h	2;"	d
 S_ISSOCK	os/os-windows.h	74;"	d
 Sample	tools/fiologparser.py	/^class Sample(object):$/;"	c
 TAUSWORTHE	lib/rand.h	67;"	d
-TD_CREATED	fio.h	/^	TD_CREATED,$/;"	e	enum:__anon67
+TD_CREATED	fio.h	/^	TD_CREATED,$/;"	e	enum:__anon25
 TD_DDIR_RAND	io_ddir.h	/^	TD_DDIR_RAND		= 1 << 2,$/;"	e	enum:td_ddir
 TD_DDIR_RANDREAD	io_ddir.h	/^	TD_DDIR_RANDREAD	= TD_DDIR_READ | TD_DDIR_RAND,$/;"	e	enum:td_ddir
 TD_DDIR_RANDRW	io_ddir.h	/^	TD_DDIR_RANDRW		= TD_DDIR_RW | TD_DDIR_RAND,$/;"	e	enum:td_ddir
@@ -1800,54 +1795,54 @@ TD_DDIR_TRIMWRITE	io_ddir.h	/^	TD_DDIR_TRIMWRITE	= TD_DDIR_TRIM | TD_DDIR_WRITE,
 TD_DDIR_WRITE	io_ddir.h	/^	TD_DDIR_WRITE		= 1 << 1,$/;"	e	enum:td_ddir
 TD_ENG_FLAG_MASK	fio.h	688;"	d
 TD_ENG_FLAG_SHIFT	fio.h	687;"	d
-TD_EXITED	fio.h	/^	TD_EXITED,$/;"	e	enum:__anon67
-TD_FINISHING	fio.h	/^	TD_FINISHING,$/;"	e	enum:__anon67
-TD_FSYNCING	fio.h	/^	TD_FSYNCING,$/;"	e	enum:__anon67
-TD_F_CHECK_RATE	fio.h	/^	TD_F_CHECK_RATE		= 1U << __TD_F_CHECK_RATE,$/;"	e	enum:__anon59
-TD_F_CHILD	fio.h	/^	TD_F_CHILD		= 1U << __TD_F_CHILD,$/;"	e	enum:__anon59
-TD_F_COMPRESS	fio.h	/^	TD_F_COMPRESS		= 1U << __TD_F_COMPRESS,$/;"	e	enum:__anon59
-TD_F_COMPRESS_LOG	fio.h	/^	TD_F_COMPRESS_LOG	= 1U << __TD_F_COMPRESS_LOG,$/;"	e	enum:__anon59
-TD_F_DIRS_CREATED	fio.h	/^	TD_F_DIRS_CREATED	= 1U << __TD_F_DIRS_CREATED,$/;"	e	enum:__anon59
-TD_F_DO_VERIFY	fio.h	/^	TD_F_DO_VERIFY		= 1U << __TD_F_DO_VERIFY,$/;"	e	enum:__anon59
-TD_F_MMAP_KEEP	fio.h	/^	TD_F_MMAP_KEEP		= 1U << __TD_F_MMAP_KEEP,$/;"	e	enum:__anon59
-TD_F_NEED_LOCK	fio.h	/^	TD_F_NEED_LOCK		= 1U << __TD_F_NEED_LOCK,$/;"	e	enum:__anon59
-TD_F_NO_PROGRESS	fio.h	/^	TD_F_NO_PROGRESS        = 1U << __TD_F_NO_PROGRESS,$/;"	e	enum:__anon59
-TD_F_PROFILE_OPS	fio.h	/^	TD_F_PROFILE_OPS	= 1U << __TD_F_PROFILE_OPS,$/;"	e	enum:__anon59
-TD_F_READ_IOLOG	fio.h	/^	TD_F_READ_IOLOG		= 1U << __TD_F_READ_IOLOG,$/;"	e	enum:__anon59
-TD_F_REFILL_BUFFERS	fio.h	/^	TD_F_REFILL_BUFFERS	= 1U << __TD_F_REFILL_BUFFERS,$/;"	e	enum:__anon59
-TD_F_REGROW_LOGS	fio.h	/^	TD_F_REGROW_LOGS	= 1U << __TD_F_REGROW_LOGS,$/;"	e	enum:__anon59
-TD_F_SCRAMBLE_BUFFERS	fio.h	/^	TD_F_SCRAMBLE_BUFFERS	= 1U << __TD_F_SCRAMBLE_BUFFERS,$/;"	e	enum:__anon59
-TD_F_SYNCS	fio.h	/^	TD_F_SYNCS		= 1U << __TD_F_SYNCS,$/;"	e	enum:__anon59
-TD_F_TRIM_BACKLOG	fio.h	/^	TD_F_TRIM_BACKLOG	= 1U << __TD_F_TRIM_BACKLOG,$/;"	e	enum:__anon59
-TD_F_VER_BACKLOG	fio.h	/^	TD_F_VER_BACKLOG	= 1U << __TD_F_VER_BACKLOG,$/;"	e	enum:__anon59
-TD_F_VSTATE_SAVED	fio.h	/^	TD_F_VSTATE_SAVED	= 1U << __TD_F_VSTATE_SAVED,$/;"	e	enum:__anon59
-TD_INITIALIZED	fio.h	/^	TD_INITIALIZED,$/;"	e	enum:__anon67
-TD_LAST	fio.h	/^	TD_LAST,$/;"	e	enum:__anon67
-TD_NOT_CREATED	fio.h	/^	TD_NOT_CREATED = 0,$/;"	e	enum:__anon67
-TD_NR	fio.h	/^	TD_NR,$/;"	e	enum:__anon67
-TD_PRE_READING	fio.h	/^	TD_PRE_READING,$/;"	e	enum:__anon67
-TD_RAMP	fio.h	/^	TD_RAMP,$/;"	e	enum:__anon67
-TD_REAPED	fio.h	/^	TD_REAPED,$/;"	e	enum:__anon67
-TD_RUNNING	fio.h	/^	TD_RUNNING,$/;"	e	enum:__anon67
-TD_SETTING_UP	fio.h	/^	TD_SETTING_UP,$/;"	e	enum:__anon67
-TD_VERIFYING	fio.h	/^	TD_VERIFYING,$/;"	e	enum:__anon67
-TERMINATE_ALL	fio.h	/^	TERMINATE_ALL = -1,$/;"	e	enum:__anon68
-TERMINATE_GROUP	fio.h	/^	TERMINATE_GROUP = 1,$/;"	e	enum:__anon68
-TERMINATE_NONE	fio.h	/^	TERMINATE_NONE = 0,$/;"	e	enum:__anon68
-TERMINATE_STONEWALL	fio.h	/^	TERMINATE_STONEWALL = 2,$/;"	e	enum:__anon68
+TD_EXITED	fio.h	/^	TD_EXITED,$/;"	e	enum:__anon25
+TD_FINISHING	fio.h	/^	TD_FINISHING,$/;"	e	enum:__anon25
+TD_FSYNCING	fio.h	/^	TD_FSYNCING,$/;"	e	enum:__anon25
+TD_F_CHECK_RATE	fio.h	/^	TD_F_CHECK_RATE		= 1U << __TD_F_CHECK_RATE,$/;"	e	enum:__anon17
+TD_F_CHILD	fio.h	/^	TD_F_CHILD		= 1U << __TD_F_CHILD,$/;"	e	enum:__anon17
+TD_F_COMPRESS	fio.h	/^	TD_F_COMPRESS		= 1U << __TD_F_COMPRESS,$/;"	e	enum:__anon17
+TD_F_COMPRESS_LOG	fio.h	/^	TD_F_COMPRESS_LOG	= 1U << __TD_F_COMPRESS_LOG,$/;"	e	enum:__anon17
+TD_F_DIRS_CREATED	fio.h	/^	TD_F_DIRS_CREATED	= 1U << __TD_F_DIRS_CREATED,$/;"	e	enum:__anon17
+TD_F_DO_VERIFY	fio.h	/^	TD_F_DO_VERIFY		= 1U << __TD_F_DO_VERIFY,$/;"	e	enum:__anon17
+TD_F_MMAP_KEEP	fio.h	/^	TD_F_MMAP_KEEP		= 1U << __TD_F_MMAP_KEEP,$/;"	e	enum:__anon17
+TD_F_NEED_LOCK	fio.h	/^	TD_F_NEED_LOCK		= 1U << __TD_F_NEED_LOCK,$/;"	e	enum:__anon17
+TD_F_NO_PROGRESS	fio.h	/^	TD_F_NO_PROGRESS        = 1U << __TD_F_NO_PROGRESS,$/;"	e	enum:__anon17
+TD_F_PROFILE_OPS	fio.h	/^	TD_F_PROFILE_OPS	= 1U << __TD_F_PROFILE_OPS,$/;"	e	enum:__anon17
+TD_F_READ_IOLOG	fio.h	/^	TD_F_READ_IOLOG		= 1U << __TD_F_READ_IOLOG,$/;"	e	enum:__anon17
+TD_F_REFILL_BUFFERS	fio.h	/^	TD_F_REFILL_BUFFERS	= 1U << __TD_F_REFILL_BUFFERS,$/;"	e	enum:__anon17
+TD_F_REGROW_LOGS	fio.h	/^	TD_F_REGROW_LOGS	= 1U << __TD_F_REGROW_LOGS,$/;"	e	enum:__anon17
+TD_F_SCRAMBLE_BUFFERS	fio.h	/^	TD_F_SCRAMBLE_BUFFERS	= 1U << __TD_F_SCRAMBLE_BUFFERS,$/;"	e	enum:__anon17
+TD_F_SYNCS	fio.h	/^	TD_F_SYNCS		= 1U << __TD_F_SYNCS,$/;"	e	enum:__anon17
+TD_F_TRIM_BACKLOG	fio.h	/^	TD_F_TRIM_BACKLOG	= 1U << __TD_F_TRIM_BACKLOG,$/;"	e	enum:__anon17
+TD_F_VER_BACKLOG	fio.h	/^	TD_F_VER_BACKLOG	= 1U << __TD_F_VER_BACKLOG,$/;"	e	enum:__anon17
+TD_F_VSTATE_SAVED	fio.h	/^	TD_F_VSTATE_SAVED	= 1U << __TD_F_VSTATE_SAVED,$/;"	e	enum:__anon17
+TD_INITIALIZED	fio.h	/^	TD_INITIALIZED,$/;"	e	enum:__anon25
+TD_LAST	fio.h	/^	TD_LAST,$/;"	e	enum:__anon25
+TD_NOT_CREATED	fio.h	/^	TD_NOT_CREATED = 0,$/;"	e	enum:__anon25
+TD_NR	fio.h	/^	TD_NR,$/;"	e	enum:__anon25
+TD_PRE_READING	fio.h	/^	TD_PRE_READING,$/;"	e	enum:__anon25
+TD_RAMP	fio.h	/^	TD_RAMP,$/;"	e	enum:__anon25
+TD_REAPED	fio.h	/^	TD_REAPED,$/;"	e	enum:__anon25
+TD_RUNNING	fio.h	/^	TD_RUNNING,$/;"	e	enum:__anon25
+TD_SETTING_UP	fio.h	/^	TD_SETTING_UP,$/;"	e	enum:__anon25
+TD_VERIFYING	fio.h	/^	TD_VERIFYING,$/;"	e	enum:__anon25
+TERMINATE_ALL	fio.h	/^	TERMINATE_ALL = -1,$/;"	e	enum:__anon26
+TERMINATE_GROUP	fio.h	/^	TERMINATE_GROUP = 1,$/;"	e	enum:__anon26
+TERMINATE_NONE	fio.h	/^	TERMINATE_NONE = 0,$/;"	e	enum:__anon26
+TERMINATE_STONEWALL	fio.h	/^	TERMINATE_STONEWALL = 2,$/;"	e	enum:__anon26
 TESTLEN	t/time-test.c	426;"	d	file:
 TEST_LIST	t/run-fio-tests.py	/^TEST_LIST = [$/;"	v
-THINKTIME_BLOCKS_TYPE_COMPLETE	fio.h	/^	THINKTIME_BLOCKS_TYPE_COMPLETE = 0,$/;"	e	enum:__anon61
-THINKTIME_BLOCKS_TYPE_ISSUE	fio.h	/^	THINKTIME_BLOCKS_TYPE_ISSUE = 1,$/;"	e	enum:__anon61
+THINKTIME_BLOCKS_TYPE_COMPLETE	fio.h	/^	THINKTIME_BLOCKS_TYPE_COMPLETE = 0,$/;"	e	enum:__anon19
+THINKTIME_BLOCKS_TYPE_ISSUE	fio.h	/^	THINKTIME_BLOCKS_TYPE_ISSUE = 1,$/;"	e	enum:__anon19
 THREAD_RUNSTR_SZ	stat.h	562;"	d
 TICKMARKS_H	tickmarks.h	2;"	d
 TOOLTIP_DELTA	graph.c	41;"	d	file:
 TRACE_FIFO_SIZE	t/btrace2fio.c	17;"	d	file:
 TSC_RATE_FILE	t/io_uring.c	150;"	d	file:
-TYPE_NONE	t/genzipf.c	/^	TYPE_NONE = 0,$/;"	e	enum:__anon1	file:
-TYPE_NORMAL	t/genzipf.c	/^	TYPE_NORMAL,$/;"	e	enum:__anon1	file:
-TYPE_PARETO	t/genzipf.c	/^	TYPE_PARETO,$/;"	e	enum:__anon1	file:
-TYPE_ZIPF	t/genzipf.c	/^	TYPE_ZIPF,$/;"	e	enum:__anon1	file:
+TYPE_NONE	t/genzipf.c	/^	TYPE_NONE = 0,$/;"	e	enum:__anon63	file:
+TYPE_NORMAL	t/genzipf.c	/^	TYPE_NORMAL,$/;"	e	enum:__anon63	file:
+TYPE_PARETO	t/genzipf.c	/^	TYPE_PARETO,$/;"	e	enum:__anon63	file:
+TYPE_ZIPF	t/genzipf.c	/^	TYPE_ZIPF,$/;"	e	enum:__anon63	file:
 T_0_15	crc/sha1.c	104;"	d	file:
 T_16_19	crc/sha1.c	105;"	d	file:
 T_20_39	crc/sha1.c	106;"	d	file:
@@ -1857,45 +1852,45 @@ T_AXMAP_OBJS	Makefile	/^T_AXMAP_OBJS = t\/axmap.o$/;"	m
 T_AXMAP_PROGS	Makefile	/^T_AXMAP_PROGS = t\/axmap$/;"	m
 T_BTRACE_FIO_OBJS	Makefile	/^T_BTRACE_FIO_OBJS = t\/btrace2fio.o$/;"	m
 T_BTRACE_FIO_PROGS	Makefile	/^T_BTRACE_FIO_PROGS = t\/fio-btrace2fio$/;"	m
-T_CRC16	crc/test.c	/^	T_CRC16		= 1U << 4,$/;"	e	enum:__anon56	file:
-T_CRC32	crc/test.c	/^	T_CRC32		= 1U << 2,$/;"	e	enum:__anon56	file:
-T_CRC32C	crc/test.c	/^	T_CRC32C	= 1U << 3,$/;"	e	enum:__anon56	file:
-T_CRC64	crc/test.c	/^	T_CRC64		= 1U << 1,$/;"	e	enum:__anon56	file:
-T_CRC7	crc/test.c	/^	T_CRC7		= 1U << 5,$/;"	e	enum:__anon56	file:
+T_CRC16	crc/test.c	/^	T_CRC16		= 1U << 4,$/;"	e	enum:__anon87	file:
+T_CRC32	crc/test.c	/^	T_CRC32		= 1U << 2,$/;"	e	enum:__anon87	file:
+T_CRC32C	crc/test.c	/^	T_CRC32C	= 1U << 3,$/;"	e	enum:__anon87	file:
+T_CRC64	crc/test.c	/^	T_CRC64		= 1U << 1,$/;"	e	enum:__anon87	file:
+T_CRC7	crc/test.c	/^	T_CRC7		= 1U << 5,$/;"	e	enum:__anon87	file:
 T_DEDUPE_OBJS	Makefile	/^T_DEDUPE_OBJS = t\/dedupe.o$/;"	m
 T_DEDUPE_PROGS	Makefile	/^T_DEDUPE_PROGS = t\/fio-dedupe$/;"	m
-T_FNV	crc/test.c	/^	T_FNV		= 1U << 12,$/;"	e	enum:__anon56	file:
+T_FNV	crc/test.c	/^	T_FNV		= 1U << 12,$/;"	e	enum:__anon87	file:
 T_FUZZ_OBJS	Makefile	/^T_FUZZ_OBJS = t\/fuzz\/fuzz_parseini.o$/;"	m
 T_FUZZ_OBJS	Makefile	/^T_FUZZ_OBJS =$/;"	m
 T_FUZZ_PROGS	Makefile	/^T_FUZZ_PROGS = t\/fuzz\/fuzz_parseini$/;"	m
 T_FUZZ_PROGS	Makefile	/^T_FUZZ_PROGS =$/;"	m
 T_GEN_RAND_OBJS	Makefile	/^T_GEN_RAND_OBJS = t\/gen-rand.o$/;"	m
 T_GEN_RAND_PROGS	Makefile	/^T_GEN_RAND_PROGS = t\/gen-rand$/;"	m
-T_HYBRID	lib/memcpy.c	/^	T_HYBRID	= 1U << 3,$/;"	e	enum:__anon27	file:
+T_HYBRID	lib/memcpy.c	/^	T_HYBRID	= 1U << 3,$/;"	e	enum:__anon101	file:
 T_IEEE_OBJS	Makefile	/^T_IEEE_OBJS = t\/ieee754.o$/;"	m
 T_IEEE_PROGS	Makefile	/^T_IEEE_PROGS = t\/ieee754$/;"	m
 T_IOU_RING_OBJS	Makefile	/^T_IOU_RING_OBJS = t\/io_uring.o lib\/rand.o lib\/pattern.o lib\/strntol.o$/;"	m
 T_IOU_RING_PROGS	Makefile	/^T_IOU_RING_PROGS = t\/io_uring$/;"	m
-T_JHASH	crc/test.c	/^	T_JHASH		= 1U << 11,$/;"	e	enum:__anon56	file:
+T_JHASH	crc/test.c	/^	T_JHASH		= 1U << 11,$/;"	e	enum:__anon87	file:
 T_LFSR_TEST_OBJS	Makefile	/^T_LFSR_TEST_OBJS = t\/lfsr-test.o$/;"	m
 T_LFSR_TEST_PROGS	Makefile	/^T_LFSR_TEST_PROGS = t\/lfsr-test$/;"	m
-T_MD5	crc/test.c	/^	T_MD5		= 1U << 0,$/;"	e	enum:__anon56	file:
-T_MEMCPY	lib/memcpy.c	/^	T_MEMCPY	= 1U << 0,$/;"	e	enum:__anon27	file:
+T_MD5	crc/test.c	/^	T_MD5		= 1U << 0,$/;"	e	enum:__anon87	file:
+T_MEMCPY	lib/memcpy.c	/^	T_MEMCPY	= 1U << 0,$/;"	e	enum:__anon101	file:
 T_MEMLOCK_OBJS	Makefile	/^T_MEMLOCK_OBJS = t\/memlock.o$/;"	m
 T_MEMLOCK_PROGS	Makefile	/^T_MEMLOCK_PROGS = t\/memlock$/;"	m
-T_MEMMOVE	lib/memcpy.c	/^	T_MEMMOVE	= 1U << 1,$/;"	e	enum:__anon27	file:
-T_MURMUR3	crc/test.c	/^	T_MURMUR3	= 1U << 10,$/;"	e	enum:__anon56	file:
+T_MEMMOVE	lib/memcpy.c	/^	T_MEMMOVE	= 1U << 1,$/;"	e	enum:__anon101	file:
+T_MURMUR3	crc/test.c	/^	T_MURMUR3	= 1U << 10,$/;"	e	enum:__anon87	file:
 T_OBJS	Makefile	/^T_OBJS = $(T_SMALLOC_OBJS)$/;"	m
 T_PIPE_ASYNC_OBJS	Makefile	/^T_PIPE_ASYNC_OBJS = t\/read-to-pipe-async.o$/;"	m
 T_PIPE_ASYNC_PROGS	Makefile	/^T_PIPE_ASYNC_PROGS = t\/read-to-pipe-async$/;"	m
-T_SHA1	crc/test.c	/^	T_SHA1		= 1U << 6,$/;"	e	enum:__anon56	file:
-T_SHA256	crc/test.c	/^	T_SHA256	= 1U << 7,$/;"	e	enum:__anon56	file:
-T_SHA3_224	crc/test.c	/^	T_SHA3_224	= 1U << 13,$/;"	e	enum:__anon56	file:
-T_SHA3_256	crc/test.c	/^	T_SHA3_256	= 1U << 14,$/;"	e	enum:__anon56	file:
-T_SHA3_384	crc/test.c	/^	T_SHA3_384	= 1U << 15,$/;"	e	enum:__anon56	file:
-T_SHA3_512	crc/test.c	/^	T_SHA3_512	= 1U << 16,$/;"	e	enum:__anon56	file:
-T_SHA512	crc/test.c	/^	T_SHA512	= 1U << 8,$/;"	e	enum:__anon56	file:
-T_SIMPLE	lib/memcpy.c	/^	T_SIMPLE	= 1U << 2,$/;"	e	enum:__anon27	file:
+T_SHA1	crc/test.c	/^	T_SHA1		= 1U << 6,$/;"	e	enum:__anon87	file:
+T_SHA256	crc/test.c	/^	T_SHA256	= 1U << 7,$/;"	e	enum:__anon87	file:
+T_SHA3_224	crc/test.c	/^	T_SHA3_224	= 1U << 13,$/;"	e	enum:__anon87	file:
+T_SHA3_256	crc/test.c	/^	T_SHA3_256	= 1U << 14,$/;"	e	enum:__anon87	file:
+T_SHA3_384	crc/test.c	/^	T_SHA3_384	= 1U << 15,$/;"	e	enum:__anon87	file:
+T_SHA3_512	crc/test.c	/^	T_SHA3_512	= 1U << 16,$/;"	e	enum:__anon87	file:
+T_SHA512	crc/test.c	/^	T_SHA512	= 1U << 8,$/;"	e	enum:__anon87	file:
+T_SIMPLE	lib/memcpy.c	/^	T_SIMPLE	= 1U << 2,$/;"	e	enum:__anon101	file:
 T_SMALLOC_OBJS	Makefile	/^T_SMALLOC_OBJS = t\/stest.o$/;"	m
 T_SMALLOC_PROGS	Makefile	/^T_SMALLOC_PROGS = t\/stest$/;"	m
 T_TEST_PROGS	Makefile	/^T_TEST_PROGS = $(T_SMALLOC_PROGS)$/;"	m
@@ -1903,7 +1898,7 @@ T_TT_OBJS	Makefile	/^T_TT_OBJS = t\/time-test.o$/;"	m
 T_TT_PROGS	Makefile	/^T_TT_PROGS = t\/time-test$/;"	m
 T_VS_OBJS	Makefile	/^T_VS_OBJS = t\/verify-state.o t\/log.o crc\/crc32c.o crc\/crc32c-intel.o crc\/crc32c-arm64.o t\/debug.o$/;"	m
 T_VS_PROGS	Makefile	/^T_VS_PROGS = t\/fio-verify-state$/;"	m
-T_XXHASH	crc/test.c	/^	T_XXHASH	= 1U << 9,$/;"	e	enum:__anon56	file:
+T_XXHASH	crc/test.c	/^	T_XXHASH	= 1U << 9,$/;"	e	enum:__anon87	file:
 T_ZIPF_OBS	Makefile	/^T_ZIPF_OBS = t\/genzipf.o$/;"	m
 T_ZIPF_PROGS	Makefile	/^T_ZIPF_PROGS = t\/fio-genzipf$/;"	m
 Test	tools/hist/fio-histo-log-pctiles.py	/^  class Test(unittest2.TestCase):$/;"	c
@@ -1946,26 +1941,26 @@ UT_PROGS	Makefile	/^UT_PROGS = unittests\/unittest$/;"	m
 UT_PROGS	Makefile	/^UT_PROGS =$/;"	m
 UT_TARGET_OBJS	Makefile	/^UT_TARGET_OBJS = lib\/memalign.o$/;"	m
 UT_TARGET_OBJS	Makefile	/^UT_TARGET_OBJS =$/;"	m
-VERIFY_CRC16	verify.h	/^	VERIFY_CRC16,			\/* crc16 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_CRC32	verify.h	/^	VERIFY_CRC32,			\/* crc32 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_CRC32C	verify.h	/^	VERIFY_CRC32C,			\/* crc32c sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_CRC32C_INTEL	verify.h	/^	VERIFY_CRC32C_INTEL,		\/* crc32c sum data blocks with hw *\/$/;"	e	enum:__anon10
-VERIFY_CRC64	verify.h	/^	VERIFY_CRC64,			\/* crc64 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_CRC7	verify.h	/^	VERIFY_CRC7,			\/* crc7 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_HDR_ONLY	verify.h	/^	VERIFY_HDR_ONLY,		\/* verify header only, kept for sake of$/;"	e	enum:__anon10
-VERIFY_MD5	verify.h	/^	VERIFY_MD5,			\/* md5 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_NONE	verify.h	/^	VERIFY_NONE = 0,		\/* no verification *\/$/;"	e	enum:__anon10
-VERIFY_NULL	verify.h	/^	VERIFY_NULL,			\/* pretend to verify *\/$/;"	e	enum:__anon10
-VERIFY_PATTERN	verify.h	/^	VERIFY_PATTERN,			\/* verify specific patterns *\/$/;"	e	enum:__anon10
-VERIFY_PATTERN_NO_HDR	verify.h	/^	VERIFY_PATTERN_NO_HDR,		\/* verify specific patterns, no hdr *\/$/;"	e	enum:__anon10
-VERIFY_SHA1	verify.h	/^	VERIFY_SHA1,			\/* sha1 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_SHA256	verify.h	/^	VERIFY_SHA256,			\/* sha256 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_SHA3_224	verify.h	/^	VERIFY_SHA3_224,		\/* sha3-224 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_SHA3_256	verify.h	/^	VERIFY_SHA3_256,		\/* sha3-256 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_SHA3_384	verify.h	/^	VERIFY_SHA3_384,		\/* sha3-384 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_SHA3_512	verify.h	/^	VERIFY_SHA3_512,		\/* sha3-512 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_SHA512	verify.h	/^	VERIFY_SHA512,			\/* sha512 sum data blocks *\/$/;"	e	enum:__anon10
-VERIFY_XXHASH	verify.h	/^	VERIFY_XXHASH,			\/* xxhash sum data blocks *\/$/;"	e	enum:__anon10
+VERIFY_CRC16	verify.h	/^	VERIFY_CRC16,			\/* crc16 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_CRC32	verify.h	/^	VERIFY_CRC32,			\/* crc32 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_CRC32C	verify.h	/^	VERIFY_CRC32C,			\/* crc32c sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_CRC32C_INTEL	verify.h	/^	VERIFY_CRC32C_INTEL,		\/* crc32c sum data blocks with hw *\/$/;"	e	enum:__anon85
+VERIFY_CRC64	verify.h	/^	VERIFY_CRC64,			\/* crc64 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_CRC7	verify.h	/^	VERIFY_CRC7,			\/* crc7 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_HDR_ONLY	verify.h	/^	VERIFY_HDR_ONLY,		\/* verify header only, kept for sake of$/;"	e	enum:__anon85
+VERIFY_MD5	verify.h	/^	VERIFY_MD5,			\/* md5 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_NONE	verify.h	/^	VERIFY_NONE = 0,		\/* no verification *\/$/;"	e	enum:__anon85
+VERIFY_NULL	verify.h	/^	VERIFY_NULL,			\/* pretend to verify *\/$/;"	e	enum:__anon85
+VERIFY_PATTERN	verify.h	/^	VERIFY_PATTERN,			\/* verify specific patterns *\/$/;"	e	enum:__anon85
+VERIFY_PATTERN_NO_HDR	verify.h	/^	VERIFY_PATTERN_NO_HDR,		\/* verify specific patterns, no hdr *\/$/;"	e	enum:__anon85
+VERIFY_SHA1	verify.h	/^	VERIFY_SHA1,			\/* sha1 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_SHA256	verify.h	/^	VERIFY_SHA256,			\/* sha256 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_SHA3_224	verify.h	/^	VERIFY_SHA3_224,		\/* sha3-224 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_SHA3_256	verify.h	/^	VERIFY_SHA3_256,		\/* sha3-256 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_SHA3_384	verify.h	/^	VERIFY_SHA3_384,		\/* sha3-384 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_SHA3_512	verify.h	/^	VERIFY_SHA3_512,		\/* sha3-512 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_SHA512	verify.h	/^	VERIFY_SHA512,			\/* sha512 sum data blocks *\/$/;"	e	enum:__anon85
+VERIFY_XXHASH	verify.h	/^	VERIFY_XXHASH,			\/* xxhash sum data blocks *\/$/;"	e	enum:__anon85
 VPATH	Makefile	/^VPATH := $(SRCDIR)$/;"	m
 VSTATE_HDR_VERSION	verify-state.h	49;"	d
 W	crc/sha1.c	89;"	d	file:
@@ -1978,7 +1973,7 @@ WINDOWS_OBJS	Makefile	/^  WINDOWS_OBJS = os\/windows\/cpu-affinity.o os\/windows
 WNOHANG	os/windows/posix/include/sys/wait.h	8;"	d
 WTERMSIG	os/windows/posix/include/sys/wait.h	6;"	d
 W_LOAD	profiles/act.c	10;"	d	file:
-XMIT_COMPRESSED	server.h	/^	XMIT_COMPRESSED		= 1U,$/;"	e	enum:__anon99
+XMIT_COMPRESSED	server.h	/^	XMIT_COMPRESSED		= 1U,$/;"	e	enum:__anon51
 XXH32	crc/xxhash.c	/^uint32_t XXH32(const void* input, uint32_t len, uint32_t seed)$/;"	f
 XXH32_SIZEOFSTATE	crc/xxhash.h	140;"	d
 XXH32_digest	crc/xxhash.c	/^uint32_t XXH32_digest (void* state_in)$/;"	f
@@ -1991,21 +1986,21 @@ XXH32_intermediateDigest_endian	crc/xxhash.c	/^static uint32_t XXH32_intermediat
 XXH32_resetState	crc/xxhash.c	/^XXH_errorcode XXH32_resetState(void* state_in, uint32_t seed)$/;"	f
 XXH32_result	crc/xxhash.h	170;"	d
 XXH32_sizeofState	crc/xxhash.c	/^int XXH32_sizeofState(void)$/;"	f
-XXH32_stateSpace_t	crc/xxhash.h	/^typedef struct { long long ll[(XXH32_SIZEOFSTATE+(sizeof(long long)-1))\/sizeof(long long)]; } XXH32_stateSpace_t;$/;"	t	typeref:struct:__anon53
+XXH32_stateSpace_t	crc/xxhash.h	/^typedef struct { long long ll[(XXH32_SIZEOFSTATE+(sizeof(long long)-1))\/sizeof(long long)]; } XXH32_stateSpace_t;$/;"	t	typeref:struct:__anon91
 XXH32_update	crc/xxhash.c	/^XXH_errorcode XXH32_update (void* state_in, const void* input, int len)$/;"	f
 XXH32_update_endian	crc/xxhash.c	/^static XXH_errorcode XXH32_update_endian (void* state_in, const void* input, int len, XXH_endianess endian)$/;"	f	file:
 XXH_CPU_LITTLE_ENDIAN	crc/xxhash.c	136;"	d	file:
-XXH_ERROR	crc/xxhash.h	/^typedef enum { XXH_OK=0, XXH_ERROR } XXH_errorcode;$/;"	e	enum:__anon52
+XXH_ERROR	crc/xxhash.h	/^typedef enum { XXH_OK=0, XXH_ERROR } XXH_errorcode;$/;"	e	enum:__anon90
 XXH_FORCE_NATIVE_FORMAT	crc/xxhash.c	59;"	d	file:
-XXH_OK	crc/xxhash.h	/^typedef enum { XXH_OK=0, XXH_ERROR } XXH_errorcode;$/;"	e	enum:__anon52
+XXH_OK	crc/xxhash.h	/^typedef enum { XXH_OK=0, XXH_ERROR } XXH_errorcode;$/;"	e	enum:__anon90
 XXH_STATIC_ASSERT	crc/xxhash.c	143;"	d	file:
 XXH_USE_UNALIGNED_ACCESS	crc/xxhash.c	42;"	d	file:
-XXH_aligned	crc/xxhash.c	/^typedef enum { XXH_aligned, XXH_unaligned } XXH_alignment;$/;"	e	enum:__anon55	file:
-XXH_alignment	crc/xxhash.c	/^typedef enum { XXH_aligned, XXH_unaligned } XXH_alignment;$/;"	t	typeref:enum:__anon55	file:
-XXH_bigEndian	crc/xxhash.c	/^typedef enum { XXH_bigEndian=0, XXH_littleEndian=1 } XXH_endianess;$/;"	e	enum:__anon54	file:
-XXH_endianess	crc/xxhash.c	/^typedef enum { XXH_bigEndian=0, XXH_littleEndian=1 } XXH_endianess;$/;"	t	typeref:enum:__anon54	file:
-XXH_errorcode	crc/xxhash.h	/^typedef enum { XXH_OK=0, XXH_ERROR } XXH_errorcode;$/;"	t	typeref:enum:__anon52
-XXH_littleEndian	crc/xxhash.c	/^typedef enum { XXH_bigEndian=0, XXH_littleEndian=1 } XXH_endianess;$/;"	e	enum:__anon54	file:
+XXH_aligned	crc/xxhash.c	/^typedef enum { XXH_aligned, XXH_unaligned } XXH_alignment;$/;"	e	enum:__anon89	file:
+XXH_alignment	crc/xxhash.c	/^typedef enum { XXH_aligned, XXH_unaligned } XXH_alignment;$/;"	t	typeref:enum:__anon89	file:
+XXH_bigEndian	crc/xxhash.c	/^typedef enum { XXH_bigEndian=0, XXH_littleEndian=1 } XXH_endianess;$/;"	e	enum:__anon88	file:
+XXH_endianess	crc/xxhash.c	/^typedef enum { XXH_bigEndian=0, XXH_littleEndian=1 } XXH_endianess;$/;"	t	typeref:enum:__anon88	file:
+XXH_errorcode	crc/xxhash.h	/^typedef enum { XXH_OK=0, XXH_ERROR } XXH_errorcode;$/;"	t	typeref:enum:__anon90
+XXH_littleEndian	crc/xxhash.c	/^typedef enum { XXH_bigEndian=0, XXH_littleEndian=1 } XXH_endianess;$/;"	e	enum:__anon88	file:
 XXH_readLE32	crc/xxhash.c	/^static uint32_t XXH_readLE32(const uint32_t* ptr, XXH_endianess endian) { return XXH_readLE32_align(ptr, endian, XXH_unaligned); }$/;"	f	file:
 XXH_readLE32_align	crc/xxhash.c	/^static uint32_t XXH_readLE32_align(const uint32_t* ptr, XXH_endianess endian, XXH_alignment align)$/;"	f	file:
 XXH_rotl32	crc/xxhash.c	100;"	d	file:
@@ -2014,7 +2009,7 @@ XXH_state32_t	crc/xxhash.h	/^struct XXH_state32_t$/;"	s
 XXH_swap32	crc/xxhash.c	/^static inline uint32_t XXH_swap32 (uint32_t x)$/;"	f	file:
 XXH_swap32	crc/xxhash.c	106;"	d	file:
 XXH_swap32	crc/xxhash.c	108;"	d	file:
-XXH_unaligned	crc/xxhash.c	/^typedef enum { XXH_aligned, XXH_unaligned } XXH_alignment;$/;"	e	enum:__anon55	file:
+XXH_unaligned	crc/xxhash.c	/^typedef enum { XXH_aligned, XXH_unaligned } XXH_alignment;$/;"	e	enum:__anon89	file:
 YACC	config-host.mak	/^YACC=bison -y$/;"	m
 YYABORT	y.tab.c	681;"	d	file:
 YYACCEPT	y.tab.c	680;"	d	file:
@@ -2216,35 +2211,35 @@ _SC_NPROCESSORS_ONLN	os/os-windows.h	47;"	d
 _SC_PAGESIZE	os/os-windows.h	46;"	d
 _SC_PHYS_PAGES	os/os-windows.h	48;"	d
 __ALIGN_MASK	oslib/libmtd_common.h	52;"	d
-__BLK_TA_ABORT	blktrace_api.h	/^	__BLK_TA_ABORT,			\/* request aborted *\/$/;"	e	enum:__anon9
-__BLK_TA_BACKMERGE	blktrace_api.h	/^	__BLK_TA_BACKMERGE,		\/* back merged to existing rq *\/$/;"	e	enum:__anon9
-__BLK_TA_BOUNCE	blktrace_api.h	/^	__BLK_TA_BOUNCE,		\/* bio was bounced *\/$/;"	e	enum:__anon9
-__BLK_TA_COMPLETE	blktrace_api.h	/^	__BLK_TA_COMPLETE,		\/* completed by driver *\/$/;"	e	enum:__anon9
-__BLK_TA_DRV_DATA	blktrace_api.h	/^	__BLK_TA_DRV_DATA,		\/* driver-specific binary data *\/$/;"	e	enum:__anon9
-__BLK_TA_FRONTMERGE	blktrace_api.h	/^	__BLK_TA_FRONTMERGE,		\/* front merge to existing rq *\/$/;"	e	enum:__anon9
-__BLK_TA_GETRQ	blktrace_api.h	/^	__BLK_TA_GETRQ,			\/* allocated new request *\/$/;"	e	enum:__anon9
-__BLK_TA_INSERT	blktrace_api.h	/^	__BLK_TA_INSERT,		\/* insert request *\/$/;"	e	enum:__anon9
-__BLK_TA_ISSUE	blktrace_api.h	/^	__BLK_TA_ISSUE,			\/* sent to driver *\/$/;"	e	enum:__anon9
-__BLK_TA_PLUG	blktrace_api.h	/^	__BLK_TA_PLUG,			\/* queue was plugged *\/$/;"	e	enum:__anon9
-__BLK_TA_QUEUE	blktrace_api.h	/^	__BLK_TA_QUEUE = 1,		\/* queued *\/$/;"	e	enum:__anon9
-__BLK_TA_REMAP	blktrace_api.h	/^	__BLK_TA_REMAP,			\/* bio was remapped *\/$/;"	e	enum:__anon9
-__BLK_TA_REQUEUE	blktrace_api.h	/^	__BLK_TA_REQUEUE,		\/* request requeued *\/$/;"	e	enum:__anon9
-__BLK_TA_SLEEPRQ	blktrace_api.h	/^	__BLK_TA_SLEEPRQ,		\/* sleeping on rq allocation *\/$/;"	e	enum:__anon9
-__BLK_TA_SPLIT	blktrace_api.h	/^	__BLK_TA_SPLIT,			\/* bio was split *\/$/;"	e	enum:__anon9
-__BLK_TA_UNPLUG_IO	blktrace_api.h	/^	__BLK_TA_UNPLUG_IO,		\/* queue was unplugged by io *\/$/;"	e	enum:__anon9
-__BLK_TA_UNPLUG_TIMER	blktrace_api.h	/^	__BLK_TA_UNPLUG_TIMER,		\/* queue was unplugged by timer *\/$/;"	e	enum:__anon9
+__BLK_TA_ABORT	blktrace_api.h	/^	__BLK_TA_ABORT,			\/* request aborted *\/$/;"	e	enum:__anon4
+__BLK_TA_BACKMERGE	blktrace_api.h	/^	__BLK_TA_BACKMERGE,		\/* back merged to existing rq *\/$/;"	e	enum:__anon4
+__BLK_TA_BOUNCE	blktrace_api.h	/^	__BLK_TA_BOUNCE,		\/* bio was bounced *\/$/;"	e	enum:__anon4
+__BLK_TA_COMPLETE	blktrace_api.h	/^	__BLK_TA_COMPLETE,		\/* completed by driver *\/$/;"	e	enum:__anon4
+__BLK_TA_DRV_DATA	blktrace_api.h	/^	__BLK_TA_DRV_DATA,		\/* driver-specific binary data *\/$/;"	e	enum:__anon4
+__BLK_TA_FRONTMERGE	blktrace_api.h	/^	__BLK_TA_FRONTMERGE,		\/* front merge to existing rq *\/$/;"	e	enum:__anon4
+__BLK_TA_GETRQ	blktrace_api.h	/^	__BLK_TA_GETRQ,			\/* allocated new request *\/$/;"	e	enum:__anon4
+__BLK_TA_INSERT	blktrace_api.h	/^	__BLK_TA_INSERT,		\/* insert request *\/$/;"	e	enum:__anon4
+__BLK_TA_ISSUE	blktrace_api.h	/^	__BLK_TA_ISSUE,			\/* sent to driver *\/$/;"	e	enum:__anon4
+__BLK_TA_PLUG	blktrace_api.h	/^	__BLK_TA_PLUG,			\/* queue was plugged *\/$/;"	e	enum:__anon4
+__BLK_TA_QUEUE	blktrace_api.h	/^	__BLK_TA_QUEUE = 1,		\/* queued *\/$/;"	e	enum:__anon4
+__BLK_TA_REMAP	blktrace_api.h	/^	__BLK_TA_REMAP,			\/* bio was remapped *\/$/;"	e	enum:__anon4
+__BLK_TA_REQUEUE	blktrace_api.h	/^	__BLK_TA_REQUEUE,		\/* request requeued *\/$/;"	e	enum:__anon4
+__BLK_TA_SLEEPRQ	blktrace_api.h	/^	__BLK_TA_SLEEPRQ,		\/* sleeping on rq allocation *\/$/;"	e	enum:__anon4
+__BLK_TA_SPLIT	blktrace_api.h	/^	__BLK_TA_SPLIT,			\/* bio was split *\/$/;"	e	enum:__anon4
+__BLK_TA_UNPLUG_IO	blktrace_api.h	/^	__BLK_TA_UNPLUG_IO,		\/* queue was unplugged by io *\/$/;"	e	enum:__anon4
+__BLK_TA_UNPLUG_TIMER	blktrace_api.h	/^	__BLK_TA_UNPLUG_TIMER,		\/* queue was unplugged by timer *\/$/;"	e	enum:__anon4
 __BLK_TN_MESSAGE	blktrace_api.h	/^	__BLK_TN_MESSAGE,		\/* Character string message *\/$/;"	e	enum:blktrace_notify
 __BLK_TN_PROCESS	blktrace_api.h	/^	__BLK_TN_PROCESS = 0,		\/* establish pid\/name mapping *\/$/;"	e	enum:blktrace_notify
 __BLK_TN_TIMESTAMP	blktrace_api.h	/^	__BLK_TN_TIMESTAMP,		\/* include system clock *\/$/;"	e	enum:blktrace_notify
-__CLOCK128_BIT	t/time-test.c	/^	__CLOCK128_BIT		= 1 << 1,$/;"	e	enum:__anon3	file:
-__CLOCK64_BIT	t/time-test.c	/^	__CLOCK64_BIT		= 1 << 0,$/;"	e	enum:__anon3	file:
-__CLOCK_2STAGE	t/time-test.c	/^	__CLOCK_2STAGE		= 1 << 4,$/;"	e	enum:__anon3	file:
-__CLOCK_EMULATE_128	t/time-test.c	/^	__CLOCK_EMULATE_128	= 1 << 3,$/;"	e	enum:__anon3	file:
-__CLOCK_LOCK	t/time-test.c	/^	__CLOCK_LOCK		= 1 << 5,$/;"	e	enum:__anon3	file:
-__CLOCK_MULT_SHIFT	t/time-test.c	/^	__CLOCK_MULT_SHIFT	= 1 << 2,$/;"	e	enum:__anon3	file:
+__CLOCK128_BIT	t/time-test.c	/^	__CLOCK128_BIT		= 1 << 1,$/;"	e	enum:__anon65	file:
+__CLOCK64_BIT	t/time-test.c	/^	__CLOCK64_BIT		= 1 << 0,$/;"	e	enum:__anon65	file:
+__CLOCK_2STAGE	t/time-test.c	/^	__CLOCK_2STAGE		= 1 << 4,$/;"	e	enum:__anon65	file:
+__CLOCK_EMULATE_128	t/time-test.c	/^	__CLOCK_EMULATE_128	= 1 << 3,$/;"	e	enum:__anon65	file:
+__CLOCK_LOCK	t/time-test.c	/^	__CLOCK_LOCK		= 1 << 5,$/;"	e	enum:__anon65	file:
+__CLOCK_MULT_SHIFT	t/time-test.c	/^	__CLOCK_MULT_SHIFT	= 1 << 2,$/;"	e	enum:__anon65	file:
 __CRC16_H	crc/crc16.h	16;"	d
 __CRYPTO_SHA3_H__	crc/sha3.h	5;"	d
-__FIO_FSERVICE_NONUNIFORM	file.h	/^	__FIO_FSERVICE_NONUNIFORM	= 0x100,$/;"	e	enum:__anon31
+__FIO_FSERVICE_NONUNIFORM	file.h	/^	__FIO_FSERVICE_NONUNIFORM	= 0x100,$/;"	e	enum:__anon53
 __FIO_OPT_C_ENGINE	optgroup.h	/^	__FIO_OPT_C_ENGINE,$/;"	e	enum:opt_category
 __FIO_OPT_C_FILE	optgroup.h	/^	__FIO_OPT_C_FILE,$/;"	e	enum:opt_category
 __FIO_OPT_C_GENERAL	optgroup.h	/^	__FIO_OPT_C_GENERAL	= 0,$/;"	e	enum:opt_category
@@ -2299,18 +2294,18 @@ __FIO_OPT_G_VERIFY	optgroup.h	/^	__FIO_OPT_G_VERIFY,$/;"	e	enum:opt_category_gro
 __FIO_OPT_G_WINDOWSAIO	optgroup.h	/^	__FIO_OPT_G_WINDOWSAIO,$/;"	e	enum:opt_category_group
 __FIO_OPT_G_XNVME	optgroup.h	/^	__FIO_OPT_G_XNVME,$/;"	e	enum:opt_category_group
 __FIO_OPT_G_ZONE	optgroup.h	/^	__FIO_OPT_G_ZONE,$/;"	e	enum:opt_category_group
-__FIO_OUTPUT_JSON	fio.h	/^	__FIO_OUTPUT_JSON	= 1,$/;"	e	enum:__anon69
-__FIO_OUTPUT_JSON_PLUS	fio.h	/^        __FIO_OUTPUT_JSON_PLUS  = 3,$/;"	e	enum:__anon69
-__FIO_OUTPUT_NORMAL	fio.h	/^	__FIO_OUTPUT_NORMAL	= 2,$/;"	e	enum:__anon69
-__FIO_OUTPUT_TERSE	fio.h	/^	__FIO_OUTPUT_TERSE	= 0,$/;"	e	enum:__anon69
-__FIO_SS_ATTAINED	steadystate.h	/^	__FIO_SS_ATTAINED,$/;"	e	enum:__anon39
-__FIO_SS_BUFFER_FULL	steadystate.h	/^	__FIO_SS_BUFFER_FULL,$/;"	e	enum:__anon39
-__FIO_SS_BW	steadystate.h	/^	__FIO_SS_BW,$/;"	e	enum:__anon39
-__FIO_SS_DATA	steadystate.h	/^	__FIO_SS_DATA,$/;"	e	enum:__anon39
-__FIO_SS_IOPS	steadystate.h	/^	__FIO_SS_IOPS = 0,$/;"	e	enum:__anon39
-__FIO_SS_PCT	steadystate.h	/^	__FIO_SS_PCT,$/;"	e	enum:__anon39
-__FIO_SS_RAMP_OVER	steadystate.h	/^	__FIO_SS_RAMP_OVER,$/;"	e	enum:__anon39
-__FIO_SS_SLOPE	steadystate.h	/^	__FIO_SS_SLOPE,$/;"	e	enum:__anon39
+__FIO_OUTPUT_JSON	fio.h	/^	__FIO_OUTPUT_JSON	= 1,$/;"	e	enum:__anon27
+__FIO_OUTPUT_JSON_PLUS	fio.h	/^        __FIO_OUTPUT_JSON_PLUS  = 3,$/;"	e	enum:__anon27
+__FIO_OUTPUT_NORMAL	fio.h	/^	__FIO_OUTPUT_NORMAL	= 2,$/;"	e	enum:__anon27
+__FIO_OUTPUT_TERSE	fio.h	/^	__FIO_OUTPUT_TERSE	= 0,$/;"	e	enum:__anon27
+__FIO_SS_ATTAINED	steadystate.h	/^	__FIO_SS_ATTAINED,$/;"	e	enum:__anon57
+__FIO_SS_BUFFER_FULL	steadystate.h	/^	__FIO_SS_BUFFER_FULL,$/;"	e	enum:__anon57
+__FIO_SS_BW	steadystate.h	/^	__FIO_SS_BW,$/;"	e	enum:__anon57
+__FIO_SS_DATA	steadystate.h	/^	__FIO_SS_DATA,$/;"	e	enum:__anon57
+__FIO_SS_IOPS	steadystate.h	/^	__FIO_SS_IOPS = 0,$/;"	e	enum:__anon57
+__FIO_SS_PCT	steadystate.h	/^	__FIO_SS_PCT,$/;"	e	enum:__anon57
+__FIO_SS_RAMP_OVER	steadystate.h	/^	__FIO_SS_RAMP_OVER,$/;"	e	enum:__anon57
+__FIO_SS_SLOPE	steadystate.h	/^	__FIO_SS_SLOPE,$/;"	e	enum:__anon57
 __GCC4_has_attribute___fallthrough__	compiler/compiler.h	71;"	d
 __HIST_COLUMNS	tools/hist/fiologparser_hist.py	/^__HIST_COLUMNS = 1216$/;"	v
 __JSON__H	json.h	2;"	d
@@ -2420,25 +2415,25 @@ __NR_sys_vmsplice	os/os-linux-syscall.h	44;"	d
 __NR_sys_vmsplice	os/os-linux-syscall.h	75;"	d
 __NR_sys_vmsplice	os/os-linux-syscall.h	92;"	d
 __STDC_LIMIT_MACROS	lex.yy.c	40;"	d	file:
-__TD_F_CHECK_RATE	fio.h	/^	__TD_F_CHECK_RATE,$/;"	e	enum:__anon58
-__TD_F_CHILD	fio.h	/^	__TD_F_CHILD,$/;"	e	enum:__anon58
-__TD_F_COMPRESS	fio.h	/^	__TD_F_COMPRESS,$/;"	e	enum:__anon58
-__TD_F_COMPRESS_LOG	fio.h	/^	__TD_F_COMPRESS_LOG,$/;"	e	enum:__anon58
-__TD_F_DIRS_CREATED	fio.h	/^	__TD_F_DIRS_CREATED,$/;"	e	enum:__anon58
-__TD_F_DO_VERIFY	fio.h	/^	__TD_F_DO_VERIFY,$/;"	e	enum:__anon58
-__TD_F_LAST	fio.h	/^	__TD_F_LAST,		\/* not a real bit, keep last *\/$/;"	e	enum:__anon58
-__TD_F_MMAP_KEEP	fio.h	/^	__TD_F_MMAP_KEEP,$/;"	e	enum:__anon58
-__TD_F_NEED_LOCK	fio.h	/^	__TD_F_NEED_LOCK,$/;"	e	enum:__anon58
-__TD_F_NO_PROGRESS	fio.h	/^	__TD_F_NO_PROGRESS,$/;"	e	enum:__anon58
-__TD_F_PROFILE_OPS	fio.h	/^	__TD_F_PROFILE_OPS,$/;"	e	enum:__anon58
-__TD_F_READ_IOLOG	fio.h	/^	__TD_F_READ_IOLOG,$/;"	e	enum:__anon58
-__TD_F_REFILL_BUFFERS	fio.h	/^	__TD_F_REFILL_BUFFERS,$/;"	e	enum:__anon58
-__TD_F_REGROW_LOGS	fio.h	/^	__TD_F_REGROW_LOGS,$/;"	e	enum:__anon58
-__TD_F_SCRAMBLE_BUFFERS	fio.h	/^	__TD_F_SCRAMBLE_BUFFERS,$/;"	e	enum:__anon58
-__TD_F_SYNCS	fio.h	/^	__TD_F_SYNCS,$/;"	e	enum:__anon58
-__TD_F_TRIM_BACKLOG	fio.h	/^	__TD_F_TRIM_BACKLOG,$/;"	e	enum:__anon58
-__TD_F_VER_BACKLOG	fio.h	/^	__TD_F_VER_BACKLOG	= 0,$/;"	e	enum:__anon58
-__TD_F_VSTATE_SAVED	fio.h	/^	__TD_F_VSTATE_SAVED,$/;"	e	enum:__anon58
+__TD_F_CHECK_RATE	fio.h	/^	__TD_F_CHECK_RATE,$/;"	e	enum:__anon16
+__TD_F_CHILD	fio.h	/^	__TD_F_CHILD,$/;"	e	enum:__anon16
+__TD_F_COMPRESS	fio.h	/^	__TD_F_COMPRESS,$/;"	e	enum:__anon16
+__TD_F_COMPRESS_LOG	fio.h	/^	__TD_F_COMPRESS_LOG,$/;"	e	enum:__anon16
+__TD_F_DIRS_CREATED	fio.h	/^	__TD_F_DIRS_CREATED,$/;"	e	enum:__anon16
+__TD_F_DO_VERIFY	fio.h	/^	__TD_F_DO_VERIFY,$/;"	e	enum:__anon16
+__TD_F_LAST	fio.h	/^	__TD_F_LAST,		\/* not a real bit, keep last *\/$/;"	e	enum:__anon16
+__TD_F_MMAP_KEEP	fio.h	/^	__TD_F_MMAP_KEEP,$/;"	e	enum:__anon16
+__TD_F_NEED_LOCK	fio.h	/^	__TD_F_NEED_LOCK,$/;"	e	enum:__anon16
+__TD_F_NO_PROGRESS	fio.h	/^	__TD_F_NO_PROGRESS,$/;"	e	enum:__anon16
+__TD_F_PROFILE_OPS	fio.h	/^	__TD_F_PROFILE_OPS,$/;"	e	enum:__anon16
+__TD_F_READ_IOLOG	fio.h	/^	__TD_F_READ_IOLOG,$/;"	e	enum:__anon16
+__TD_F_REFILL_BUFFERS	fio.h	/^	__TD_F_REFILL_BUFFERS,$/;"	e	enum:__anon16
+__TD_F_REGROW_LOGS	fio.h	/^	__TD_F_REGROW_LOGS,$/;"	e	enum:__anon16
+__TD_F_SCRAMBLE_BUFFERS	fio.h	/^	__TD_F_SCRAMBLE_BUFFERS,$/;"	e	enum:__anon16
+__TD_F_SYNCS	fio.h	/^	__TD_F_SYNCS,$/;"	e	enum:__anon16
+__TD_F_TRIM_BACKLOG	fio.h	/^	__TD_F_TRIM_BACKLOG,$/;"	e	enum:__anon16
+__TD_F_VER_BACKLOG	fio.h	/^	__TD_F_VER_BACKLOG	= 0,$/;"	e	enum:__anon16
+__TD_F_VSTATE_SAVED	fio.h	/^	__TD_F_VSTATE_SAVED,$/;"	e	enum:__anon16
 __THREAD_RUNSTR_SZ	stat.h	561;"	d
 __TOTAL_COLUMNS	tools/hist/fiologparser_hist.py	/^__TOTAL_COLUMNS = __HIST_COLUMNS + __NON_HIST_COLUMNS$/;"	v
 __add_bs	t/btrace2fio.c	/^static void __add_bs(struct btrace_out *o, unsigned int len, int rw)$/;"	f	file:
@@ -2588,7 +2583,7 @@ __must_check	compiler/compiler.h	4;"	d
 __output_p	t/btrace2fio.c	/^static int __output_p(struct btrace_pid *p, unsigned long *ios)$/;"	f	file:
 __output_p_ascii	t/btrace2fio.c	/^static void __output_p_ascii(struct btrace_pid *p, unsigned long *ios)$/;"	f	file:
 __output_p_fio	t/btrace2fio.c	/^static int __output_p_fio(struct btrace_pid *p, unsigned long *ios,$/;"	f	file:
-__pad2	os/linux/io_uring.h	/^			__u64	__pad2[1];$/;"	m	struct:io_uring_sqe::__anon86::__anon87
+__pad2	os/linux/io_uring.h	/^			__u64	__pad2[1];$/;"	m	struct:io_uring_sqe::__anon74::__anon75
 __parse_jobs_ini	init.c	/^static int __parse_jobs_ini(struct thread_data *td,$/;"	f	file:
 __print_option	parse.c	/^static void __print_option(const struct fio_option *o,$/;"	f	file:
 __rand	lib/rand.h	/^static inline uint64_t __rand(struct frand_state *state)$/;"	f
@@ -2664,7 +2659,7 @@ _zbd	t/run-fio-tests.py	/^    _zbd = False$/;"	v	class:Requirements
 _zbd_reset_write_cnt	zbd.c	/^static void _zbd_reset_write_cnt(const struct thread_data *td,$/;"	f	file:
 _zoned_nullb	t/run-fio-tests.py	/^    _zoned_nullb = False$/;"	v	class:Requirements
 about_dialog	gfio.c	/^static void about_dialog(GtkWidget *w, gpointer data)$/;"	f	file:
-accept_flags	os/linux/io_uring.h	/^		__u32		accept_flags;$/;"	m	union:io_uring_sqe::__anon83
+accept_flags	os/linux/io_uring.h	/^		__u32		accept_flags;$/;"	m	union:io_uring_sqe::__anon71
 accept_loop	server.c	/^static int accept_loop(int listen_sk)$/;"	f	file:
 access_perc	thread_options.h	/^	uint8_t access_perc;$/;"	m	struct:zone_split
 account_io_completion	io_u.c	/^static void account_io_completion(struct thread_data *td, struct io_u *io_u,$/;"	f	file:
@@ -2743,16 +2738,16 @@ add_thread_segment	init.c	/^static int add_thread_segment(void)$/;"	f	file:
 add_to_dump_list	parse.c	/^static void add_to_dump_list(const struct fio_option *o,$/;"	f	file:
 add_to_histo_from	tools/hist/fio-histo-log-pctiles.py	/^def add_to_histo_from( target, source ):$/;"	f
 add_to_lopt	options.c	/^static void add_to_lopt(struct option *lopt, struct fio_option *o,$/;"	f	file:
-addr	client.h	/^		struct sockaddr_in addr;$/;"	m	union:fio_client::__anon42	typeref:struct:fio_client::__anon42::sockaddr_in
+addr	client.h	/^		struct sockaddr_in addr;$/;"	m	union:fio_client::__anon12	typeref:struct:fio_client::__anon12::sockaddr_in
 addr	engines/net.c	/^	struct sockaddr_in addr;$/;"	m	struct:netio_data	typeref:struct:netio_data::sockaddr_in	file:
 addr	engines/nvme.h	/^	__u64	addr;$/;"	m	struct:nvme_uring_cmd
 addr	engines/rdma.c	/^	struct sockaddr_in addr;$/;"	m	struct:rdmaio_data	typeref:struct:rdmaio_data::sockaddr_in	file:
-addr	os/linux/io_uring.h	/^		__u64	addr;	\/* pointer to buffer or iovecs *\/$/;"	m	union:io_uring_sqe::__anon82
-addr2	os/linux/io_uring.h	/^		__u64	addr2;$/;"	m	union:io_uring_sqe::__anon81
-addr3	os/linux/io_uring.h	/^			__u64	addr3;$/;"	m	struct:io_uring_sqe::__anon86::__anon87
-addr6	client.h	/^		struct sockaddr_in6 addr6;$/;"	m	union:fio_client::__anon42	typeref:struct:fio_client::__anon42::sockaddr_in6
+addr	os/linux/io_uring.h	/^		__u64	addr;	\/* pointer to buffer or iovecs *\/$/;"	m	union:io_uring_sqe::__anon70
+addr2	os/linux/io_uring.h	/^		__u64	addr2;$/;"	m	union:io_uring_sqe::__anon69
+addr3	os/linux/io_uring.h	/^			__u64	addr3;$/;"	m	struct:io_uring_sqe::__anon74::__anon75
+addr6	client.h	/^		struct sockaddr_in6 addr6;$/;"	m	union:fio_client::__anon12	typeref:struct:fio_client::__anon12::sockaddr_in6
 addr6	engines/net.c	/^	struct sockaddr_in6 addr6;$/;"	m	struct:netio_data	typeref:struct:netio_data::sockaddr_in6	file:
-addr_un	client.h	/^		struct sockaddr_un addr_un;$/;"	m	union:fio_client::__anon42	typeref:struct:fio_client::__anon42::sockaddr_un
+addr_un	client.h	/^		struct sockaddr_un addr_un;$/;"	m	union:fio_client::__anon12	typeref:struct:fio_client::__anon12::sockaddr_un
 addr_un	engines/net.c	/^	struct sockaddr_un addr_un;$/;"	m	struct:netio_data	typeref:struct:netio_data::sockaddr_un	file:
 agg	diskutil.h	/^	struct disk_util_agg agg;$/;"	m	struct:disk_util	typeref:struct:disk_util::disk_util_agg
 agg	server.h	/^	struct disk_util_agg agg;$/;"	m	struct:cmd_du_pdu	typeref:struct:cmd_du_pdu::disk_util_agg
@@ -2772,8 +2767,8 @@ aio_events	engines/windowsaio.c	/^	struct io_u **aio_events;$/;"	m	struct:window
 aio_pending	engines/solarisaio.c	/^	unsigned int aio_pending;$/;"	m	struct:solarisaio_data	file:
 aio_ring	engines/libaio.c	/^struct aio_ring {$/;"	s	file:
 aio_rw_flags	engines/libaio.c	27;"	d	file:
-aiocb	io_u.h	/^		os_aiocb_t aiocb;$/;"	m	union:io_u::__anon14
-aioreqs	engines/ime.c	/^		struct imeaio_req 	*aioreqs;	\/* array of aio requests *\/$/;"	m	union:ime_data::__anon100	typeref:struct:ime_data::__anon100::imeaio_req	file:
+aiocb	io_u.h	/^		os_aiocb_t aiocb;$/;"	m	union:io_u::__anon34
+aioreqs	engines/ime.c	/^		struct imeaio_req 	*aioreqs;	\/* array of aio requests *\/$/;"	m	union:ime_data::__anon39	typeref:struct:ime_data::__anon39::imeaio_req	file:
 alias	graph.c	/^	struct flist_head alias;$/;"	m	struct:graph_value	typeref:struct:graph_value::flist_head	file:
 alias	parse.h	/^	const char *alias;		\/* possible old allowed name *\/$/;"	m	struct:fio_option
 align_footer	lib/memalign.c	/^struct align_footer {$/;"	s	file:
@@ -2806,9 +2801,9 @@ anagrpid	engines/nvme.h	/^	__le32			anagrpid;$/;"	m	struct:nvme_id_ns
 any_io_in_flight	zbd.c	/^static bool any_io_in_flight(void)$/;"	f	file:
 arch	gfio.h	/^	GtkWidget *arch;$/;"	m	struct:probe_widget
 arch	server.h	/^	uint8_t arch;$/;"	m	struct:cmd_probe_reply_pdu
-arch_aarch64	arch/arch.h	/^	arch_aarch64,$/;"	e	enum:__anon28
-arch_alpha	arch/arch.h	/^	arch_alpha,$/;"	e	enum:__anon28
-arch_arm	arch/arch.h	/^	arch_arm,$/;"	e	enum:__anon28
+arch_aarch64	arch/arch.h	/^	arch_aarch64,$/;"	e	enum:__anon105
+arch_alpha	arch/arch.h	/^	arch_alpha,$/;"	e	enum:__anon105
+arch_arm	arch/arch.h	/^	arch_arm,$/;"	e	enum:__anon105
 arch_cache_line_size	os/os-linux.h	/^static inline int arch_cache_line_size(void)$/;"	f
 arch_ffz	arch/arch-aarch64.h	/^static inline int arch_ffz(unsigned long bitmask)$/;"	f
 arch_ffz	arch/arch-ia64.h	/^static inline unsigned long arch_ffz(unsigned long bitmask)$/;"	f
@@ -2817,9 +2812,9 @@ arch_ffz	arch/arch-x86.h	/^static inline unsigned long arch_ffz(unsigned long bi
 arch_ffz	arch/arch-x86_64.h	/^static inline unsigned long arch_ffz(unsigned long bitmask)$/;"	f
 arch_flags	libfio.c	/^unsigned long arch_flags = 0;$/;"	v
 arch_flags	t/arch.c	/^unsigned long arch_flags = 0;$/;"	v
-arch_generic	arch/arch.h	/^	arch_generic,$/;"	e	enum:__anon28
-arch_hppa	arch/arch.h	/^	arch_hppa,$/;"	e	enum:__anon28
-arch_ia64	arch/arch.h	/^	arch_ia64,$/;"	e	enum:__anon28
+arch_generic	arch/arch.h	/^	arch_generic,$/;"	e	enum:__anon105
+arch_hppa	arch/arch.h	/^	arch_hppa,$/;"	e	enum:__anon105
+arch_ia64	arch/arch.h	/^	arch_ia64,$/;"	e	enum:__anon105
 arch_init	arch/arch-aarch64.h	/^static inline int arch_init(char *envp[])$/;"	f
 arch_init	arch/arch-ia64.h	/^static inline int arch_init(char *envp[])$/;"	f
 arch_init	arch/arch-ppc.h	/^static inline int arch_init(char *envp[])$/;"	f
@@ -2829,19 +2824,19 @@ arch_init	arch/arch-x86-common.h	/^static inline void arch_init(char *envp[])$/;
 arch_init	arch/arch.h	/^static inline int arch_init(char *envp[])$/;"	f
 arch_init_amd	arch/arch-x86-common.h	/^static inline void arch_init_amd(void)$/;"	f
 arch_init_intel	arch/arch-x86-common.h	/^static inline void arch_init_intel(void)$/;"	f
-arch_mips	arch/arch.h	/^	arch_mips,$/;"	e	enum:__anon28
-arch_nr	arch/arch.h	/^	arch_nr,$/;"	e	enum:__anon28
-arch_ppc	arch/arch.h	/^	arch_ppc,$/;"	e	enum:__anon28
+arch_mips	arch/arch.h	/^	arch_mips,$/;"	e	enum:__anon105
+arch_nr	arch/arch.h	/^	arch_nr,$/;"	e	enum:__anon105
+arch_ppc	arch/arch.h	/^	arch_ppc,$/;"	e	enum:__anon105
 arch_rand_long	arch/arch-x86_64.h	/^static inline int arch_rand_long(unsigned long *val)$/;"	f
 arch_rand_seed	arch/arch-x86_64.h	/^static inline int arch_rand_seed(unsigned long *seed)$/;"	f
 arch_random	lib/rand.c	/^int arch_random;$/;"	v
 arch_random	t/arch.c	/^int arch_random;$/;"	v
-arch_s390	arch/arch.h	/^	arch_s390,$/;"	e	enum:__anon28
-arch_sh	arch/arch.h	/^	arch_sh,$/;"	e	enum:__anon28
-arch_sparc	arch/arch.h	/^	arch_sparc,$/;"	e	enum:__anon28
-arch_sparc64	arch/arch.h	/^	arch_sparc64,$/;"	e	enum:__anon28
-arch_x86	arch/arch.h	/^	arch_x86,$/;"	e	enum:__anon28
-arch_x86_64	arch/arch.h	/^	arch_x86_64 = 1,$/;"	e	enum:__anon28
+arch_s390	arch/arch.h	/^	arch_s390,$/;"	e	enum:__anon105
+arch_sh	arch/arch.h	/^	arch_sh,$/;"	e	enum:__anon105
+arch_sparc	arch/arch.h	/^	arch_sparc,$/;"	e	enum:__anon105
+arch_sparc64	arch/arch.h	/^	arch_sparc64,$/;"	e	enum:__anon105
+arch_x86	arch/arch.h	/^	arch_x86,$/;"	e	enum:__anon105
+arch_x86_64	arch/arch.h	/^	arch_x86_64 = 1,$/;"	e	enum:__anon105
 arg	tools/hist/fiologparser_hist.py	/^    arg = p.add_argument$/;"	v
 arg	tools/hist/half-bins.py	/^    arg = p.add_argument$/;"	v
 arg_list	client.h	/^	struct flist_head arg_list;$/;"	m	struct:fio_client	typeref:struct:fio_client::flist_head
@@ -2855,7 +2850,7 @@ arguments	engines/exec.c	/^	char *arguments;$/;"	m	struct:exec_options	file:
 argv	client.h	/^	char **argv;$/;"	m	struct:fio_client
 arm_sig_int	t/io_uring.c	/^static void arm_sig_int(void)$/;"	f	file:
 array	engines/io_uring.c	/^	unsigned *array;$/;"	m	struct:io_sq_ring	file:
-array	json.h	/^		struct json_array *array;$/;"	m	union:json_value::__anon35	typeref:struct:json_value::__anon35::json_array
+array	json.h	/^		struct json_array *array;$/;"	m	union:json_value::__anon44	typeref:struct:json_value::__anon44::json_array
 array	os/linux/io_uring.h	/^	__u32 array;$/;"	m	struct:io_sqring_offsets
 array	t/io_uring.c	/^	unsigned *array;$/;"	m	struct:io_sq_ring	file:
 array_collapser	tools/fiologparser.py	/^array_collapser = lambda vlist, val:  my_extend(vlist, val) $/;"	v
@@ -3054,9 +3049,9 @@ buf	server.h	/^	uint8_t buf[0];$/;"	m	struct:cmd_text_pdu
 buf	t/read-to-pipe-async.c	/^	void *buf;$/;"	m	struct:work_item	file:
 buf_end	t/io_uring.c	/^	__u32	buf_end;$/;"	m	struct:io_uring_map_buffers	file:
 buf_filled_len	io_u.h	/^	unsigned long long buf_filled_len;$/;"	m	struct:io_u
-buf_group	os/linux/io_uring.h	/^		__u16	buf_group;$/;"	m	union:io_uring_sqe::__anon84
+buf_group	os/linux/io_uring.h	/^		__u16	buf_group;$/;"	m	union:io_uring_sqe::__anon72
 buf_in	t/dedupe.c	/^	unsigned char *buf_in;$/;"	m	struct:zlib_ctrl	file:
-buf_index	os/linux/io_uring.h	/^		__u16	buf_index;$/;"	m	union:io_uring_sqe::__anon84
+buf_index	os/linux/io_uring.h	/^		__u16	buf_index;$/;"	m	union:io_uring_sqe::__anon72
 buf_len	server.h	/^	uint32_t buf_len;$/;"	m	struct:cmd_job_pdu
 buf_len	server.h	/^	uint32_t buf_len;$/;"	m	struct:cmd_text_pdu
 buf_nr	blktrace_api.h	/^	__u32 buf_nr;			\/* input *\/$/;"	m	struct:blk_user_trace_setup
@@ -3136,7 +3131,7 @@ caller	gettime.c	/^	void *caller;$/;"	m	struct:gtod_log	file:
 calls	gettime.c	/^	unsigned long calls;$/;"	m	struct:gtod_log	file:
 calls	t/io_uring.c	/^	unsigned long calls;$/;"	m	struct:submitter	file:
 cancel	ioengines.h	/^	int (*cancel)(struct thread_data *, struct io_u *);$/;"	m	struct:ioengine_ops
-cancel_flags	os/linux/io_uring.h	/^		__u32		cancel_flags;$/;"	m	union:io_uring_sqe::__anon83
+cancel_flags	os/linux/io_uring.h	/^		__u32		cancel_flags;$/;"	m	union:io_uring_sqe::__anon71
 capacity	oslib/linux-blkzoned.c	/^	__u64	capacity;       \/* Zone capacity in number of sectors *\/$/;"	m	struct:blk_zone_v2	file:
 capacity	zbd.h	/^	uint64_t		capacity;$/;"	m	struct:fio_zone_info
 capacity	zbd_types.h	/^	uint64_t		capacity;$/;"	m	struct:zbd_zone
@@ -3299,12 +3294,12 @@ clat_percentiles	stat.h	/^	uint32_t clat_percentiles;$/;"	m	struct:jw_thread_gc_
 clat_percentiles	stat.h	/^	uint32_t clat_percentiles;$/;"	m	struct:thread_stat
 clat_percentiles	thread_options.h	/^	uint32_t clat_percentiles;$/;"	m	struct:thread_options_pack
 clat_percentiles	thread_options.h	/^	unsigned int clat_percentiles;$/;"	m	struct:thread_options
-clat_prio	stat.h	/^		struct clat_prio_stat *clat_prio[DDIR_RWDIR_CNT];$/;"	m	union:jw_thread_gc_stat::__anon24	typeref:struct:jw_thread_gc_stat::__anon24::clat_prio_stat
-clat_prio	stat.h	/^		struct clat_prio_stat *clat_prio[DDIR_RWDIR_CNT];$/;"	m	union:thread_stat::__anon20	typeref:struct:thread_stat::__anon20::clat_prio_stat
+clat_prio	stat.h	/^		struct clat_prio_stat *clat_prio[DDIR_RWDIR_CNT];$/;"	m	union:jw_thread_gc_stat::__anon100	typeref:struct:jw_thread_gc_stat::__anon100::clat_prio_stat
+clat_prio	stat.h	/^		struct clat_prio_stat *clat_prio[DDIR_RWDIR_CNT];$/;"	m	union:thread_stat::__anon96	typeref:struct:thread_stat::__anon96::clat_prio_stat
 clat_prio_index	engines/cmdprio.h	/^	uint16_t clat_prio_index;$/;"	m	struct:cmdprio_prio
 clat_prio_index	io_u.h	/^	unsigned short clat_prio_index;$/;"	m	struct:io_u
-clat_prio_offset	stat.h	/^		uint64_t clat_prio_offset[DDIR_RWDIR_CNT];$/;"	m	union:jw_thread_gc_stat::__anon24
-clat_prio_offset	stat.h	/^		uint64_t clat_prio_offset[DDIR_RWDIR_CNT];$/;"	m	union:thread_stat::__anon20
+clat_prio_offset	stat.h	/^		uint64_t clat_prio_offset[DDIR_RWDIR_CNT];$/;"	m	union:jw_thread_gc_stat::__anon100
+clat_prio_offset	stat.h	/^		uint64_t clat_prio_offset[DDIR_RWDIR_CNT];$/;"	m	union:thread_stat::__anon96
 clat_prio_stat	stat.h	/^struct clat_prio_stat {$/;"	s
 clat_prio_stat_add_samples	stat.c	/^static int clat_prio_stat_add_samples(struct thread_stat *dst,$/;"	f	file:
 clat_prio_stats_copy	stat.c	/^static int clat_prio_stats_copy(struct thread_stat *dst, struct thread_stat *src,$/;"	f	file:
@@ -3403,7 +3398,7 @@ cluster_name	engines/rbd.c	/^	char *cluster_name;$/;"	m	struct:rbd_options	file:
 cm_channel	engines/rdma.c	/^	struct rdma_event_channel *cm_channel;$/;"	m	struct:rdmaio_data	typeref:struct:rdmaio_data::rdma_event_channel	file:
 cm_id	engines/rdma.c	/^	struct rdma_cm_id *cm_id;$/;"	m	struct:rdmaio_data	typeref:struct:rdmaio_data::rdma_cm_id	file:
 cmd	engines/net.c	/^	uint32_t cmd;$/;"	m	struct:udp_close_msg	file:
-cmd	os/linux/io_uring.h	/^		__u8	cmd[0];$/;"	m	union:io_uring_sqe::__anon86
+cmd	os/linux/io_uring.h	/^		__u8	cmd[0];$/;"	m	union:io_uring_sqe::__anon74
 cmd	server.h	/^	uint8_t cmd[];$/;"	m	struct:cmd_vtrigger_pdu
 cmd_add_job_pdu	server.h	/^struct cmd_add_job_pdu {$/;"	s
 cmd_client_probe_pdu	server.h	/^struct cmd_client_probe_pdu {$/;"	s
@@ -3417,7 +3412,7 @@ cmd_job_pdu	server.h	/^struct cmd_job_pdu {$/;"	s
 cmd_line_pdu	server.h	/^struct cmd_line_pdu {$/;"	s
 cmd_list	client.h	/^	struct flist_head cmd_list;$/;"	m	struct:fio_client	typeref:struct:fio_client::flist_head
 cmd_load_file_pdu	server.h	/^struct cmd_load_file_pdu {$/;"	s
-cmd_op	os/linux/io_uring.h	/^		__u32	cmd_op;$/;"	m	union:io_uring_sqe::__anon81
+cmd_op	os/linux/io_uring.h	/^		__u32	cmd_op;$/;"	m	union:io_uring_sqe::__anon69
 cmd_optstr	init.c	/^static char cmd_optstr[256];$/;"	v	file:
 cmd_probe_reply_pdu	server.h	/^struct cmd_probe_reply_pdu {$/;"	s
 cmd_reply	server.c	/^struct cmd_reply {$/;"	s	file:
@@ -3510,8 +3505,8 @@ connection_widgets	gfio.c	/^struct connection_widgets$/;"	s	file:
 cont	engines/dfs.c	/^	char		*cont;   \/* Container UUID *\/$/;"	m	struct:daos_fio_options	file:
 container_of	flist.h	7;"	d
 context	engines/nfs.c	/^	struct nfs_context *context;$/;"	m	struct:fio_libnfs_options	typeref:struct:fio_libnfs_options::nfs_context	file:
-continue_on_error	stat.h	/^		uint16_t continue_on_error;$/;"	m	union:jw_thread_gc_stat::__anon21
-continue_on_error	stat.h	/^		uint16_t continue_on_error;$/;"	m	union:thread_stat::__anon17
+continue_on_error	stat.h	/^		uint16_t continue_on_error;$/;"	m	union:jw_thread_gc_stat::__anon97
+continue_on_error	stat.h	/^		uint16_t continue_on_error;$/;"	m	union:thread_stat::__anon93
 continue_on_error	thread_options.h	/^	enum error_type continue_on_error;$/;"	m	struct:thread_options	typeref:enum:thread_options::error_type
 continue_on_error	thread_options.h	/^	uint32_t continue_on_error;$/;"	m	struct:thread_options_pack
 convert_agg	client.c	/^static void convert_agg(struct disk_util_agg *agg)$/;"	f	file:
@@ -3543,7 +3538,7 @@ cpu	gettime-thread.c	/^	unsigned int cpu;$/;"	m	struct:gtod_cpu_data	file:
 cpu	gettime.c	/^	int cpu;$/;"	m	struct:clock_thread	file:
 cpu	gettime.c	/^	uint32_t cpu;$/;"	m	struct:clock_entry	file:
 cpu	idletime.h	/^	int cpu;$/;"	m	struct:idle_prof_thread
-cpu_features	os/os.h	/^} cpu_features;$/;"	t	typeref:enum:__anon80
+cpu_features	os/os.h	/^} cpu_features;$/;"	t	typeref:enum:__anon67
 cpu_mask	idletime.h	/^	os_cpu_mask_t cpu_mask;$/;"	m	struct:idle_prof_thread
 cpu_options	engines/cpu.c	/^struct cpu_options {$/;"	s	file:
 cpu_to_be16	os/os.h	271;"	d
@@ -3976,7 +3971,7 @@ end_sector	t/btrace2fio.c	/^	uint64_t end_sector;$/;"	m	struct:inflight	file:
 endgid	engines/nvme.h	/^	__le16			endgid;$/;"	m	struct:nvme_id_ns
 endian_check	libfio.c	/^static int endian_check(void)$/;"	f	file:
 engine_data	file.h	/^	void *engine_data;$/;"	m	struct:fio_file
-engine_data	io_u.h	/^		void *engine_data;$/;"	m	union:io_u::__anon12
+engine_data	io_u.h	/^		void *engine_data;$/;"	m	union:io_u::__anon32
 engine_pos	file.h	/^	uint64_t engine_pos;$/;"	m	struct:fio_file
 engine_template	Makefile	/^define engine_template =$/;"	m
 enter_ring_fd	t/io_uring.c	/^	int enter_ring_fd;$/;"	m	struct:submitter	file:
@@ -4089,12 +4084,12 @@ extent	t/dedupe.c	/^struct extent {$/;"	s	file:
 extent_list	t/dedupe.c	/^	struct flist_head extent_list[0];$/;"	m	struct:chunk	typeref:struct:chunk::flist_head	file:
 f	blktrace.h	/^	FILE			*f;	\/\/ blktrace file$/;"	m	struct:blktrace_cursor
 f	gfio.c	/^	clickfunction f;$/;"	m	struct:button_spec	file:
-f	lib/ieee754.h	/^		double f;$/;"	m	union:fio_fp64::__anon25
+f	lib/ieee754.h	/^		double f;$/;"	m	union:fio_fp64::__anon102
 f	t/strided.py	/^            f = os.open(args.filename, os.O_RDONLY)$/;"	v
 f_err	init.c	/^FILE *f_err = NULL;$/;"	v
 f_err	t/debug.c	/^FILE *f_err;$/;"	v
 f_out	init.c	/^FILE *f_out = NULL;$/;"	v
-fadvise_advice	os/linux/io_uring.h	/^		__u32		fadvise_advice;$/;"	m	union:io_uring_sqe::__anon83
+fadvise_advice	os/linux/io_uring.h	/^		__u32		fadvise_advice;$/;"	m	union:io_uring_sqe::__anon71
 fadvise_hint	thread_options.h	/^	uint32_t fadvise_hint;$/;"	m	struct:thread_options_pack
 fadvise_hint	thread_options.h	/^	unsigned int fadvise_hint;$/;"	m	struct:thread_options
 failed	t/readonly.py	/^            failed = failed + 1$/;"	v
@@ -4151,7 +4146,7 @@ fifo_put	fifo.c	/^unsigned int fifo_put(struct fifo *fifo, void *buffer, unsigne
 fifo_room	fifo.h	/^static inline unsigned int fifo_room(struct fifo *fifo)$/;"	f
 file	client.h	/^	char *file;$/;"	m	struct:client_file
 file	io_u.h	/^	struct fio_file *file;$/;"	m	struct:io_u	typeref:struct:io_u::fio_file
-file	iolog.h	/^		struct fio_file *file;$/;"	m	union:io_piece::__anon48	typeref:struct:io_piece::__anon48::fio_file
+file	iolog.h	/^		struct fio_file *file;$/;"	m	union:io_piece::__anon10	typeref:struct:io_piece::__anon10::fio_file
 file	server.h	/^	uint8_t file[];$/;"	m	struct:cmd_load_file_pdu
 file	t/dedupe.c	/^static struct fio_file file;$/;"	v	typeref:struct:fio_file	file:
 file	t/io_uring.c	/^struct file {$/;"	s	file:
@@ -4173,7 +4168,7 @@ file_hash	filehash.c	/^static struct flist_head *file_hash;$/;"	v	typeref:struct
 file_hash_exit	filehash.c	/^void file_hash_exit(void)$/;"	f
 file_hash_init	filehash.c	/^void file_hash_init(void)$/;"	f
 file_hash_size	filehash.c	/^static unsigned int file_hash_size = HASH_BUCKETS * sizeof(struct flist_head);$/;"	v	file:
-file_index	os/linux/io_uring.h	/^		__u32	file_index;$/;"	m	union:io_uring_sqe::__anon85
+file_index	os/linux/io_uring.h	/^		__u32	file_index;$/;"	m	union:io_uring_sqe::__anon73
 file_invalidate_cache	filesetup.c	/^int file_invalidate_cache(struct thread_data *td, struct fio_file *f)$/;"	f
 file_lock_mode	file.h	/^enum file_lock_mode {$/;"	g
 file_lock_mode	thread_options.h	/^	enum file_lock_mode file_lock_mode;$/;"	m	struct:thread_options	typeref:enum:thread_options::file_lock_mode
@@ -4211,7 +4206,7 @@ filename_format	thread_options.h	/^	char *filename_format;$/;"	m	struct:thread_o
 filename_format	thread_options.h	/^	uint8_t filename_format[FIO_TOP_STR_MAX];$/;"	m	struct:thread_options_pack
 fileno	blktrace.c	/^	unsigned int fileno;$/;"	m	struct:file_cache	file:
 fileno	file.h	/^	int fileno;$/;"	m	struct:fio_file
-fileno	iolog.h	/^		int fileno;$/;"	m	union:io_piece::__anon48
+fileno	iolog.h	/^		int fileno;$/;"	m	union:io_piece::__anon10
 fileno	t/io_uring.c	/^	int fileno;$/;"	m	struct:file	file:
 fileno	verify-state.h	/^	uint64_t fileno;$/;"	m	struct:file_comp
 files	client.h	/^	struct client_file *files;$/;"	m	struct:fio_client	typeref:struct:fio_client::client_file
@@ -4259,7 +4254,7 @@ fill_sha512	verify.c	/^static void fill_sha512(struct verify_header *hdr, void *
 fill_start_time	time.c	/^void fill_start_time(struct timespec *t)$/;"	f
 fill_verify_pattern	verify.c	/^void fill_verify_pattern(struct thread_data *td, void *p, unsigned int len,$/;"	f
 fill_xxhash	verify.c	/^static void fill_xxhash(struct verify_header *hdr, void *p, unsigned int len)$/;"	f	file:
-filler	lib/ieee754.h	/^		uint8_t filler[16];$/;"	m	union:fio_fp64::__anon25
+filler	lib/ieee754.h	/^		uint8_t filler[16];$/;"	m	union:fio_fp64::__anon102
 finalize_logs	stat.c	/^void finalize_logs(struct thread_data *td, bool unit_logs)$/;"	f
 find_add_disk_slaves	diskutil.c	/^static void find_add_disk_slaves(struct thread_data *td, char *path,$/;"	f	file:
 find_best_index	smalloc.c	/^static unsigned int find_best_index(struct pool *pool)$/;"	f	file:
@@ -5199,7 +5194,7 @@ flist_splice	flist.h	/^static inline void flist_splice(const struct flist_head *
 flist_splice_init	flist.h	/^static inline void flist_splice_init(struct flist_head *list,$/;"	f
 flist_splice_tail	flist.h	/^static inline void flist_splice_tail(struct flist_head *list,$/;"	f
 flist_splice_tail_init	flist.h	/^static inline void flist_splice_tail_init(struct flist_head *list,$/;"	f
-float_number	json.h	/^		double float_number;$/;"	m	union:json_value::__anon35
+float_number	json.h	/^		double float_number;$/;"	m	union:json_value::__anon44
 flow	fio.h	/^	struct fio_flow *flow;$/;"	m	struct:thread_data	typeref:struct:thread_data::fio_flow
 flow	thread_options.h	/^	uint32_t flow;$/;"	m	struct:thread_options_pack
 flow	thread_options.h	/^	unsigned int flow;$/;"	m	struct:thread_options
@@ -5236,9 +5231,9 @@ fn	unittests/unittest.h	/^	CU_TestFunc fn;$/;"	m	struct:fio_unittest_entry
 fn	workqueue.h	/^	workqueue_work_fn *fn;$/;"	m	struct:workqueue_ops
 fnv	crc/fnv.c	/^uint64_t fnv(const void *buf, uint32_t len, uint64_t hval)$/;"	f
 font	graph.c	/^	const char *font;$/;"	m	struct:graph	file:
-for_each_file	fio.h	758;"	d
+for_each_file	fio.h	759;"	d
 for_each_rw_ddir	io_ddir.h	19;"	d
-for_each_td	fio.h	756;"	d
+for_each_td	fio.h	757;"	d
 force_async	engines/io_uring.c	/^	unsigned int force_async;$/;"	m	struct:ioring_options	file:
 fork	os/windows/posix.c	/^int fork(void)$/;"	f
 fork_data	backend.c	/^struct fork_data {$/;"	s	file:
@@ -5287,7 +5282,7 @@ fs	engines/libhdfs.c	/^	hdfsFS fs;$/;"	m	struct:hdfsio_data	file:
 fsync	os/windows/posix.c	/^int fsync(int fildes)$/;"	f
 fsync_blocks	thread_options.h	/^	uint32_t fsync_blocks;$/;"	m	struct:thread_options_pack
 fsync_blocks	thread_options.h	/^	unsigned int fsync_blocks;$/;"	m	struct:thread_options
-fsync_flags	os/linux/io_uring.h	/^		__u32		fsync_flags;$/;"	m	union:io_uring_sqe::__anon83
+fsync_flags	os/linux/io_uring.h	/^		__u32		fsync_flags;$/;"	m	union:io_uring_sqe::__anon71
 fsync_on_close	thread_options.h	/^	uint32_t fsync_on_close;$/;"	m	struct:thread_options_pack
 fsync_on_close	thread_options.h	/^	unsigned int fsync_on_close;$/;"	m	struct:thread_options
 fulldevice	t/sgunmap-perf.py	/^def fulldevice(fio, dev, ioengine='psync', rw='trim', bs='1M'):$/;"	f
@@ -5295,8 +5290,8 @@ func	helper_thread.c	/^	int		(*func)(void);$/;"	m	struct:interval_timer	file:
 g	graph.c	/^	double r, g, b;$/;"	m	struct:graph_label	file:
 g_serialize	engines/xnvme.c	/^static pthread_mutex_t g_serialize = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
 g_widgets	goptions.c	/^	struct gopt_frame_widget g_widgets[__FIO_OPT_G_NR];$/;"	m	struct:gopt_job_view	typeref:struct:gopt_job_view::gopt_frame_widget	file:
-gauss	file.h	/^		struct gauss_state gauss;$/;"	m	union:fio_file::__anon34	typeref:struct:fio_file::__anon34::gauss_state
-gauss_dev	fio.h	/^		double gauss_dev;$/;"	m	union:thread_data::__anon65
+gauss	file.h	/^		struct gauss_state gauss;$/;"	m	union:fio_file::__anon56	typeref:struct:fio_file::__anon56::gauss_state
+gauss_dev	fio.h	/^		double gauss_dev;$/;"	m	union:thread_data::__anon23
 gauss_dev	lib/gauss.c	/^static int gauss_dev(struct gauss_state *gs)$/;"	f	file:
 gauss_dev	thread_options.h	/^	fio_fp64_t gauss_dev;$/;"	m	struct:thread_options
 gauss_dev	thread_options.h	/^	fio_fp64_t gauss_dev;$/;"	m	struct:thread_options_pack
@@ -5723,7 +5718,7 @@ gz_init_worker	iolog.c	/^static int gz_init_worker(struct submit_worker *sw)$/;"
 gz_work	iolog.c	/^static int gz_work(struct iolog_flush_data *data)$/;"	f	file:
 gz_work_async	iolog.c	/^static int gz_work_async(struct submit_worker *sw, struct workqueue_work *work)$/;"	f	file:
 hFile	file.h	/^	HANDLE hFile;$/;"	m	struct:fio_file
-hProcess	server.c	/^		HANDLE hProcess;$/;"	m	union:ffi_element::__anon74	file:
+hProcess	server.c	/^		HANDLE hProcess;$/;"	m	union:ffi_element::__anon47	file:
 hProcess	server.h	/^	HANDLE hProcess;		\/* process handle of handle_connection_process*\/$/;"	m	struct:sk_out
 h_index	lib/prio_tree.h	/^	uint64_t		h_index;$/;"	m	struct:prio_tree_iter
 handle_cmd_timeout	client.c	/^static int handle_cmd_timeout(struct fio_client *client,$/;"	f	file:
@@ -5762,7 +5757,7 @@ handle_ts	client.c	/^static void handle_ts(struct fio_client *client, struct fio
 handle_update_job_cmd	server.c	/^static int handle_update_job_cmd(struct fio_net_cmd *cmd)$/;"	f	file:
 handle_xmits	server.c	/^static int handle_xmits(struct sk_out *sk_out)$/;"	f	file:
 handler_running	gfio.h	/^	int handler_running;$/;"	m	struct:gui
-hardlink_flags	os/linux/io_uring.h	/^		__u32		hardlink_flags;$/;"	m	union:io_uring_sqe::__anon83
+hardlink_flags	os/linux/io_uring.h	/^		__u32		hardlink_flags;$/;"	m	union:io_uring_sqe::__anon71
 has	configure	/^has() {$/;"	f
 has_arg	oslib/getopt.h	/^	int has_arg;$/;"	m	struct:option
 has_dval	y.tab.c	/^		int has_dval;$/;"	m	struct:valtype::parser_value_type	file:
@@ -5799,7 +5794,7 @@ hashes	lib/bloom.c	/^static struct bloom_hash hashes[] = {$/;"	v	typeref:struct:
 hashv	t/genzipf.c	/^static unsigned int hashv(unsigned long long val)$/;"	f	file:
 hdfsio_data	engines/libhdfs.c	/^struct hdfsio_data {$/;"	s	file:
 hdfsio_options	engines/libhdfs.c	/^struct hdfsio_options {$/;"	s	file:
-hdr	io_u.h	/^		struct sg_io_hdr hdr;$/;"	m	union:io_u::__anon14	typeref:struct:io_u::__anon14::sg_io_hdr
+hdr	io_u.h	/^		struct sg_io_hdr hdr;$/;"	m	union:io_u::__anon34	typeref:struct:io_u::__anon34::sg_io_hdr
 hdr_num	verify.c	/^	unsigned int hdr_num;$/;"	m	struct:vcont	file:
 hdr_priv	verify.c	/^static void *hdr_priv(struct verify_header *hdr)$/;"	f	file:
 hdr_size	verify.c	/^static inline unsigned int hdr_size(struct thread_data *td,$/;"	f	file:
@@ -5886,7 +5881,7 @@ hugepage_size	thread_options.h	/^	unsigned int hugepage_size;$/;"	m	struct:threa
 hweight32	lib/hweight.c	/^unsigned int hweight32(uint32_t w)$/;"	f
 hweight64	lib/hweight.c	/^unsigned int hweight64(uint64_t w)$/;"	f
 hweight8	lib/hweight.c	/^unsigned int hweight8(uint8_t w)$/;"	f
-i	lib/ieee754.h	/^		uint64_t i;$/;"	m	union:fio_fp64::__anon25
+i	lib/ieee754.h	/^		uint64_t i;$/;"	m	union:fio_fp64::__anon102
 ia64_popcnt	arch/arch-ia64.h	10;"	d
 id	engines/libaio.c	/^	unsigned id;		 \/** kernel internal index number *\/$/;"	m	struct:aio_ring	file:
 id	flow.c	/^	unsigned int id;$/;"	m	struct:fio_flow	file:
@@ -5917,7 +5912,7 @@ in_port_t	os/windows/posix/include/sys/un.h	/^typedef int in_port_t;$/;"	t
 in_ramp_time	time.c	/^bool in_ramp_time(struct thread_data *td)$/;"	f
 inc_caller	gettime.c	/^static void inc_caller(void *caller)$/;"	f	file:
 incompat_features	engines/libaio.c	/^	unsigned incompat_features;$/;"	m	struct:aio_ring	file:
-index	io_u.h	/^		unsigned int index;$/;"	m	union:io_u::__anon12
+index	io_u.h	/^		unsigned int index;$/;"	m	union:io_u::__anon32
 index	t/io_uring.c	/^	int index;$/;"	m	struct:submitter	file:
 index	t/readonly.py	/^        index = index + 1$/;"	v
 index	t/readonly.py	/^    index = 1$/;"	v
@@ -5994,7 +5989,7 @@ install_linux	ci/actions-install.sh	/^install_linux() {$/;"	f
 install_macos	ci/actions-install.sh	/^install_macos() {$/;"	f
 install_ubuntu	ci/actions-install.sh	/^install_ubuntu() {$/;"	f
 int_mask	smalloc.c	/^static const int int_mask = sizeof(int) - 1;$/;"	v	file:
-integer_number	json.h	/^		long long integer_number;$/;"	m	union:json_value::__anon35
+integer_number	json.h	/^		long long integer_number;$/;"	m	union:json_value::__anon44
 interval	parse.h	/^	unsigned int interval;		\/* client hint for suitable interval *\/$/;"	m	struct:fio_option
 interval_ms	helper_thread.c	/^	uint32_t	interval_ms;$/;"	m	struct:interval_timer	file:
 interval_timer	helper_thread.c	/^struct interval_timer {$/;"	s	file:
@@ -6008,7 +6003,7 @@ invalidate_profile_options	options.c	/^void invalidate_profile_options(const cha
 inverse	parse.h	/^	const char *inverse;		\/* if set, apply opposite action to this option *\/$/;"	m	struct:fio_option
 ioCP	file.h	/^	HANDLE ioCP;$/;"	m	struct:fio_file
 io_act	iolog.c	428;"	d	file:
-io_axmap	file.h	/^		struct axmap *io_axmap;$/;"	m	union:fio_file::__anon33	typeref:struct:fio_file::__anon33::axmap
+io_axmap	file.h	/^		struct axmap *io_axmap;$/;"	m	union:fio_file::__anon55	typeref:struct:fio_file::__anon55::axmap
 io_blocks	fio.h	/^	uint64_t io_blocks[DDIR_RWDIR_CNT];$/;"	m	struct:thread_data
 io_bytes	fio.h	/^	uint64_t io_bytes[DDIR_RWDIR_CNT];$/;"	m	struct:thread_data
 io_bytes	stat.h	/^	uint64_t io_bytes[DDIR_RWDIR_CNT];$/;"	m	struct:jw_thread_gc_stat
@@ -6205,7 +6200,7 @@ io_workqueue_update_acct_fn	rate-submit.c	/^static void io_workqueue_update_acct
 io_wq	fio.h	/^	struct workqueue io_wq;$/;"	m	struct:thread_data	typeref:struct:thread_data::workqueue
 iobytes	stat.h	/^	uint64_t iobytes[DDIR_RWDIR_CNT];$/;"	m	struct:group_run_stats
 iocb	engines/ime.c	/^	struct ime_aiocb 	iocb;			\/* IME aio request *\/$/;"	m	struct:imeaio_req	typeref:struct:imeaio_req::ime_aiocb	file:
-iocb	io_u.h	/^		struct iocb iocb;$/;"	m	union:io_u::__anon14	typeref:struct:io_u::__anon14::iocb
+iocb	io_u.h	/^		struct iocb iocb;$/;"	m	union:io_u::__anon34	typeref:struct:io_u::__anon34::iocb
 iocbs	engines/libaio.c	/^	struct iocb **iocbs;$/;"	m	struct:libaio_data	typeref:struct:libaio_data::iocb	file:
 iocomplete_event	engines/windowsaio.c	/^	HANDLE iocomplete_event;$/;"	m	struct:windowsaio_data	file:
 iocp	engines/windowsaio.c	/^	HANDLE iocp;$/;"	m	struct:thread_ctx	file:
@@ -6618,7 +6613,7 @@ lexer_input	y.tab.c	/^int lexer_input(char* buffer, unsigned int *bytes_read, in
 lexer_input_buffer	y.tab.c	/^static char lexer_input_buffer[1000];$/;"	v	file:
 lexer_read_offset	y.tab.c	/^static int lexer_read_offset = 0;$/;"	v	file:
 lexer_value_is_time	lex.yy.c	/^int lexer_value_is_time = 0; \/* for determining if "m" suffix means mega- or minutes *\/$/;"	v
-lfsr	file.h	/^		struct fio_lfsr lfsr;$/;"	m	union:fio_file::__anon33	typeref:struct:fio_file::__anon33::fio_lfsr
+lfsr	file.h	/^		struct fio_lfsr lfsr;$/;"	m	union:fio_file::__anon55	typeref:struct:fio_file::__anon55::fio_lfsr
 lfsr	file.h	/^FILE_FLAG_FNS(lfsr);$/;"	v
 lfsr_create_xormask	lib/lfsr.c	/^static uint64_t lfsr_create_xormask(uint8_t *taps)$/;"	f	file:
 lfsr_init	lib/lfsr.c	/^int lfsr_init(struct fio_lfsr *fl, uint64_t nums, uint64_t seed,$/;"	f
@@ -6733,7 +6728,7 @@ list	gfio.h	/^	struct flist_head list;$/;"	m	struct:gfio_client_options	typeref:
 list	graph.c	/^	struct flist_head list;$/;"	m	struct:graph_label	typeref:struct:graph_label::flist_head	file:
 list	graph.c	/^	struct flist_head list;$/;"	m	struct:graph_value	typeref:struct:graph_value::flist_head	file:
 list	ioengines.h	/^	struct flist_head list;$/;"	m	struct:ioengine_ops	typeref:struct:ioengine_ops::flist_head
-list	iolog.h	/^		struct flist_head list;$/;"	m	union:io_piece::__anon47	typeref:struct:io_piece::__anon47::flist_head
+list	iolog.h	/^		struct flist_head list;$/;"	m	union:io_piece::__anon9	typeref:struct:io_piece::__anon9::flist_head
 list	iolog.h	/^	struct flist_head list;$/;"	m	struct:io_hist	typeref:struct:io_hist::flist_head
 list	iolog.h	/^	struct flist_head list;$/;"	m	struct:io_logs	typeref:struct:io_logs::flist_head
 list	iolog.h	/^	struct flist_head list;$/;"	m	struct:iolog_compress	typeref:struct:iolog_compress::flist_head
@@ -6756,7 +6751,7 @@ list_types	crc/test.c	/^static int list_types(void)$/;"	f	file:
 list_types	lib/memcpy.c	/^static int list_types(void)$/;"	f	file:
 listen	engines/net.c	/^	unsigned int listen;$/;"	m	struct:netio_options	file:
 listenfd	engines/net.c	/^	int listenfd;$/;"	m	struct:netio_data	file:
-ll	crc/xxhash.h	/^typedef struct { long long ll[(XXH32_SIZEOFSTATE+(sizeof(long long)-1))\/sizeof(long long)]; } XXH32_stateSpace_t;$/;"	m	struct:__anon53
+ll	crc/xxhash.h	/^typedef struct { long long ll[(XXH32_SIZEOFSTATE+(sizeof(long long)-1))\/sizeof(long long)]; } XXH32_stateSpace_t;$/;"	m	struct:__anon91
 lname	parse.h	/^	const char *lname;		\/* long option name *\/$/;"	m	struct:fio_option
 load	profiles/act.c	/^	unsigned int load;$/;"	m	struct:act_options	file:
 load_blktrace	t/btrace2fio.c	/^static int load_blktrace(const char *fname, int need_swap)$/;"	f	file:
@@ -6764,7 +6759,7 @@ load_ioengine	ioengines.c	/^struct ioengine_ops *load_ioengine(struct thread_dat
 load_profile	profile.c	/^int load_profile(const char *profile)$/;"	f
 lock	cgroup.c	/^static struct fio_sem *lock;$/;"	v	typeref:struct:fio_sem	file:
 lock	diskutil.h	/^	struct fio_sem *lock;$/;"	m	struct:disk_util	typeref:struct:disk_util::fio_sem
-lock	file.h	/^		struct fio_sem *lock;$/;"	m	union:fio_file::__anon32	typeref:struct:fio_file::__anon32::fio_sem
+lock	file.h	/^		struct fio_sem *lock;$/;"	m	union:fio_file::__anon54	typeref:struct:fio_file::__anon54::fio_sem
 lock	filelock.c	/^	struct fio_sem lock;$/;"	m	struct:filelock_data	typeref:struct:filelock_data::fio_sem	file:
 lock	filelock.c	/^	struct fio_sem lock;$/;"	m	struct:fio_filelock	typeref:struct:fio_filelock::fio_sem	file:
 lock	fio_sem.h	/^	pthread_mutex_t lock;$/;"	m	struct:fio_sem
@@ -7064,7 +7059,7 @@ mkpath	oslib/libmtd.c	/^static char *mkpath(const char *path, const char *name)$
 mlock	os/windows/posix.c	/^int mlock(const void * addr, size_t len)$/;"	f
 mmap	engines/io_uring.c	/^	struct ioring_mmap mmap[3];$/;"	m	struct:ioring_data	typeref:struct:ioring_data::ioring_mmap	file:
 mmap	os/windows/posix.c	/^void *mmap(void *addr, size_t len, int prot, int flags, int fildes, off_t off)$/;"	f
-mmap_data	io_u.h	/^		void *mmap_data;$/;"	m	union:io_u::__anon14
+mmap_data	io_u.h	/^		void *mmap_data;$/;"	m	union:io_u::__anon34
 mmap_map_size	engines/mmap.c	/^static unsigned long mmap_map_size;$/;"	v	file:
 mmap_off	engines/mmap.c	/^	off_t mmap_off;$/;"	m	struct:fio_mmap_data	file:
 mmap_options	engines/mmap.c	/^struct mmap_options {$/;"	s	file:
@@ -7085,13 +7080,13 @@ mor	engines/nvme.h	/^	__le32			mor;$/;"	m	struct:nvme_zns_id_ns
 move_extent	engines/e4defrag.c	/^struct move_extent {$/;"	s	file:
 moved_len	engines/e4defrag.c	/^	__u64 moved_len;        \/* moved block length *\/$/;"	m	struct:move_extent	file:
 mp	smalloc.c	/^static struct pool *mp;$/;"	v	typeref:struct:pool	file:
-mr	io_u.h	/^		struct ibv_mr *mr;$/;"	m	union:io_u::__anon14	typeref:struct:io_u::__anon14::ibv_mr
+mr	io_u.h	/^		struct ibv_mr *mr;$/;"	m	union:io_u::__anon34	typeref:struct:io_u::__anon34::ibv_mr
 mr_desc_size	engines/librpma_fio.h	/^	uint8_t mr_desc_size;	\/* size of mr_desc in descriptor[] *\/$/;"	m	struct:librpma_fio_workspace
 ms	engines/nvme.h	/^	__le16			ms;$/;"	m	struct:nvme_lbaf
 msec	diskutil.h	/^	uint64_t msec;$/;"	m	struct:disk_util_stats
 msec_per_sec	tools/hist/fio-histo-log-pctiles.py	/^msec_per_sec = 1000$/;"	v
 msg_curr	engines/librpma_gpspm.c	/^	uint32_t msg_curr;$/;"	m	struct:client_data	file:
-msg_flags	os/linux/io_uring.h	/^		__u32		msg_flags;$/;"	m	union:io_uring_sqe::__anon83
+msg_flags	os/linux/io_uring.h	/^		__u32		msg_flags;$/;"	m	union:io_uring_sqe::__anon71
 msg_mr	engines/librpma_gpspm.c	/^	struct rpma_mr_local *msg_mr;$/;"	m	struct:client_data	typeref:struct:client_data::rpma_mr_local	file:
 msg_mr	engines/librpma_gpspm.c	/^	struct rpma_mr_local *msg_mr;$/;"	m	struct:server_data	typeref:struct:server_data::rpma_mr_local	file:
 msg_num	engines/librpma_gpspm.c	/^	uint32_t msg_num;$/;"	m	struct:client_data	file:
@@ -7238,10 +7233,10 @@ next	oslib/libmtd_legacy.c	/^	char *next;$/;"	m	struct:proc_parse_info	file:
 next	server.c	/^	struct flist_head next;	\/* Other sk_entry's, if linked command *\/$/;"	m	struct:sk_entry	typeref:struct:sk_entry::flist_head	file:
 nextData	tools/hist/fiologparser_hist.py	/^    def nextData(self):$/;"	m	class:HistFileRdr
 next_buffered_event	engines/nfs.c	/^	int next_buffered_event; \/* round robin-pointer within events[] *\/$/;"	m	struct:fio_libnfs_options	file:
-next_file	fio.h	/^		unsigned int next_file;$/;"	m	union:thread_data::__anon63
-next_file_gauss	fio.h	/^		struct gauss_state next_file_gauss;$/;"	m	union:thread_data::__anon64	typeref:struct:thread_data::__anon64::gauss_state
-next_file_state	fio.h	/^		struct frand_state next_file_state;$/;"	m	union:thread_data::__anon63	typeref:struct:thread_data::__anon63::frand_state
-next_file_zipf	fio.h	/^		struct zipf_state next_file_zipf;$/;"	m	union:thread_data::__anon64	typeref:struct:thread_data::__anon64::zipf_state
+next_file	fio.h	/^		unsigned int next_file;$/;"	m	union:thread_data::__anon21
+next_file_gauss	fio.h	/^		struct gauss_state next_file_gauss;$/;"	m	union:thread_data::__anon22	typeref:struct:thread_data::__anon22::gauss_state
+next_file_state	fio.h	/^		struct frand_state next_file_state;$/;"	m	union:thread_data::__anon21	typeref:struct:thread_data::__anon21::frand_state
+next_file_zipf	fio.h	/^		struct zipf_state next_file_zipf;$/;"	m	union:thread_data::__anon22	typeref:struct:thread_data::__anon22::zipf_state
 next_free_worker	workqueue.h	/^	unsigned int next_free_worker;$/;"	m	struct:workqueue
 next_non_full	smalloc.c	/^	size_t next_non_full;$/;"	m	struct:pool	file:
 nfds_t	os/windows/posix/include/poll.h	/^typedef int nfds_t;$/;"	t
@@ -7260,7 +7255,7 @@ nicenum	tickmarks.c	/^static double nicenum(double x, int round)$/;"	f	file:
 nlbaf	engines/nvme.h	/^	__u8			nlbaf;$/;"	m	struct:nvme_id_ns
 nmenu_items	gfio.c	/^static gint nmenu_items = FIO_ARRAY_SIZE(menu_items);$/;"	v	file:
 nmic	engines/nvme.h	/^	__u8			nmic;$/;"	m	struct:nvme_id_ns
-no_argument	oslib/getopt.h	/^	no_argument	  = 0,$/;"	e	enum:__anon16
+no_argument	oslib/getopt.h	/^	no_argument	  = 0,$/;"	e	enum:__anon6
 no_completion_thread	engines/windowsaio.c	/^	unsigned int no_completion_thread;$/;"	m	struct:windowsaio_options	file:
 no_comps	verify-state.h	/^	uint64_t no_comps;$/;"	m	struct:thread_io_list
 no_free	parse.h	/^	int no_free;$/;"	m	struct:fio_option
@@ -7469,13 +7464,13 @@ o_to_kib_rate	t/btrace2fio.c	/^static unsigned long o_to_kib_rate(struct btrace_
 oatomic	thread_options.h	/^	uint32_t oatomic;$/;"	m	struct:thread_options_pack
 oatomic	thread_options.h	/^	unsigned int oatomic;$/;"	m	struct:thread_options
 obj	engines/dfs.c	/^	dfs_obj_t	*obj;$/;"	m	struct:daos_data	file:
-object	json.h	/^		struct json_object *object;$/;"	m	union:json_value::__anon35	typeref:struct:json_value::__anon35::json_object
+object	json.h	/^		struct json_object *object;$/;"	m	union:json_value::__anon44	typeref:struct:json_value::__anon44::json_object
 oclass	engines/dfs.c	/^	char		*oclass; \/* object class *\/$/;"	m	struct:daos_fio_options	file:
 odirect	t/dedupe.c	/^static unsigned int odirect;$/;"	v	file:
 odirect	thread_options.h	/^	uint32_t odirect;$/;"	m	struct:thread_options_pack
 odirect	thread_options.h	/^	unsigned int odirect;$/;"	m	struct:thread_options
 off	lib/pattern.h	/^	unsigned int off;$/;"	m	struct:pattern_fmt
-off	os/linux/io_uring.h	/^		__u64	off;	\/* offset into file *\/$/;"	m	union:io_uring_sqe::__anon81
+off	os/linux/io_uring.h	/^		__u64	off;	\/* offset into file *\/$/;"	m	union:io_uring_sqe::__anon69
 off	t/read-to-pipe-async.c	/^	off_t off;$/;"	m	struct:work_item	file:
 off1	parse.h	/^	unsigned int off1;		\/* potential parameters *\/$/;"	m	struct:fio_option
 off2	parse.h	/^	unsigned int off2;$/;"	m	struct:fio_option
@@ -7531,7 +7526,7 @@ open_file	engines/fileoperations.c	/^static int open_file(struct thread_data *td
 open_file	ioengines.h	/^	int (*open_file)(struct thread_data *, struct fio_file *);$/;"	m	struct:ioengine_ops
 open_files	thread_options.h	/^	uint32_t open_files;$/;"	m	struct:thread_options_pack
 open_files	thread_options.h	/^	unsigned int open_files;$/;"	m	struct:thread_options
-open_flags	os/linux/io_uring.h	/^		__u32		open_flags;$/;"	m	union:io_uring_sqe::__anon83
+open_flags	os/linux/io_uring.h	/^		__u32		open_flags;$/;"	m	union:io_uring_sqe::__anon71
 open_socket	iolog.c	/^static int open_socket(const char *path)$/;"	f	file:
 open_state_file	verify.c	/^static int open_state_file(const char *name, const char *prefix, int num,$/;"	f	file:
 open_zones	zbd.h	/^	uint32_t		open_zones[ZBD_MAX_OPEN_ZONES];$/;"	m	struct:zoned_block_device_info
@@ -7570,7 +7565,7 @@ option_check_rate	fio.h	/^static inline bool option_check_rate(struct thread_dat
 option_init	parse.c	/^static void option_init(struct fio_option *o)$/;"	f	file:
 option_matches	oslib/getopt_long.c	/^static inline const char *option_matches(const char *arg_str,$/;"	f	file:
 option_struct_size	ioengines.h	/^	int option_struct_size;$/;"	m	struct:ioengine_ops
-optional_argument	oslib/getopt.h	/^	optional_argument = 2,$/;"	e	enum:__anon16
+optional_argument	oslib/getopt.h	/^	optional_argument = 2,$/;"	e	enum:__anon6
 options	engines/cmdprio.h	/^	struct cmdprio_options *options;$/;"	m	struct:cmdprio	typeref:struct:cmdprio::cmdprio_options
 options	engines/cpu.c	/^static struct fio_option options[] = {$/;"	v	typeref:struct:fio_option	file:
 options	engines/dfs.c	/^static struct fio_option options[] = {$/;"	v	typeref:struct:fio_option	file:
@@ -7621,8 +7616,8 @@ os	gfio.h	/^	GtkWidget *os;$/;"	m	struct:probe_widget
 os	server.h	/^	uint8_t os;$/;"	m	struct:cmd_probe_reply_pdu
 os_aiocb_t	os/os-hpux.h	/^typedef struct aiocb64 os_aiocb_t;$/;"	t	typeref:struct:aiocb64
 os_aiocb_t	os/os.h	/^typedef struct aiocb os_aiocb_t;$/;"	t	typeref:struct:aiocb
-os_aix	os/os.h	/^	os_aix,$/;"	e	enum:__anon79
-os_android	os/os.h	/^	os_android,$/;"	e	enum:__anon79
+os_aix	os/os.h	/^	os_aix,$/;"	e	enum:__anon66
+os_android	os/os.h	/^	os_android,$/;"	e	enum:__anon66
 os_cache_line_size	os/os.h	/^static inline int os_cache_line_size(void)$/;"	f
 os_clk_tck	os/os.h	/^static inline void os_clk_tck(long *clk_tck)$/;"	f
 os_clk_tck	os/windows/dlls.c	/^void os_clk_tck(long *clk_tck)$/;"	f
@@ -7632,18 +7627,18 @@ os_cpu_mask_t	os/os-dragonfly.h	/^typedef cpumask_t os_cpu_mask_t;$/;"	t
 os_cpu_mask_t	os/os-freebsd.h	/^typedef cpuset_t os_cpu_mask_t;$/;"	t
 os_cpu_mask_t	os/os-linux.h	/^typedef cpu_set_t os_cpu_mask_t;$/;"	t
 os_cpu_mask_t	os/os-solaris.h	/^typedef psetid_t os_cpu_mask_t;$/;"	t
-os_cpu_mask_t	os/os-windows-7.h	/^} os_cpu_mask_t;$/;"	t	typeref:struct:__anon78
+os_cpu_mask_t	os/os-windows-7.h	/^} os_cpu_mask_t;$/;"	t	typeref:struct:__anon68
 os_cpu_mask_t	os/os.h	/^typedef unsigned long os_cpu_mask_t;$/;"	t
 os_ctime_r	os/os-solaris.h	46;"	d
 os_ctime_r	os/os.h	187;"	d
-os_dragonfly	os/os.h	/^	os_dragonfly,$/;"	e	enum:__anon79
-os_freebsd	os/os.h	/^	os_freebsd,$/;"	e	enum:__anon79
-os_hpux	os/os.h	/^	os_hpux,$/;"	e	enum:__anon79
-os_linux	os/os.h	/^	os_linux = 1,$/;"	e	enum:__anon79
-os_mac	os/os.h	/^	os_mac,$/;"	e	enum:__anon79
-os_netbsd	os/os.h	/^	os_netbsd,$/;"	e	enum:__anon79
-os_nr	os/os.h	/^	os_nr,$/;"	e	enum:__anon79
-os_openbsd	os/os.h	/^	os_openbsd,$/;"	e	enum:__anon79
+os_dragonfly	os/os.h	/^	os_dragonfly,$/;"	e	enum:__anon66
+os_freebsd	os/os.h	/^	os_freebsd,$/;"	e	enum:__anon66
+os_hpux	os/os.h	/^	os_hpux,$/;"	e	enum:__anon66
+os_linux	os/os.h	/^	os_linux = 1,$/;"	e	enum:__anon66
+os_mac	os/os.h	/^	os_mac,$/;"	e	enum:__anon66
+os_netbsd	os/os.h	/^	os_netbsd,$/;"	e	enum:__anon66
+os_nr	os/os.h	/^	os_nr,$/;"	e	enum:__anon66
+os_openbsd	os/os.h	/^	os_openbsd,$/;"	e	enum:__anon66
 os_phys_mem	os/os-aix.h	/^static inline unsigned long long os_phys_mem(void)$/;"	f
 os_phys_mem	os/os-dragonfly.h	/^static inline unsigned long long os_phys_mem(void)$/;"	f
 os_phys_mem	os/os-freebsd.h	/^static inline unsigned long long os_phys_mem(void)$/;"	f
@@ -7654,11 +7649,11 @@ os_phys_mem	os/os-netbsd.h	/^static inline unsigned long long os_phys_mem(void)$
 os_phys_mem	os/os-openbsd.h	/^static inline unsigned long long os_phys_mem(void)$/;"	f
 os_phys_mem	os/os-solaris.h	/^static inline unsigned long long os_phys_mem(void)$/;"	f
 os_phys_mem	os/os-windows.h	/^static inline unsigned long long os_phys_mem(void)$/;"	f
-os_solaris	os/os.h	/^	os_solaris,$/;"	e	enum:__anon79
+os_solaris	os/os.h	/^	os_solaris,$/;"	e	enum:__anon66
 os_trim	os/os-dragonfly.h	/^static inline int os_trim(struct fio_file *f, unsigned long long start,$/;"	f
 os_trim	os/os-freebsd.h	/^static inline int os_trim(struct fio_file *f, unsigned long long start,$/;"	f
 os_trim	os/os-linux.h	/^static inline int os_trim(struct fio_file *f, unsigned long long start,$/;"	f
-os_windows	os/os.h	/^	os_windows,$/;"	e	enum:__anon79
+os_windows	os/os.h	/^	os_windows,$/;"	e	enum:__anon66
 out	fifo.h	/^	unsigned int out;	\/* data is extracted from off. (out % size) *\/$/;"	m	struct:fifo
 output	crc/test.c	/^	uint32_t output;$/;"	m	struct:test_type	file:
 output	t/genzipf.c	/^	double output;$/;"	m	struct:output_sum	file:
@@ -7718,20 +7713,20 @@ pad	stat.h	/^	uint32_t pad;$/;"	m	struct:jw_thread_gc_stat
 pad	stat.h	/^	uint32_t pad;$/;"	m	struct:thread_stat
 pad	thread_options.h	/^	uint32_t pad;$/;"	m	struct:thread_options_pack
 pad	thread_options.h	/^	uint8_t pad[6];$/;"	m	struct:zone_split
-pad2	stat.h	/^		uint32_t pad2;$/;"	m	union:jw_thread_gc_stat::__anon21
-pad2	stat.h	/^		uint32_t pad2;$/;"	m	union:thread_stat::__anon17
+pad2	stat.h	/^		uint32_t pad2;$/;"	m	union:jw_thread_gc_stat::__anon97
+pad2	stat.h	/^		uint32_t pad2;$/;"	m	union:thread_stat::__anon93
 pad2	thread_options.h	/^	uint32_t pad2;$/;"	m	struct:thread_options_pack
 pad3	stat.h	/^	uint32_t pad3;$/;"	m	struct:jw_thread_gc_stat
 pad3	stat.h	/^	uint32_t pad3;$/;"	m	struct:thread_stat
 pad3	thread_options.h	/^	uint32_t pad3;$/;"	m	struct:thread_options_pack
-pad4	stat.h	/^		uint64_t pad4;$/;"	m	union:jw_thread_gc_stat::__anon22
-pad4	stat.h	/^		uint64_t pad4;$/;"	m	union:thread_stat::__anon18
+pad4	stat.h	/^		uint64_t pad4;$/;"	m	union:jw_thread_gc_stat::__anon98
+pad4	stat.h	/^		uint64_t pad4;$/;"	m	union:thread_stat::__anon94
 pad4	thread_options.h	/^	uint32_t pad4;$/;"	m	struct:thread_options_pack
-pad5	stat.h	/^		uint64_t pad5;$/;"	m	union:jw_thread_gc_stat::__anon23
-pad5	stat.h	/^		uint64_t pad5;$/;"	m	union:thread_stat::__anon19
+pad5	stat.h	/^		uint64_t pad5;$/;"	m	union:jw_thread_gc_stat::__anon99
+pad5	stat.h	/^		uint64_t pad5;$/;"	m	union:thread_stat::__anon95
 pad5	thread_options.h	/^	uint32_t pad5;$/;"	m	struct:thread_options_pack
-pad6	stat.h	/^		uint64_t pad6;$/;"	m	union:jw_thread_gc_stat::__anon24
-pad6	stat.h	/^		uint64_t pad6;$/;"	m	union:thread_stat::__anon20
+pad6	stat.h	/^		uint64_t pad6;$/;"	m	union:jw_thread_gc_stat::__anon100
+pad6	stat.h	/^		uint64_t pad6;$/;"	m	union:thread_stat::__anon96
 padding	engines/nbd.c	/^	void *padding;$/;"	m	struct:nbd_options	file:
 padding	engines/xnvme.c	/^	void *padding;$/;"	m	struct:xnvme_fioe_options	file:
 page_label	gfio.h	/^	GtkWidget *page_label;$/;"	m	struct:gui_entry
@@ -7748,11 +7743,11 @@ parent	json.h	/^	struct json_value *parent;$/;"	m	struct:json_array	typeref:stru
 parent	json.h	/^	struct json_value *parent;$/;"	m	struct:json_object	typeref:struct:json_object::json_value
 parent	lib/prio_tree.h	/^	struct prio_tree_node	*parent;$/;"	m	struct:prio_tree_node	typeref:struct:prio_tree_node::prio_tree_node
 parent	parse.h	/^	const char *parent;		\/* parent option *\/$/;"	m	struct:fio_option
-parent_array	json.h	/^		struct json_array *parent_array;$/;"	m	union:json_value::__anon36	typeref:struct:json_value::__anon36::json_array
-parent_pair	json.h	/^		struct json_pair *parent_pair;$/;"	m	union:json_value::__anon36	typeref:struct:json_value::__anon36::json_pair
+parent_array	json.h	/^		struct json_array *parent_array;$/;"	m	union:json_value::__anon45	typeref:struct:json_value::__anon45::json_array
+parent_pair	json.h	/^		struct json_pair *parent_pair;$/;"	m	union:json_value::__anon45	typeref:struct:json_value::__anon45::json_pair
 parent_type	json.h	/^	int parent_type;$/;"	m	struct:json_value
 parent_update_ramp	time.c	/^static bool parent_update_ramp(struct thread_data *td)$/;"	f	file:
-pareto_h	fio.h	/^		double pareto_h;$/;"	m	union:thread_data::__anon65
+pareto_h	fio.h	/^		double pareto_h;$/;"	m	union:thread_data::__anon23
 pareto_h	thread_options.h	/^	fio_fp64_t pareto_h;$/;"	m	struct:thread_options
 pareto_h	thread_options.h	/^	fio_fp64_t pareto_h;$/;"	m	struct:thread_options_pack
 pareto_init	lib/zipf.c	/^void pareto_init(struct zipf_state *zs, uint64_t nranges, double h,$/;"	f
@@ -7902,8 +7897,8 @@ pmemblk_SRCS	Makefile	/^  pmemblk_SRCS = engines\/pmemblk.c$/;"	m
 poh	engines/dfs.c	/^daos_handle_t		poh;  \/* pool handle *\/$/;"	v
 poisson_state	fio.h	/^	struct frand_state poisson_state[DDIR_RWDIR_CNT];$/;"	m	struct:thread_data	typeref:struct:thread_data::frand_state
 poll	os/windows/posix.c	/^int poll(struct pollfd fds[], nfds_t nfds, int timeout)$/;"	f
-poll32_events	os/linux/io_uring.h	/^		__u32		poll32_events;	\/* word-reversed for BE *\/$/;"	m	union:io_uring_sqe::__anon83
-poll_events	os/linux/io_uring.h	/^		__u16		poll_events;	\/* compatibility *\/$/;"	m	union:io_uring_sqe::__anon83
+poll32_events	os/linux/io_uring.h	/^		__u32		poll32_events;	\/* word-reversed for BE *\/$/;"	m	union:io_uring_sqe::__anon71
+poll_events	os/linux/io_uring.h	/^		__u16		poll_events;	\/* compatibility *\/$/;"	m	union:io_uring_sqe::__anon71
 poll_wait	engines/net.c	/^static int poll_wait(struct thread_data *td, int fd, short events)$/;"	f	file:
 polled	t/io_uring.c	/^static int polled = 1;		\/* use IO polling *\/$/;"	v	file:
 pollin_events	engines/sg.c	/^static int pollin_events(struct pollfd *pfds, int fds)$/;"	f	file:
@@ -8155,7 +8150,7 @@ rb_left	os/os-netbsd.h	18;"	d
 rb_link_node	lib/rbtree.h	/^static inline void rb_link_node(struct fio_rb_node * node,$/;"	f
 rb_lock	t/dedupe.c	/^static struct fio_sem *rb_lock;$/;"	v	typeref:struct:fio_sem	file:
 rb_next	lib/rbtree.c	/^struct fio_rb_node *rb_next(const struct fio_rb_node *node)$/;"	f
-rb_node	iolog.h	/^		struct fio_rb_node rb_node;$/;"	m	union:io_piece::__anon47	typeref:struct:io_piece::__anon47::fio_rb_node
+rb_node	iolog.h	/^		struct fio_rb_node rb_node;$/;"	m	union:io_piece::__anon9	typeref:struct:io_piece::__anon9::fio_rb_node
 rb_node	lib/rbtree.h	/^	struct fio_rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::fio_rb_node
 rb_node	os/os-netbsd.h	17;"	d
 rb_node	t/dedupe.c	/^	struct fio_rb_node rb_node;$/;"	m	struct:chunk	typeref:struct:chunk::fio_rb_node	file:
@@ -8274,7 +8269,7 @@ refs	server.h	/^	unsigned int refs;	\/* frees sk_out when it drops to zero.$/;"	
 region_cnt	oslib/libmtd.h	/^	int region_cnt;$/;"	m	struct:mtd_dev_info
 register_files	t/io_uring.c	/^static int register_files = 1;	\/* use fixed files *\/$/;"	v	file:
 register_ioengine	ioengines.c	/^void register_ioengine(struct ioengine_ops *ops)$/;"	f
-register_op	os/linux/io_uring.h	/^		__u8 register_op; \/* IORING_RESTRICTION_REGISTER_OP *\/$/;"	m	union:io_uring_restriction::__anon93
+register_op	os/linux/io_uring.h	/^		__u8 register_op; \/* IORING_RESTRICTION_REGISTER_OP *\/$/;"	m	union:io_uring_restriction::__anon81
 register_profile	profile.c	/^int register_profile(struct profile_ops *ops)$/;"	f
 register_ring	t/io_uring.c	/^static int register_ring = 1;	\/* register ring *\/$/;"	v	file:
 registerfiles	engines/io_uring.c	/^	unsigned int registerfiles;$/;"	m	struct:ioring_options	file:
@@ -8290,7 +8285,7 @@ remove_file_hash	filehash.c	/^void remove_file_hash(struct fio_file *f)$/;"	f
 remove_reply_cmd	client.c	/^static bool remove_reply_cmd(struct fio_client *client, struct fio_net_cmd *cmd)$/;"	f	file:
 remove_trim_entry	trim.h	/^static inline void remove_trim_entry(struct thread_data *td, struct io_piece *ipo)$/;"	f
 removed	client.h	/^	client_timed_out_op	*removed;$/;"	m	struct:client_ops
-rename_flags	os/linux/io_uring.h	/^		__u32		rename_flags;$/;"	m	union:io_uring_sqe::__anon83
+rename_flags	os/linux/io_uring.h	/^		__u32		rename_flags;$/;"	m	union:io_uring_sqe::__anon71
 render_option	tools/fiograph/fiograph.py	/^def render_option(section, label, display, option, color_override=None):$/;"	f
 render_options	tools/fiograph/fiograph.py	/^def render_options(fio_file, section_name):$/;"	f
 render_section	tools/fiograph/fiograph.py	/^def render_section(current_graph, fio_file, section_name, label):$/;"	f
@@ -8318,7 +8313,7 @@ require_scsi_dev	t/zbd/test-zbd-support	/^require_scsi_dev() {$/;"	f
 require_seq_zones	t/zbd/test-zbd-support	/^require_seq_zones() {$/;"	f
 require_zbd	t/zbd/test-zbd-support	/^require_zbd() {$/;"	f
 required	tools/hist/fiologparser_hist.py	/^        required=False,$/;"	v
-required_argument	oslib/getopt.h	/^	required_argument = 1,$/;"	e	enum:__anon16
+required_argument	oslib/getopt.h	/^	required_argument = 1,$/;"	e	enum:__anon6
 res	os/linux/io_uring.h	/^	__s32	res;		\/* result code for this event *\/$/;"	m	struct:io_uring_cqe
 rescap	engines/nvme.h	/^	__u8			rescap;$/;"	m	struct:nvme_id_ns
 reserved	engines/e4defrag.c	/^	__u32 reserved;         \/* should be zero *\/$/;"	m	struct:move_extent	file:
@@ -8337,7 +8332,7 @@ reset_zone	zbd.h	/^	unsigned int		reset_zone:1;$/;"	m	struct:fio_zone_info
 resid	io_u.h	/^	unsigned long long resid;$/;"	m	struct:io_u
 result	t/steadystate_tests.py	/^                    result = 'FAILED '$/;"	v
 result	t/steadystate_tests.py	/^                    result = 'PASSED '$/;"	v
-resultp	io_u.h	/^		aio_result_t resultp;$/;"	m	union:io_u::__anon14
+resultp	io_u.h	/^		aio_result_t resultp;$/;"	m	union:io_u::__anon34
 results	gfio.h	/^	struct end_results *results;$/;"	m	struct:gfio_client	typeref:struct:gfio_client::end_results
 results_close	gclient.c	/^static void results_close(GtkWidget *w, gpointer *data)$/;"	f	file:
 results_draw_page	printing.c	/^static void results_draw_page(GtkPrintOperation *operation,$/;"	f	file:
@@ -8401,7 +8396,7 @@ root	t/run-fio-tests.py	/^    def root(cls):$/;"	m	class:Requirements
 ror32	crc/sha256.c	/^static inline uint32_t ror32(uint32_t word, unsigned int shift)$/;"	f	file:
 rotl32	crc/murmur3.c	/^static inline uint32_t rotl32(uint32_t x, int8_t r)$/;"	f	file:
 roundup_pow2	lib/roundup.h	/^static inline unsigned roundup_pow2(unsigned depth)$/;"	f
-row	os/os-windows-7.h	/^	uint64_t row[FIO_CPU_MASK_ROWS];$/;"	m	struct:__anon78
+row	os/os-windows-7.h	/^	uint64_t row[FIO_CPU_MASK_ROWS];$/;"	m	struct:__anon68
 rp	engines/nvme.h	/^	__u8			rp;$/;"	m	struct:nvme_lbaf
 rq_wr	engines/rdma.c	/^	struct ibv_recv_wr rq_wr;$/;"	m	struct:rdma_io_u_data	typeref:struct:rdma_io_u_data::ibv_recv_wr	file:
 rq_wr	engines/rdma.c	/^	struct ibv_recv_wr rq_wr;$/;"	m	struct:rdmaio_data	typeref:struct:rdmaio_data::ibv_recv_wr	file:
@@ -8463,13 +8458,13 @@ runtime	t/io_uring.c	/^static int runtime = 0;		\/* runtime *\/$/;"	v	file:
 runtime_exceeded	backend.c	/^static inline bool runtime_exceeded(struct thread_data *td, struct timespec *t)$/;"	f	file:
 rusage	os/windows/posix/include/sys/resource.h	/^struct rusage$/;"	s
 rusage_sem	fio.h	/^	struct fio_sem *rusage_sem;$/;"	m	struct:thread_data	typeref:struct:thread_data::fio_sem
-rw_flags	os/linux/io_uring.h	/^		__kernel_rwf_t	rw_flags;$/;"	m	union:io_uring_sqe::__anon83
+rw_flags	os/linux/io_uring.h	/^		__kernel_rwf_t	rw_flags;$/;"	m	union:io_uring_sqe::__anon71
 rw_min_bs	thread_options.h	/^	uint64_t rw_min_bs;$/;"	m	struct:thread_options_pack
 rw_min_bs	thread_options.h	/^	unsigned long long rw_min_bs;$/;"	m	struct:thread_options
 rw_seq	thread_options.h	/^	uint32_t rw_seq;$/;"	m	struct:thread_options_pack
 rw_seq	thread_options.h	/^	unsigned int rw_seq;$/;"	m	struct:thread_options
 rw_verify	options.c	/^static int rw_verify(const struct fio_option *o, void *data)$/;"	f	file:
-rwlock	file.h	/^		struct fio_rwlock *rwlock;$/;"	m	union:fio_file::__anon32	typeref:struct:fio_file::__anon32::fio_rwlock
+rwlock	file.h	/^		struct fio_rwlock *rwlock;$/;"	m	union:fio_file::__anon54	typeref:struct:fio_file::__anon54::fio_rwlock
 rwmix	thread_options.h	/^	uint32_t rwmix[DDIR_RWDIR_CNT];$/;"	m	struct:thread_options_pack
 rwmix	thread_options.h	/^	unsigned int rwmix[DDIR_RWDIR_CNT];$/;"	m	struct:thread_options
 rwmix_ddir	fio.h	/^	enum fio_ddir rwmix_ddir;$/;"	m	struct:thread_data	typeref:enum:thread_data::fio_ddir
@@ -8545,7 +8540,7 @@ sectors	diskutil.h	/^	uint64_t sectors[2];$/;"	m	struct:disk_util_stats
 sectors_with_data	zbd.h	/^	uint64_t		sectors_with_data;$/;"	m	struct:zoned_block_device_info
 seed	crc/xxhash.h	/^    uint32_t seed;$/;"	m	struct:XXH_state32_t
 seed	lib/bloom.c	/^	unsigned int seed;$/;"	m	struct:bloom_hash	file:
-seen	io_u.h	/^		unsigned int seen;$/;"	m	union:io_u::__anon12
+seen	io_u.h	/^		unsigned int seen;$/;"	m	union:io_u::__anon32
 segments	init.c	/^struct thread_segment segments[REAL_MAX_SEG];$/;"	v	typeref:struct:thread_segment
 sem	fio.h	/^	struct fio_sem *sem;$/;"	m	struct:thread_data	typeref:struct:thread_data::fio_sem
 sem	gettime-thread.c	/^	struct fio_sem *sem;$/;"	m	struct:gtod_cpu_data	typeref:struct:gtod_cpu_data::fio_sem	file:
@@ -8803,7 +8798,7 @@ simple_memcpy	lib/memcpy.c	/^static void simple_memcpy(void *dst, void const *sr
 simple_strtoX	oslib/libmtd_common.h	142;"	d
 single_instance	engines/libhdfs.c	/^	unsigned int single_instance;$/;"	m	struct:hdfsio_options	file:
 sinit	smalloc.c	/^void sinit(void)$/;"	f
-sioreq	engines/ime.c	/^		struct imesio_req	*sioreq;	\/* pointer to the only syncio request *\/$/;"	m	union:ime_data::__anon100	typeref:struct:ime_data::__anon100::imesio_req	file:
+sioreq	engines/ime.c	/^		struct imesio_req	*sioreq;	\/* pointer to the only syncio request *\/$/;"	m	union:ime_data::__anon39	typeref:struct:ime_data::__anon39::imesio_req	file:
 size	crc/sha1.h	/^	unsigned long long size;$/;"	m	struct:fio_sha1_ctx
 size	engines/dfs.c	/^	daos_size_t	size;$/;"	m	struct:daos_iou	file:
 size	engines/rdma.c	/^	uint32_t size;$/;"	m	struct:remote_u	file:
@@ -8893,11 +8888,11 @@ spin	goptions.c	/^	GtkWidget *spin;$/;"	m	struct:gopt_int	file:
 spin	goptions.c	/^	GtkWidget *spin;$/;"	m	struct:gopt_str_val	file:
 spin	lib/lfsr.h	/^	unsigned int spin;$/;"	m	struct:fio_lfsr
 spins	goptions.c	/^	GtkWidget *spins[GOPT_RANGE_SPIN];$/;"	m	struct:gopt_range	file:
-splice_fd_in	os/linux/io_uring.h	/^		__s32	splice_fd_in;$/;"	m	union:io_uring_sqe::__anon85
-splice_flags	os/linux/io_uring.h	/^		__u32		splice_flags;$/;"	m	union:io_uring_sqe::__anon83
+splice_fd_in	os/linux/io_uring.h	/^		__s32	splice_fd_in;$/;"	m	union:io_uring_sqe::__anon73
+splice_flags	os/linux/io_uring.h	/^		__u32		splice_flags;$/;"	m	union:io_uring_sqe::__anon71
 splice_in	engines/net.c	/^static int splice_in(struct thread_data *td, struct io_u *io_u)$/;"	f	file:
 splice_io_u	engines/net.c	/^static int splice_io_u(int fdin, int fdout, unsigned int len)$/;"	f	file:
-splice_off_in	os/linux/io_uring.h	/^		__u64	splice_off_in;$/;"	m	union:io_uring_sqe::__anon82
+splice_off_in	os/linux/io_uring.h	/^		__u64	splice_off_in;$/;"	m	union:io_uring_sqe::__anon70
 splice_out	engines/net.c	/^static int splice_out(struct thread_data *td, struct io_u *io_u,$/;"	f	file:
 spliceio_data	engines/splice.c	/^struct spliceio_data {$/;"	s	file:
 split	thread_options.h	/^struct split {$/;"	s
@@ -8918,8 +8913,8 @@ sq_thread_idle	os/linux/io_uring.h	/^	__u32 sq_thread_idle;$/;"	m	struct:io_urin
 sq_thread_poll	t/io_uring.c	/^static int sq_thread_poll = 0;	\/* use kernel submission\/poller thread *\/$/;"	v	file:
 sq_wr	engines/rdma.c	/^	struct ibv_send_wr sq_wr;$/;"	m	struct:rdma_io_u_data	typeref:struct:rdma_io_u_data::ibv_send_wr	file:
 sq_wr	engines/rdma.c	/^	struct ibv_send_wr sq_wr;$/;"	m	struct:rdmaio_data	typeref:struct:rdmaio_data::ibv_send_wr	file:
-sqe_flags	os/linux/io_uring.h	/^		__u8 sqe_flags;   \/* IORING_RESTRICTION_SQE_FLAGS_* *\/$/;"	m	union:io_uring_restriction::__anon93
-sqe_op	os/linux/io_uring.h	/^		__u8 sqe_op;      \/* IORING_RESTRICTION_SQE_OP *\/$/;"	m	union:io_uring_restriction::__anon93
+sqe_flags	os/linux/io_uring.h	/^		__u8 sqe_flags;   \/* IORING_RESTRICTION_SQE_FLAGS_* *\/$/;"	m	union:io_uring_restriction::__anon81
+sqe_op	os/linux/io_uring.h	/^		__u8 sqe_op;      \/* IORING_RESTRICTION_SQE_OP *\/$/;"	m	union:io_uring_restriction::__anon81
 sqes	engines/io_uring.c	/^	struct io_uring_sqe *sqes;$/;"	m	struct:ioring_data	typeref:struct:ioring_data::io_uring_sqe	file:
 sqes	t/io_uring.c	/^	struct io_uring_sqe *sqes;$/;"	m	struct:submitter	typeref:struct:submitter::io_uring_sqe	file:
 sqpoll_cpu	engines/io_uring.c	/^	unsigned int sqpoll_cpu;$/;"	m	struct:ioring_options	file:
@@ -8930,10 +8925,10 @@ src	lib/memcpy.c	/^	void *src;$/;"	m	struct:memcpy_test	file:
 ss	fio.h	/^	struct steadystate_data ss;$/;"	m	struct:thread_data	typeref:struct:thread_data::steadystate_data
 ss	t/steadystate_tests.py	/^               ss = 'bw'$/;"	v
 ss	t/steadystate_tests.py	/^               ss = 'iops'$/;"	v
-ss_bw_data	stat.h	/^		uint64_t *ss_bw_data;$/;"	m	union:jw_thread_gc_stat::__anon23
-ss_bw_data	stat.h	/^		uint64_t *ss_bw_data;$/;"	m	union:thread_stat::__anon19
-ss_bw_data_offset	stat.h	/^		uint64_t ss_bw_data_offset;$/;"	m	union:jw_thread_gc_stat::__anon23
-ss_bw_data_offset	stat.h	/^		uint64_t ss_bw_data_offset;$/;"	m	union:thread_stat::__anon19
+ss_bw_data	stat.h	/^		uint64_t *ss_bw_data;$/;"	m	union:jw_thread_gc_stat::__anon99
+ss_bw_data	stat.h	/^		uint64_t *ss_bw_data;$/;"	m	union:thread_stat::__anon95
+ss_bw_data_offset	stat.h	/^		uint64_t ss_bw_data_offset;$/;"	m	union:jw_thread_gc_stat::__anon99
+ss_bw_data_offset	stat.h	/^		uint64_t ss_bw_data_offset;$/;"	m	union:thread_stat::__anon95
 ss_criterion	stat.h	/^	fio_fp64_t ss_criterion;$/;"	m	struct:jw_thread_gc_stat
 ss_criterion	stat.h	/^	fio_fp64_t ss_criterion;$/;"	m	struct:thread_stat
 ss_deviation	stat.h	/^	fio_fp64_t ss_deviation;$/;"	m	struct:jw_thread_gc_stat
@@ -8944,10 +8939,10 @@ ss_dur	thread_options.h	/^	uint64_t ss_dur;$/;"	m	struct:thread_options_pack
 ss_dur	thread_options.h	/^	unsigned long long ss_dur;$/;"	m	struct:thread_options
 ss_head	stat.h	/^	uint32_t ss_head;$/;"	m	struct:jw_thread_gc_stat
 ss_head	stat.h	/^	uint32_t ss_head;$/;"	m	struct:thread_stat
-ss_iops_data	stat.h	/^		uint64_t *ss_iops_data;$/;"	m	union:jw_thread_gc_stat::__anon22
-ss_iops_data	stat.h	/^		uint64_t *ss_iops_data;$/;"	m	union:thread_stat::__anon18
-ss_iops_data_offset	stat.h	/^		uint64_t ss_iops_data_offset;$/;"	m	union:jw_thread_gc_stat::__anon22
-ss_iops_data_offset	stat.h	/^		uint64_t ss_iops_data_offset;$/;"	m	union:thread_stat::__anon18
+ss_iops_data	stat.h	/^		uint64_t *ss_iops_data;$/;"	m	union:jw_thread_gc_stat::__anon98
+ss_iops_data	stat.h	/^		uint64_t *ss_iops_data;$/;"	m	union:thread_stat::__anon94
+ss_iops_data_offset	stat.h	/^		uint64_t ss_iops_data_offset;$/;"	m	union:jw_thread_gc_stat::__anon98
+ss_iops_data_offset	stat.h	/^		uint64_t ss_iops_data_offset;$/;"	m	union:thread_stat::__anon94
 ss_limit	stat.h	/^	fio_fp64_t ss_limit;$/;"	m	struct:jw_thread_gc_stat
 ss_limit	stat.h	/^	fio_fp64_t ss_limit;$/;"	m	struct:thread_stat
 ss_limit	thread_options.h	/^	fio_fp64_t ss_limit;$/;"	m	struct:thread_options
@@ -9017,10 +9012,10 @@ state	gfio.h	/^	unsigned int state;$/;"	m	struct:gui_entry
 state	idletime.h	/^	int state;$/;"	m	struct:idle_prof_thread
 state	steadystate.h	/^	uint32_t state;$/;"	m	struct:steadystate_data
 state	verify-state.h	/^	struct thread_io_list state[0];$/;"	m	struct:all_io_list	typeref:struct:all_io_list::thread_io_list
-state32	lib/rand.h	/^		struct taus88_state state32;$/;"	m	union:frand_state::__anon26	typeref:struct:frand_state::__anon26::taus88_state
-state32	verify-state.h	/^		struct thread_rand32_state state32;$/;"	m	union:thread_rand_state::__anon97	typeref:struct:thread_rand_state::__anon97::thread_rand32_state
-state64	lib/rand.h	/^		struct taus258_state state64;$/;"	m	union:frand_state::__anon26	typeref:struct:frand_state::__anon26::taus258_state
-state64	verify-state.h	/^		struct thread_rand64_state state64;$/;"	m	union:thread_rand_state::__anon97	typeref:struct:thread_rand_state::__anon97::thread_rand64_state
+state32	lib/rand.h	/^		struct taus88_state state32;$/;"	m	union:frand_state::__anon103	typeref:struct:frand_state::__anon103::taus88_state
+state32	verify-state.h	/^		struct thread_rand32_state state32;$/;"	m	union:thread_rand_state::__anon62	typeref:struct:thread_rand_state::__anon62::thread_rand32_state
+state64	lib/rand.h	/^		struct taus258_state state64;$/;"	m	union:frand_state::__anon103	typeref:struct:frand_state::__anon103::taus258_state
+state64	verify-state.h	/^		struct thread_rand64_state state64;$/;"	m	union:thread_rand_state::__anon62	typeref:struct:thread_rand_state::__anon62::thread_rand64_state
 static_tv_valid	gettime.c	/^static __thread struct tv_valid static_tv_valid;$/;"	v	typeref:struct:tv_valid	file:
 statinfo	t/strided.py	/^        statinfo = os.stat(args.filename)$/;"	v
 stats	t/io_uring.c	/^static int stats = 0;		\/* generate IO stats *\/$/;"	v	file:
@@ -9038,7 +9033,7 @@ status_mutex	engines/ime.c	/^	pthread_mutex_t		status_mutex;	\/* Mutex for cond_
 statx	oslib/statx.c	/^int statx(int dfd, const char *pathname, int flags, unsigned int mask,$/;"	f
 statx	oslib/statx.h	/^struct statx$/;"	s
 statx	oslib/statx.h	7;"	d
-statx_flags	os/linux/io_uring.h	/^		__u32		statx_flags;$/;"	m	union:io_uring_sqe::__anon83
+statx_flags	os/linux/io_uring.h	/^		__u32		statx_flags;$/;"	m	union:io_uring_sqe::__anon71
 stay_connected	client.h	/^	int stay_connected;$/;"	m	struct:client_ops
 std_redirect	engines/exec.c	/^	unsigned int std_redirect;$/;"	m	struct:exec_options	file:
 stddev	lib/gauss.h	/^	unsigned int stddev;$/;"	m	struct:gauss_state
@@ -9110,7 +9105,7 @@ stress_mode	engines/cpu.c	/^enum stress_mode {$/;"	g	file:
 stress_qsort_cmp_1	engines/cpu.c	/^static int stress_qsort_cmp_1(const void *p1, const void *p2)$/;"	f	file:
 stress_qsort_cmp_2	engines/cpu.c	/^static int stress_qsort_cmp_2(const void *p1, const void *p2)$/;"	f	file:
 stress_qsort_cmp_3	engines/cpu.c	/^static int stress_qsort_cmp_3(const void *p1, const void *p2)$/;"	f	file:
-string	json.h	/^		char *string;$/;"	m	union:json_value::__anon35
+string	json.h	/^		char *string;$/;"	m	union:json_value::__anon44
 string	tickmarks.h	/^	char string[20];$/;"	m	struct:tickmark
 string_distance	parse.c	/^int string_distance(const char *s1, const char *s2)$/;"	f
 string_distance_ok	parse.c	/^int string_distance_ok(const char *opt, int distance)$/;"	f
@@ -9162,7 +9157,7 @@ sync_file_range	thread_options.h	/^	unsigned int sync_file_range;$/;"	m	struct:t
 sync_file_range_nr	fio.h	/^	unsigned int sync_file_range_nr;$/;"	m	struct:thread_data
 sync_io	thread_options.h	/^	uint32_t sync_io;$/;"	m	struct:thread_options_pack
 sync_io	thread_options.h	/^	unsigned int sync_io;$/;"	m	struct:thread_options
-sync_range_flags	os/linux/io_uring.h	/^		__u32		sync_range_flags;$/;"	m	union:io_uring_sqe::__anon83
+sync_range_flags	os/linux/io_uring.h	/^		__u32		sync_range_flags;$/;"	m	union:io_uring_sqe::__anon71
 sync_stat	stat.h	/^	struct io_stat sync_stat __attribute__((aligned(8)));\/* fsync etc stats *\/$/;"	m	struct:jw_thread_gc_stat	typeref:struct:jw_thread_gc_stat::io_stat
 sync_stat	stat.h	/^	struct io_stat sync_stat __attribute__((aligned(8)));\/* fsync etc stats *\/$/;"	m	struct:thread_stat	typeref:struct:thread_stat::io_stat
 syncio_data	engines/sync.c	/^struct syncio_data {$/;"	s	file:
@@ -9431,7 +9426,7 @@ thread	fio.h	/^	pthread_t thread;$/;"	m	struct:thread_data
 thread	gettime.c	/^	pthread_t thread;$/;"	m	struct:clock_thread	file:
 thread	helper_thread.c	/^	pthread_t thread;$/;"	m	struct:helper_data	file:
 thread	idletime.h	/^	pthread_t thread;$/;"	m	struct:idle_prof_thread
-thread	server.c	/^		pthread_t thread;$/;"	m	union:ffi_element::__anon74	file:
+thread	server.c	/^		pthread_t thread;$/;"	m	union:ffi_element::__anon47	file:
 thread	t/dedupe.c	/^	pthread_t thread;$/;"	m	struct:worker_thread	file:
 thread	t/io_uring.c	/^	pthread_t thread;$/;"	m	struct:submitter	file:
 thread	t/read-to-pipe-async.c	/^	pthread_t thread;$/;"	m	struct:thread_data	file:
@@ -9494,7 +9489,7 @@ timed_out	client.h	/^	client_timed_out_op	*timed_out;$/;"	m	struct:client_ops
 timeout	thread_options.h	/^	uint64_t timeout;$/;"	m	struct:thread_options_pack
 timeout	thread_options.h	/^	unsigned long long timeout;$/;"	m	struct:thread_options
 timeout_expired	engines/windowsaio.c	/^static BOOL timeout_expired(DWORD start_count, DWORD end_count)$/;"	f	file:
-timeout_flags	os/linux/io_uring.h	/^		__u32		timeout_flags;$/;"	m	union:io_uring_sqe::__anon83
+timeout_flags	os/linux/io_uring.h	/^		__u32		timeout_flags;$/;"	m	union:io_uring_sqe::__anon71
 timeout_ms	engines/nvme.h	/^	__u32	timeout_ms;$/;"	m	struct:nvme_uring_cmd
 timerfd	helper_thread.c	/^static int timerfd = -1;$/;"	v	file:
 timespec_add_msec	time.c	/^void timespec_add_msec(struct timespec *ts, unsigned int msec)$/;"	f
@@ -9600,7 +9595,7 @@ type_checked	engines/sg.c	/^	int type_checked;$/;"	m	struct:sgio_data	file:
 type_str	oslib/libmtd.h	/^	char type_str[MTD_TYPE_MAX + 1];$/;"	m	struct:mtd_dev_info
 type_str2int	oslib/libmtd.c	/^static int type_str2int(const char *str)$/;"	f	file:
 typecheck	compiler/compiler.h	22;"	d
-u	lib/ieee754.h	/^	} u;$/;"	m	struct:fio_fp64	typeref:union:fio_fp64::__anon25
+u	lib/ieee754.h	/^	} u;$/;"	m	struct:fio_fp64	typeref:union:fio_fp64::__anon102
 u32	os/kcompat.h	7;"	d
 u64	os/kcompat.h	6;"	d
 udp_close_msg	engines/net.c	/^struct udp_close_msg {$/;"	s	file:
@@ -9640,7 +9635,7 @@ unlink_all_files	backend.c	/^static int unlink_all_files(struct thread_data *td)
 unlink_each_loop	thread_options.h	/^	uint32_t unlink_each_loop;$/;"	m	struct:thread_options_pack
 unlink_each_loop	thread_options.h	/^	unsigned int unlink_each_loop;$/;"	m	struct:thread_options
 unlink_file	ioengines.h	/^	int (*unlink_file)(struct thread_data *, struct fio_file *);$/;"	m	struct:ioengine_ops
-unlink_flags	os/linux/io_uring.h	/^		__u32		unlink_flags;$/;"	m	union:io_uring_sqe::__anon83
+unlink_flags	os/linux/io_uring.h	/^		__u32		unlink_flags;$/;"	m	union:io_uring_sqe::__anon71
 unlock_file	filesetup.c	/^void unlock_file(struct thread_data *td, struct fio_file *f)$/;"	f
 unlock_file_all	filesetup.c	/^void unlock_file_all(struct thread_data *td, struct fio_file *f)$/;"	f
 unlog_io_piece	iolog.c	/^void unlog_io_piece(struct thread_data *td, struct io_u *io_u)$/;"	f
@@ -9669,7 +9664,7 @@ update_rusage_stat	stat.c	/^void update_rusage_stat(struct thread_data *td)$/;"	
 update_ts_cache	backend.c	/^static inline void update_ts_cache(struct thread_data *td)$/;"	f	file:
 upper_bin_vals	tools/hist/fiologparser_hist.py	/^upper_bin_vals = [] # upper edge of each bin $/;"	v
 uri	engines/nbd.c	/^	char *uri;$/;"	m	struct:nbd_options	file:
-uring_cmd_flags	os/linux/io_uring.h	/^		__u32		uring_cmd_flags;$/;"	m	union:io_uring_sqe::__anon83
+uring_cmd_flags	os/linux/io_uring.h	/^		__u32		uring_cmd_flags;$/;"	m	union:io_uring_sqe::__anon71
 uring_cmd_type	engines/io_uring.c	/^enum uring_cmd_type {$/;"	g	file:
 url	engines/libiscsi.c	/^	struct iscsi_url        *url;$/;"	m	struct:iscsi_lun	typeref:struct:iscsi_lun::iscsi_url	file:
 usage	init.c	/^static void usage(const char *name)$/;"	f	file:
@@ -9799,7 +9794,7 @@ verify_io_u_sha3_512	verify.c	/^static int verify_io_u_sha3_512(struct verify_he
 verify_io_u_sha512	verify.c	/^static int verify_io_u_sha512(struct verify_header *hdr, struct vcont *vc)$/;"	f	file:
 verify_io_u_xxhash	verify.c	/^static int verify_io_u_xxhash(struct verify_header *hdr, struct vcont *vc)$/;"	f	file:
 verify_list	fio.h	/^	struct flist_head verify_list;$/;"	m	struct:thread_data	typeref:struct:thread_data::flist_head
-verify_list	io_u.h	/^		struct flist_head verify_list;$/;"	m	union:io_u::__anon13	typeref:struct:io_u::__anon13::flist_head
+verify_list	io_u.h	/^		struct flist_head verify_list;$/;"	m	union:io_u::__anon33	typeref:struct:io_u::__anon33::flist_head
 verify_load_state	verify.c	/^int verify_load_state(struct thread_data *td, const char *prefix)$/;"	f
 verify_offset	io_u.h	/^	unsigned long long verify_offset;	\/* is really ->offset *\/$/;"	m	struct:io_u
 verify_offset	thread_options.h	/^	uint32_t verify_offset;$/;"	m	struct:thread_options_pack
@@ -9887,7 +9882,7 @@ windowsaio_data	engines/windowsaio.c	/^struct windowsaio_data {$/;"	s	file:
 windowsaio_invalidate_cache	engines/windowsaio.c	/^static int windowsaio_invalidate_cache(struct fio_file *f)$/;"	f	file:
 windowsaio_options	engines/windowsaio.c	/^struct windowsaio_options {$/;"	s	file:
 word	options.c	/^	const char *word;$/;"	m	struct:fio_keyword	file:
-work	io_u.h	/^		struct workqueue_work work;$/;"	m	union:io_u::__anon13	typeref:struct:io_u::__anon13::workqueue_work
+work	io_u.h	/^		struct workqueue_work work;$/;"	m	union:io_u::__anon33	typeref:struct:io_u::__anon33::workqueue_work
 work	iolog.c	/^	struct workqueue_work work;$/;"	m	struct:iolog_flush_data	typeref:struct:iolog_flush_data::workqueue_work	file:
 work_item	t/read-to-pipe-async.c	/^struct work_item {$/;"	s	file:
 work_list	workqueue.h	/^	struct flist_head work_list;$/;"	m	struct:submit_worker	typeref:struct:submit_worker::flist_head
@@ -10264,12 +10259,12 @@ zero_buffers	thread_options.h	/^	uint32_t zero_buffers;$/;"	m	struct:thread_opti
 zero_buffers	thread_options.h	/^	unsigned int zero_buffers;$/;"	m	struct:thread_options
 zeta2	lib/zipf.h	/^	double zeta2;$/;"	m	struct:zipf_state
 zetan	lib/zipf.h	/^	double zetan;$/;"	m	struct:zipf_state
-zipf	file.h	/^		struct zipf_state zipf;$/;"	m	union:fio_file::__anon34	typeref:struct:fio_file::__anon34::zipf_state
+zipf	file.h	/^		struct zipf_state zipf;$/;"	m	union:fio_file::__anon56	typeref:struct:fio_file::__anon56::zipf_state
 zipf_disable_hash	lib/zipf.c	/^void zipf_disable_hash(struct zipf_state *zs)$/;"	f
 zipf_init	lib/zipf.c	/^void zipf_init(struct zipf_state *zs, uint64_t nranges, double theta,$/;"	f
 zipf_next	lib/zipf.c	/^uint64_t zipf_next(struct zipf_state *zs)$/;"	f
 zipf_state	lib/zipf.h	/^struct zipf_state {$/;"	s
-zipf_theta	fio.h	/^		double zipf_theta;$/;"	m	union:thread_data::__anon65
+zipf_theta	fio.h	/^		double zipf_theta;$/;"	m	union:thread_data::__anon23
 zipf_theta	thread_options.h	/^	fio_fp64_t zipf_theta;$/;"	m	struct:thread_options
 zipf_theta	thread_options.h	/^	fio_fp64_t zipf_theta;$/;"	m	struct:thread_options_pack
 zipf_update	lib/zipf.c	/^static void zipf_update(struct zipf_state *zs)$/;"	f	file:

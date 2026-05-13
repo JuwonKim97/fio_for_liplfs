@@ -227,7 +227,8 @@ void convert_thread_options_to_cpu(struct thread_options *o,
 	o->start_delay_high = le64_to_cpu(top->start_delay_high);
 	o->timeout = le64_to_cpu(top->timeout);
 	printf("%s: timeout: %llu\n", __func__, o->timeout);
-	o->jw_gc_start_time = 100000000;
+	//o->jw_gc_start_time = 100000000; // Local PC
+	o->jw_gc_start_time = 500000000; // Server
 	o->ramp_time = le64_to_cpu(top->ramp_time);
 	o->ss_dur = le64_to_cpu(top->ss_dur);
 	o->ss_ramp_time = le64_to_cpu(top->ss_ramp_time);

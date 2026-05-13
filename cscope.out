@@ -1,4 +1,4 @@
-cscope 15 $HOME/fio_src -q 0000012282 0002343465
+cscope 15 $HOME/fio_src -q 0000012278 0002343374
 	@arch/arch-aarch64.h
 
 1 #iâdeà
@@ -37654,360 +37654,342 @@ __çÎthrough__
 	)
 
 8 
-	#CONFIG_LIBAIO
-
-
-	)
-
-9 
-	#CONFIG_LIBAIO_RW_FLAGS
-
-
-	)
-
-10 
 	#CONFIG_POSIXAIO
 
 
 	)
 
-11 
+9 
 	#CONFIG_POSIXAIO_FSYNC
 
 
 	)
 
-12 
+10 
 	#CONFIG_PSHARED
 
 
 	)
 
-13 
+11 
 	#CONFIG_PTHREAD_CONDATTR_SETCLOCK
 
 
 	)
 
-14 
+12 
 	#CONFIG_PTHREAD_SIGMASK
 
 
 	)
 
-15 
+13 
 	#CONFIG_PTHREAD_GETAFFINITY
 
 
 	)
 
-16 
+14 
 	#CONFIG_HAVE_ASPRINTF
 
 
 	)
 
-17 
+15 
 	#CONFIG_HAVE_VASPRINTF
 
 
 	)
 
-18 
+16 
 	#CONFIG_LINUX_FALLOCATE
 
 
 	)
 
-19 
+17 
 	#CONFIG_POSIX_FALLOCATE
 
 
 	)
 
-20 
+18 
 	#CONFIG_FDATASYNC
 
 
 	)
 
-21 
+19 
 	#CONFIG_PIPE
 
 
 	)
 
-22 
+20 
 	#CONFIG_PIPE2
 
 
 	)
 
-23 
+21 
 	#CONFIG_PREAD
 
 
 	)
 
-24 
+22 
 	#CONFIG_SYNC_FILE_RANGE
 
 
 	)
 
-25 
+23 
 	#CONFIG_SFAA
 
 
 	)
 
-26 
+24 
 	#CONFIG_SYNC_SYNC
 
 
 	)
 
-27 
+25 
 	#CONFIG_CMP_SWAP
 
 
 	)
 
-28 
+26 
 	#CONFIG_CLOCK_GETTIME
 
 
 	)
 
-29 
+27 
 	#CONFIG_CLOCK_MONOTONIC
 
 
 	)
 
-30 
+28 
 	#CONFIG_CLOCKID_T
 
 
 	)
 
-31 
+29 
 	#CONFIG_GETTIMEOFDAY
 
 
 	)
 
-32 
+30 
 	#CONFIG_POSIX_FADVISE
 
 
 	)
 
-33 
+31 
 	#CONFIG_3ARG_AFFINITY
 
 
 	)
 
-34 
+32 
 	#CONFIG_STRSEP
 
 
 	)
 
-35 
+33 
 	#CONFIG_STRCASESTR
 
 
 	)
 
-36 
+34 
 	#CONFIG_GETOPT_LONG_ONLY
 
 
 	)
 
-37 
+35 
 	#CONFIG_INET_ATON
 
 
 	)
 
-38 
+36 
 	#CONFIG_SOCKLEN_T
 
 
 	)
 
-39 
+37 
 	#CONFIG_LINUX_EXT4_MOVE_EXTENT
 
 
 	)
 
-40 
+38 
 	#CONFIG_LINUX_SPLICE
 
 
 	)
 
-41 
-	#CONFIG_LIBNUMA
-
-
-	)
-
-42 
+39 
 	#CONFIG_TLS_THREAD
 
 
 	)
 
-43 
+40 
 	#CONFIG_RUSAGE_THREAD
 
 
 	)
 
-44 
+41 
 	#CONFIG_SCHED_IDLE
 
 
 	)
 
-45 
+42 
 	#CONFIG_TCP_NODELAY
 
 
 	)
 
-46 
+43 
 	#CONFIG_NET_WINDOWSIZE
 
 
 	)
 
-47 
+44 
 	#CONFIG_NET_MSS
 
 
 	)
 
-48 
+45 
 	#CONFIG_RLIMIT_MEMLOCK
 
 
 	)
 
-49 
+46 
 	#CONFIG_PWRITEV
 
 
 	)
 
-50 
+47 
 	#CONFIG_PWRITEV2
 
 
 	)
 
-51 
+48 
 	#CONFIG_IPV6
 
 
 	)
 
-52 
+49 
 	#CONFIG_SETVBUF
 
 
 	)
 
-53 
+50 
 	#CONFIG_MTD
 
 
 	)
 
-54 
+51 
 	#CONFIG_ARITHMETIC
 
 
 	)
 
-55 
+52 
 	#CONFIG_GETMNTENT
 
 
 	)
 
-56 
+53 
 	#CONFIG_STATIC_ASSERT
 
 
 	)
 
-57 
+54 
 	#CONFIG_HAVE_BOOL
 
 
 	)
 
-58 
+55 
 	#CONFIG_HAVE_STRNDUP
 
 
 	)
 
-59 
+56 
 	#CONFIG_HAS_BLKZONED
 
 
 	)
 
-60 
+57 
 	#CONFIG_BUILD_NATIVE
 
 
 	)
 
-61 
+58 
 	#CONFIG_HAVE_KERNEL_RWF_T
 
 
 	)
 
-62 
+59 
 	#CONFIG_HAVE_GETTID
 
 
 	)
 
-63 
+60 
 	#CONFIG_HAVE_STATX
 
 
 	)
 
-64 
+61 
 	#CONFIG_HAVE_STATX_SYSCALL
 
 
 	)
 
-65 
+62 
 	#CONFIG_HAVE_TIMERFD_CREATE
 
 
 	)
 
-66 
+63 
 	#CONFIG_HAVE_THP
 
 
 	)
 
-67 
+64 
 	#CONFIG_SEED_BUCKETS
  4
 

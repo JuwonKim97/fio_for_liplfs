@@ -1881,7 +1881,8 @@ static void *thread_main(void *data)
 
 	td->jw_gcstart = false;
 	printf("%s: set jw_gcstart: false\n", __func__);
-	td->o.jw_gc_start_time = 100000000;
+	//td->o.jw_gc_start_time = 100000000; // Local PC
+	td->o.jw_gc_start_time = 500000000; // Server
 
 	while (keep_running(td)) {
 		uint64_t verify_bytes;
